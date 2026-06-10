@@ -1,0 +1,5 @@
+2026-06-10 12:49:03,101 - INFO - Query: laptop
+2026-06-10 12:49:04,215 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-2:batchEmbedContents "HTTP/1.1 200 OK"
+2026-06-10 12:49:04,286 - INFO - Retrieved 3 documents
+2026-06-10 12:49:04,287 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 12:49:06,471 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
