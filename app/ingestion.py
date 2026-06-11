@@ -46,24 +46,29 @@ class ProductIngestion:
         for idx, row in tqdm(df.iterrows(), total=len(df)):
 
             product_text = f"""
-            Product Name: {row['name']}
-            Category: {row['category']}
-            Description: {row['description']}
-            Price: {row['price']}
-            """
+Product Name: {row['product_name']}
+Category: {row['category']}
+Description: {row['about_product']}
+Price: {row['discounted_price']}
+Rating: {row['rating']}
+"""
 
             embedding = self.generate_embedding(
                 product_text
             )
 
             self.collection.add(
-                ids=[str(idx)],
+                ids=[str(row["product_id"])],
                 documents=[product_text],
                 embeddings=[embedding],
                 metadatas=[{
-                    "name": row["name"],
-                    "category": row["category"],
-                    "price": float(row["price"])
+                    "product_id": str(row["product_id"]),
+                    "product_name": str(row["product_name"]),
+                    "category": str(row["category"]),
+                    "price": str(row["discounted_price"]),
+                    "rating": str(row["rating"]),
+                    "image_url": str(row["img_link"]),
+                    "product_link": str(row["product_link"])
                 }]
             )
 
@@ -75,5 +80,7 @@ if __name__ == "__main__":
     ingestion = ProductIngestion()
 
     ingestion.ingest_csv(
-        "data/products.csv"
+        "data/amazon.csv"
     )
+    df = pd.read_csv(csv_path)
+    df = df.head(10)
