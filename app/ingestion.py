@@ -1,5 +1,6 @@
 import pandas as pd
 from tqdm import tqdm
+import time
 
 import chromadb
 from google import genai
@@ -41,9 +42,22 @@ class ProductIngestion:
 
         df = pd.read_csv(csv_path)
 
+        existing_ids = set(
+            self.collection.get()["ids"]
+        )
+
+        print(
+            f"Found {len(existing_ids)} existing products"
+        )
+
         print(f"\nFound {len(df)} products\n")
 
         for idx, row in tqdm(df.iterrows(), total=len(df)):
+
+            product_id = str(row["product_id"])
+
+            if product_id in existing_ids:
+                continue
 
             product_text = f"""
 Product Name: {row['product_name']}
@@ -53,16 +67,40 @@ Price: {row['discounted_price']}
 Rating: {row['rating']}
 """
 
-            embedding = self.generate_embedding(
-                product_text
-            )
+            embedding = None
+
+            for attempt in range(3):
+
+                try:
+
+                    embedding = self.generate_embedding(
+                        product_text
+                    )
+
+                    break
+
+                except Exception as e:
+
+                    print(
+                        f"Attempt {attempt + 1} failed: {e}"
+                    )
+
+                    time.sleep(10)
+
+            if embedding is None:
+
+                print(
+                    f"Skipping product {product_id}"
+                )
+
+                continue
 
             self.collection.add(
-                ids=[str(row["product_id"])],
+                ids=[product_id],
                 documents=[product_text],
                 embeddings=[embedding],
                 metadatas=[{
-                    "product_id": str(row["product_id"]),
+                    "product_id": product_id,
                     "product_name": str(row["product_name"]),
                     "category": str(row["category"]),
                     "price": str(row["discounted_price"]),
@@ -82,5 +120,3 @@ if __name__ == "__main__":
     ingestion.ingest_csv(
         "data/amazon.csv"
     )
-    df = pd.read_csv(csv_path)
-    df = df.head(10)
