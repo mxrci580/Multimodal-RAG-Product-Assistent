@@ -1,28 +1,16 @@
-EVALUATION_DATASET = [
 
+evaluation_data =[
     {
-        "question": "Which Apple laptop is available?",
-        "expected_answer": "MacBook Air M3"
+    "question": "best earbuds under 1500",
+    "ground_truth": "Wecool Moonwalk M1"
     },
-
     {
-        "question": "Which phone is made by Samsung?",
-        "expected_answer": "Samsung S24"
+        "question": "wireless earbuds",
+        "ground_truth": "boAt Airdopes 141"
     },
-
     {
-        "question": "What Apple smartphone is available?",
-        "expected_answer": "iPhone 15"
-    },
-
-    {
-        "question": "Which laptop uses the M3 chip?",
-        "expected_answer": "MacBook Air M3"
-    },
-
-    {
-        "question": "Which headphones support noise cancellation?",
-        "expected_answer": "Sony WH1000XM5"
+        "question": "bluetooth earbuds",
+        "ground_truth": "Noise Buds VS104"
     }
-
 ]
+
