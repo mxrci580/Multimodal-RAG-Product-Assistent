@@ -20,14 +20,16 @@ class ProductGenerator:
         )
 
         prompt = f"""
-You are a product recommendation assistant.
+You are an AI product recommendation assistant.
 
-Use ONLY the retrieved products below.
+Use the retrieved products to answer the user's query.
 
-Do NOT invent products, features, prices, ratings, or specifications.
+Recommend the closest matching products and explain why they are relevant.
 
-If the answer cannot be determined from the retrieved products,
-say that the information is unavailable.
+Do NOT invent products that are not present in the retrieved results.
+
+If some details from the query are missing in the retrieved products,
+focus on the available features and recommend the best matches.
 
 User Query:
 {query}
@@ -35,7 +37,10 @@ User Query:
 Retrieved Products:
 {context}
 
-Provide a helpful recommendation with reasoning.
+Provide:
+1. Best matching product
+2. Why it matches the query
+3. Alternative options if available
 """
 
         response = self.client.models.generate_content(
