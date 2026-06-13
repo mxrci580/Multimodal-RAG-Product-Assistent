@@ -38,4 +38,7 @@ Explain why it matches the uploaded image.
             docs
         )
 
-        return answer
+        return {
+            "answer": answer,
+            "products": results["metadatas"][0]
+        }
