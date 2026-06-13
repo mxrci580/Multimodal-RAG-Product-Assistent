@@ -24,9 +24,13 @@ class MultimodalAgent:
 
         docs = results["documents"][0]
 
-        query = """
-The user uploaded an image.
-Recommend the closest matching products from the retrieved results.
+        query = f"""
+Image Description:
+{description}
+
+Recommend the closest matching product from the retrieved products.
+
+Explain why it matches the uploaded image.
 """
 
         answer = self.generator.generate_answer(
