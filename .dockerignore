@@ -1,5 +1,31 @@
+# Virtual environments
 venv/
+.venv/
+env/
+
+# Python cache & bytecode
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Version control & OS metadata
 .git/
+.gitignore
+.DS_Store
+__MACOSX/
+
+# Environment files
 .env
+.env.local
+
+# Logs & temp files
+logs/
+*.log
+*.tmp
+*.bak
+
+# Testing & IDE
 .pytest_cache/
+.vscode/
+.idea/

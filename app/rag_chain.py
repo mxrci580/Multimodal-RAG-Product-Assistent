@@ -40,9 +40,7 @@ class ProductRAG:
             results["documents"][0]
         )
 
-        print("\n===== CONTEXT =====\n")
-        print(context)
-        print("\n===================\n")
+        logger.debug(f"Retrieved context:\n{context}")
 
         prompt = f"""
 You are a product assistant.

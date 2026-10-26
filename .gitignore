@@ -1,24 +1,47 @@
-# Environment
+# Environment variables & secrets
 .env
+.env.local
 
-# Python
+# Python artifacts
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
 
-# Virtual Env
+# Virtual environments
 venv/
 .venv/
+env/
+ENV/
 
-# ChromaDB
-vector_db/
-
-# Streamlit
-.streamlit/
-
-# OS
+# OS-specific files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+__MACOSX/
 
-# IDE
+# IDE configurations
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & temp files
+logs/
+*.log
+*.tmp
+*.bak
+temp_image.png
+
+# Streamlit config (if created)
+.streamlit/secrets.toml

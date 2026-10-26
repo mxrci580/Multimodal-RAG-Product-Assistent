@@ -1,3 +1,4 @@
+import re
 import pandas as pd
 from tqdm import tqdm
 import time
@@ -11,6 +12,13 @@ from app.config import (
     VECTOR_DB_PATH,
     COLLECTION_NAME
 )
+
+
+def clean_image_url(url: str) -> str:
+    """Strip expired Amazon CDN experiment path segments (e.g. /images/W/WEBP_.../images/)."""
+    if not url:
+        return ""
+    return re.sub(r'/images/W/[^/]+/images/', '/images/', str(url).strip())
 
 
 class ProductIngestion:
@@ -95,17 +103,40 @@ Rating: {row['rating']}
 
                 continue
 
+            # Parse structured numeric and category fields
+            clean_price = re.sub(r"[^\d.]", "", str(row["discounted_price"]))
+            try:
+                num_price = float(clean_price) if clean_price else 0.0
+            except ValueError:
+                num_price = 0.0
+
+            try:
+                num_rating = float(str(row["rating"]))
+            except ValueError:
+                num_rating = 0.0
+
+            cat_parts = [p.strip() for p in str(row["category"]).split("|") if p.strip()]
+            main_cat = cat_parts[0] if cat_parts else "Other"
+            sub_cat = cat_parts[-1] if cat_parts else "Other"
+            p_name = str(row["product_name"])
+            brand = p_name.split()[0] if p_name.split() else "Unknown"
+
             self.collection.add(
                 ids=[product_id],
                 documents=[product_text],
                 embeddings=[embedding],
                 metadatas=[{
                     "product_id": product_id,
-                    "product_name": str(row["product_name"]),
+                    "product_name": p_name,
                     "category": str(row["category"]),
+                    "main_category": main_cat,
+                    "subcategory": sub_cat,
+                    "brand": brand,
                     "price": str(row["discounted_price"]),
+                    "numeric_price": num_price,
                     "rating": str(row["rating"]),
-                    "image_url": str(row["img_link"]),
+                    "numeric_rating": num_rating,
+                    "image_url": clean_image_url(row["img_link"]),
                     "product_link": str(row["product_link"])
                 }]
             )

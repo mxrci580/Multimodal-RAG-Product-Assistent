@@ -1,0 +1,968 @@
+[
+  {
+    "id": "MM01",
+    "question": "Which electric kettle has a transparent glass body with blue LED illumination during boiling?",
+    "category": "Kitchen & Home Appliances",
+    "query_type": "visual_attribute",
+    "required_evidence": "IMAGE",
+    "evidence_sources": [
+      "IMAGE"
+    ],
+    "visual_attribute": "transparent_borosilicate_glass_blue_led",
+    "description": "Tests identification of transparent borosilicate glass body with glowing blue LED heating ring versus opaque stainless steel bodies.",
+    "ground_truth_product_ids": [
+      "B07YR26BJ3",
+      "B08HLC7Z3G"
+    ],
+    "ground_truth_answer": "The KENT 16052 Elegant Electric Glass Kettle (B07YR26BJ3) and Inalsa Prism Inox (B08HLC7Z3G) feature clear borosilicate glass bodies with internal blue LED illumination glowing during operation, unlike opaque stainless steel kettles.",
+    "target_image_url": "https://m.media-amazon.com/images/I/4150hW2kHwL._SX300_SY300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "Kettles",
+      "required_keywords": [
+        "kettle",
+        "glass",
+        "led"
+      ],
+      "visual_tokens": [
+        "transparent",
+        "glass body",
+        "blue led ring",
+        "water level visibility"
+      ],
+      "max_price": null
+    },
+    "relevance_grades": {
+      "B07YR26BJ3": 3,
+      "B08HLC7Z3G": 3,
+      "B07WMS7TWB": 0,
+      "B01MQZ7J8K": 0,
+      "B00NW4UWN6": 0
+    }
+  },
+  {
+    "id": "MM02",
+    "question": "Which smartwatch features a circular round dial with a rotating side crown instead of a rectangular face?",
+    "category": "Wearables & Smartwatches",
+    "query_type": "appearance_form_factor",
+    "required_evidence": "IMAGE",
+    "evidence_sources": [
+      "IMAGE"
+    ],
+    "visual_attribute": "circular_round_dial_rotating_crown",
+    "description": "Tests distinguishing circular traditional watch dial geometry and tactile crown button from Apple-style rectangular squarish smartwatches.",
+    "ground_truth_product_ids": [
+      "B0B3RRWSF6",
+      "B09YV4MW2T"
+    ],
+    "ground_truth_answer": "The Fire-Boltt Phoenix (B0B3RRWSF6) and Fire-Boltt Talk 2 (B09YV4MW2T) feature classic 1.3-inch circular round dials with tactile rotating crown bezels, distinctly contrasting with rectangular smartwatches like Fire-Boltt Ninja Call Pro Plus.",
+    "target_image_url": "https://m.media-amazon.com/images/I/41sHRWXCfvL._SX300_SY300_QL70_ML2_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "SmartWatches",
+      "required_keywords": [
+        "smartwatch",
+        "round",
+        "circular",
+        "crown"
+      ],
+      "visual_tokens": [
+        "circular dial",
+        "round casing",
+        "side rotary crown"
+      ],
+      "max_price": null
+    },
+    "relevance_grades": {
+      "B0B3RRWSF6": 3,
+      "B09YV4MW2T": 3,
+      "B0B3RSDSZ3": 3,
+      "B0BF57RN3K": 0,
+      "B0B5B6PQCT": 0,
+      "B09V12K8NT": 0
+    }
+  },
+  {
+    "id": "MM03",
+    "question": "Which wireless earbuds feature an elongated stem-style design rather than a compact rounded pebble bud?",
+    "category": "Audio & Headphones",
+    "query_type": "appearance_form_factor",
+    "required_evidence": "IMAGE",
+    "evidence_sources": [
+      "IMAGE"
+    ],
+    "visual_attribute": "elongated_stem_design",
+    "description": "Tests visual differentiation between stem-style acoustic design (AirPods form-factor) and stemless in-concha pebble/bean-style earbuds.",
+    "ground_truth_product_ids": [
+      "B09N3ZNHTY",
+      "B098R25TGC"
+    ],
+    "ground_truth_answer": "The boAt Airdopes 141 (B09N3ZNHTY) and Noise Buds VS201 (B098R25TGC) feature extended angular microphone stems, whereas the boAt Airdopes 121v2 and Samsung Galaxy Buds Live are stemless compact in-ear buds.",
+    "target_image_url": "https://m.media-amazon.com/images/I/31GUbeFG3FL._SX300_SY300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "In-Ear",
+      "required_keywords": [
+        "earbuds",
+        "stem",
+        "wireless"
+      ],
+      "visual_tokens": [
+        "downward stem",
+        "stick design",
+        "angular earbud stem"
+      ],
+      "max_price": null
+    },
+    "relevance_grades": {
+      "B09N3ZNHTY": 3,
+      "B098R25TGC": 3,
+      "B08JQN8DGZ": 0,
+      "B08FN6WGDQ": 0,
+      "B08TV2P1N8": 0
+    }
+  },
+  {
+    "id": "MM04",
+    "question": "Which wireless earbuds charging case features an interior digital numeric LED battery percentage display?",
+    "category": "Audio & Headphones",
+    "query_type": "visual_attribute",
+    "required_evidence": "IMAGE",
+    "evidence_sources": [
+      "IMAGE"
+    ],
+    "visual_attribute": "digital_numeric_battery_display_case",
+    "description": "Tests visual detection of numeric 7-segment digital battery percentage readouts inside the case versus simple single-color dot LEDs.",
+    "ground_truth_product_ids": [
+      "B08JQN8DGZ"
+    ],
+    "ground_truth_answer": "The boAt Airdopes 121v2 (B08JQN8DGZ) charging case opens to reveal a distinct central digital LED screen showing exact numerical battery percentage, while boAt Airdopes 141 and Noise VS201 only use pinhole LED dots.",
+    "target_image_url": "https://m.media-amazon.com/images/I/31KjuRb9oNL._SX300_SY300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "In-Ear",
+      "required_keywords": [
+        "earbuds",
+        "case",
+        "battery",
+        "led",
+        "display"
+      ],
+      "visual_tokens": [
+        "digital readout",
+        "numeric battery display",
+        "interior led screen"
+      ],
+      "max_price": null
+    },
+    "relevance_grades": {
+      "B08JQN8DGZ": 3,
+      "B09N3ZNHTY": 0,
+      "B098R25TGC": 0,
+      "B08FN6WGDQ": 0
+    }
+  },
+  {
+    "id": "MM05",
+    "question": "Which Bluetooth headphones have large circumaural over-ear cups that fully enclose the ear rather than sitting on top of the ear?",
+    "category": "Audio & Headphones",
+    "query_type": "visual_comparison",
+    "required_evidence": "IMAGE",
+    "evidence_sources": [
+      "IMAGE"
+    ],
+    "visual_attribute": "over_ear_circumaural_cushions",
+    "description": "Tests circumaural over-ear cushion geometry enclosing the ear pinna versus supra-aural on-ear pads that press against ears.",
+    "ground_truth_product_ids": [
+      "B0856HY85J",
+      "B07L8KNP5F"
+    ],
+    "ground_truth_answer": "The boAt Rockerz 550 (B0856HY85J) and Zebronics Zeb-Thunder (B07L8KNP5F) have large oval circumaural over-ear cups with 50mm dynamic drivers that fully enclose the ears, whereas boAt Rockerz 450 and 400 are smaller on-ear models.",
+    "target_image_url": "https://m.media-amazon.com/images/I/41PlZjYsy-L._SX300_SY300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "Over-Ear",
+      "required_keywords": [
+        "headphones",
+        "over ear",
+        "bluetooth"
+      ],
+      "visual_tokens": [
+        "circumaural cushions",
+        "large oval earcups",
+        "enclosing ear cavities"
+      ],
+      "max_price": null
+    },
+    "relevance_grades": {
+      "B0856HY85J": 3,
+      "B07L8KNP5F": 3,
+      "B07PR1CL3S": 1,
+      "B01FSYQ2A4": 1,
+      "B08TV2P1N8": 0
+    }
+  },
+  {
+    "id": "MM06",
+    "question": "Which USB fast charging cable features a dual-tone red and black braided nylon exterior with reinforced strain relief collars?",
+    "category": "Cables & Accessories",
+    "query_type": "visual_attribute",
+    "required_evidence": "IMAGE",
+    "evidence_sources": [
+      "IMAGE"
+    ],
+    "visual_attribute": "red_black_braided_strain_relief",
+    "description": "Tests detection of tactile woven cross-stitch nylon pattern and distinct color weave versus monochrome PVC/TPU smooth plastic cords.",
+    "ground_truth_product_ids": [
+      "B08WRBG3XW"
+    ],
+    "ground_truth_answer": "The boAt Type C A325 cable (B08WRBG3XW) features a striking red-and-black dual-tone woven braided nylon sheath with molded strain-relief neck boots, unlike smooth white or black PVC cords.",
+    "target_image_url": "https://m.media-amazon.com/images/I/41xwPQLxTML._SX300_SY300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "USBCables",
+      "required_keywords": [
+        "cable",
+        "braided",
+        "type c"
+      ],
+      "visual_tokens": [
+        "red black weave",
+        "nylon braided texture",
+        "elongated strain relief collar"
+      ],
+      "max_price": null
+    },
+    "relevance_grades": {
+      "B08WRBG3XW": 3,
+      "B07JW9H4J1": 2,
+      "B08DDRGWTJ": 0,
+      "B08CF3B7N1": 0
+    }
+  },
+  {
+    "id": "MM07",
+    "question": "Which HDMI cable features a thick nylon braided protective jacket with gold-plated metal connector housings?",
+    "category": "Home Theater & Cables",
+    "query_type": "visual_attribute",
+    "required_evidence": "IMAGE",
+    "evidence_sources": [
+      "IMAGE"
+    ],
+    "visual_attribute": "gold_plated_braided_hdmi",
+    "description": "Tests recognition of premium braided outer sleeve and metallic gold-plated plug plating compared to standard black molded plastic cables.",
+    "ground_truth_product_ids": [
+      "B08TGG316Z",
+      "B07VSG5SXZ"
+    ],
+    "ground_truth_answer": "The 10k 8k 4k Ultra High Speed HDMI Cable (B08TGG316Z) and Zebronics HAA2021 (B07VSG5SXZ) feature heavy-duty braided fiber jackets with mirror-finish gold-plated connectors, contrasting with plain black rubber cables like AmazonBasics HDMI.",
+    "target_image_url": "https://m.media-amazon.com/images/I/41+AJMzMo7L._SX342_SY445_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "HDMICables",
+      "required_keywords": [
+        "hdmi",
+        "braided",
+        "gold plated"
+      ],
+      "visual_tokens": [
+        "gold connector finish",
+        "braided jacket sleeve",
+        "metallic connector shell"
+      ],
+      "max_price": null
+    },
+    "relevance_grades": {
+      "B08TGG316Z": 3,
+      "B07VSG5SXZ": 3,
+      "B07KSMBL2H": 0,
+      "B014I8SSD0": 0
+    }
+  },
+  {
+    "id": "MM08",
+    "question": "Which computer mouse features an asymmetric ergonomic body with a contoured thumb rest and textured rubber side grip?",
+    "category": "Keyboards & Mice",
+    "query_type": "appearance_form_factor",
+    "required_evidence": "IMAGE",
+    "evidence_sources": [
+      "IMAGE"
+    ],
+    "visual_attribute": "asymmetric_sculpted_thumb_rest",
+    "description": "Tests identification of right-handed asymmetric ergonomic silhouette with flared thumb support versus ambidextrous oval pebble mice.",
+    "ground_truth_product_ids": [
+      "B073BRXPZX",
+      "B09GB5B4BK"
+    ],
+    "ground_truth_answer": "The Lenovo 300 (B073BRXPZX) and HP 150 (B09GB5B4BK) feature sculpted right-handed ergonomic contours with side thumb wells, unlike symmetrical ambidextrous flat mice like Logitech B170 or HP Z3700.",
+    "target_image_url": "https://m.media-amazon.com/images/I/41NF7VStoSL._SX300_SY300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "Mice",
+      "required_keywords": [
+        "mouse",
+        "ergonomic",
+        "grip"
+      ],
+      "visual_tokens": [
+        "thumb rest flare",
+        "asymmetric ergonomic curve",
+        "high palm arch"
+      ],
+      "max_price": null
+    },
+    "relevance_grades": {
+      "B073BRXPZX": 3,
+      "B09GB5B4BK": 3,
+      "B01J0XWYKQ": 1,
+      "B01KK0HU3Y": 0
+    }
+  },
+  {
+    "id": "MM09",
+    "question": "Which television remote control features dedicated rectangular colored branded shortcut buttons for Netflix and Prime Video?",
+    "category": "Remote Controls",
+    "query_type": "visual_attribute",
+    "required_evidence": "IMAGE",
+    "evidence_sources": [
+      "IMAGE"
+    ],
+    "visual_attribute": "dedicated_ott_streaming_buttons",
+    "description": "Tests optical identification of specific branded OTT hotkeys (Netflix red lettering, Prime Video white-on-blue) versus generic alphanumeric DTH remotes.",
+    "ground_truth_product_ids": [
+      "B09L8DSSFH",
+      "B093ZNQZ2Y"
+    ],
+    "ground_truth_answer": "The 7SEVEN Samsung Smart Remote (B09L8DSSFH) and LOHAYA Mi Smart Remote (B093ZNQZ2Y) feature dedicated quick-launch branded app buttons for Netflix and Prime Video, unlike traditional numeric TV remotes like Tata Sky or Airtel DTH.",
+    "target_image_url": "https://m.media-amazon.com/images/I/21rBnbHkW9L._SX300_SY300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "RemoteControls",
+      "required_keywords": [
+        "remote",
+        "smart tv",
+        "netflix"
+      ],
+      "visual_tokens": [
+        "netflix logo button",
+        "prime video badge",
+        "minimalist button layout"
+      ],
+      "max_price": null
+    },
+    "relevance_grades": {
+      "B09L8DSSFH": 3,
+      "B093ZNQZ2Y": 3,
+      "B01N90RZ4M": 0,
+      "B07B275VN9": 0
+    }
+  },
+  {
+    "id": "MM10",
+    "question": "Which laptop accessory is an elevated foldable aluminum riser frame with ventilated hollow slots rather than a flat wooden bed desk?",
+    "category": "Laptop Accessories",
+    "query_type": "appearance_form_factor",
+    "required_evidence": "IMAGE",
+    "evidence_sources": [
+      "IMAGE"
+    ],
+    "visual_attribute": "foldable_ventilated_aluminum_riser",
+    "description": "Tests distinction between portable open-frame aluminum folding laptop elevator stands and wide wooden bed study tables with cup holders.",
+    "ground_truth_product_ids": [
+      "B09XX51X2G"
+    ],
+    "ground_truth_answer": "The STRIFF Laptop Tabletop Stand (B09XX51X2G) is an open-frame, multi-angle ventilated foldable aluminum riser, clearly distinct visually from flat wooden bed study desks with legs like MemeHo and Callas.",
+    "target_image_url": "https://m.media-amazon.com/images/I/319cuUVHCwL._SY300_SX300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "Lapdesks",
+      "required_keywords": [
+        "laptop",
+        "stand",
+        "riser"
+      ],
+      "visual_tokens": [
+        "open frame skeleton",
+        "foldable aluminum hinges",
+        "ventilated triangular legs"
+      ],
+      "max_price": null
+    },
+    "relevance_grades": {
+      "B09XX51X2G": 3,
+      "B07TR5HSR9": 0,
+      "B08MZQBFLN": 0,
+      "B09Z28BQZT": 0
+    }
+  },
+  {
+    "id": "MM11",
+    "question": "Show me a round dial smartwatch under \u20b92,000 with Bluetooth calling and metallic bezel styling.",
+    "category": "Wearables & Smartwatches",
+    "query_type": "appearance_with_text_constraint",
+    "required_evidence": "TEXT+IMAGE",
+    "evidence_sources": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "visual_attribute": "circular_dial_metal_bezel",
+    "description": "Requires joint satisfaction of price constraint (<= \u20b92,000), Bluetooth calling feature, and circular physical dial aesthetic.",
+    "ground_truth_product_ids": [
+      "B0B3RRWSF6",
+      "B0B3RSDSZ3"
+    ],
+    "ground_truth_answer": "The Fire-Boltt Phoenix (B0B3RRWSF6, \u20b91,998) satisfies the \u20b92,000 budget, offers Bluetooth calling, and features a round circular dial with a metallic decorative bezel, outperforming rectangular watches like Fire-Boltt Ninja Call Pro Plus.",
+    "target_image_url": "https://m.media-amazon.com/images/I/41sHRWXCfvL._SX300_SY300_QL70_ML2_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "SmartWatches",
+      "required_keywords": [
+        "smartwatch",
+        "round",
+        "calling"
+      ],
+      "visual_tokens": [
+        "round bezel",
+        "circular screen",
+        "metal case finish"
+      ],
+      "max_price": 2000
+    },
+    "relevance_grades": {
+      "B0B3RRWSF6": 3,
+      "B0B3RSDSZ3": 3,
+      "B09YV4MW2T": 2,
+      "B0BF57RN3K": 0,
+      "B0B5B6PQCT": 0
+    }
+  },
+  {
+    "id": "MM12",
+    "question": "Find black over-ear Bluetooth headphones under \u20b92,000 with cushioned headband and full-sized earcups.",
+    "category": "Audio & Headphones",
+    "query_type": "appearance_with_text_constraint",
+    "required_evidence": "TEXT+IMAGE",
+    "evidence_sources": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "visual_attribute": "black_circumaural_cushioned_headband",
+    "description": "Requires price <= \u20b92,000, Bluetooth audio, black colorway, and visual verification of large over-ear cups with padded headband bridge.",
+    "ground_truth_product_ids": [
+      "B0856HY85J",
+      "B07L8KNP5F"
+    ],
+    "ground_truth_answer": "The boAt Rockerz 550 (B0856HY85J, \u20b91,799) and Zebronics Zeb-Thunder (B07L8KNP5F, \u20b9599) provide true circumaural over-ear cups with cushioned headbands under \u20b92,000 in black, whereas boAt Rockerz 450 is on-ear.",
+    "target_image_url": "https://m.media-amazon.com/images/I/41PlZjYsy-L._SX300_SY300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "Over-Ear",
+      "required_keywords": [
+        "headphones",
+        "over ear",
+        "bluetooth"
+      ],
+      "visual_tokens": [
+        "black circumaural cups",
+        "thick headband cushion",
+        "matte black earcups"
+      ],
+      "max_price": 2000
+    },
+    "relevance_grades": {
+      "B0856HY85J": 3,
+      "B07L8KNP5F": 3,
+      "B07PR1CL3S": 1,
+      "B01FSYQ2A4": 1
+    }
+  },
+  {
+    "id": "MM13",
+    "question": "Which electric kettle under \u20b91,500 has a transparent glass body and concealed stainless steel heating base?",
+    "category": "Kitchen & Home Appliances",
+    "query_type": "appearance_with_text_constraint",
+    "required_evidence": "TEXT+IMAGE",
+    "evidence_sources": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "visual_attribute": "glass_body_concealed_element_budget",
+    "description": "Combines price bound (<= \u20b91,500) with visual transparency and concealed flat stainless steel heating plate.",
+    "ground_truth_product_ids": [
+      "B07YR26BJ3",
+      "B08HLC7Z3G"
+    ],
+    "ground_truth_answer": "The KENT 16052 Glass Kettle (B07YR26BJ3, \u20b91,199) and Inalsa Prism Inox (B08HLC7Z3G, \u20b91,182) offer transparent borosilicate glass construction with concealed flat heating plates under \u20b91,500, unlike opaque steel kettles.",
+    "target_image_url": "https://m.media-amazon.com/images/I/4150hW2kHwL._SX300_SY300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "Kettles",
+      "required_keywords": [
+        "kettle",
+        "glass",
+        "electric"
+      ],
+      "visual_tokens": [
+        "clear glass cylinder",
+        "stainless steel bottom plate",
+        "black handle"
+      ],
+      "max_price": 1500
+    },
+    "relevance_grades": {
+      "B07YR26BJ3": 3,
+      "B08HLC7Z3G": 3,
+      "B07WMS7TWB": 0,
+      "B01MQZ7J8K": 0
+    }
+  },
+  {
+    "id": "MM14",
+    "question": "Find wireless earbuds under \u20b91,500 with a stem-style design and type-C charging port.",
+    "category": "Audio & Headphones",
+    "query_type": "appearance_with_text_constraint",
+    "required_evidence": "TEXT+IMAGE",
+    "evidence_sources": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "visual_attribute": "stem_tws_type_c_budget",
+    "description": "Evaluates price constraint (<= \u20b91,500) and Type-C connectivity alongside visual verification of downward mic stem.",
+    "ground_truth_product_ids": [
+      "B09N3ZNHTY",
+      "B098R25TGC"
+    ],
+    "ground_truth_answer": "The boAt Airdopes 141 (B09N3ZNHTY, \u20b91,499) and Noise Buds VS201 (B098R25TGC, \u20b91,299) feature stem-style earpieces with Type-C fast charging under \u20b91,500, outperforming stemless pebble designs like boAt 121v2.",
+    "target_image_url": "https://m.media-amazon.com/images/I/31GUbeFG3FL._SX300_SY300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "In-Ear",
+      "required_keywords": [
+        "earbuds",
+        "wireless",
+        "type c"
+      ],
+      "visual_tokens": [
+        "stem form factor",
+        "oval charging case with type c port"
+      ],
+      "max_price": 1500
+    },
+    "relevance_grades": {
+      "B09N3ZNHTY": 3,
+      "B098R25TGC": 3,
+      "B08JQN8DGZ": 1,
+      "B08FN6WGDQ": 0
+    }
+  },
+  {
+    "id": "MM15",
+    "question": "Which fast charging Type-C cable under \u20b9400 has a heavy-duty braided cord and reinforced plug neck?",
+    "category": "Cables & Accessories",
+    "query_type": "appearance_with_text_constraint",
+    "required_evidence": "TEXT+IMAGE",
+    "evidence_sources": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "visual_attribute": "braided_type_c_reinforced_neck_budget",
+    "description": "Combines price ceiling (<= \u20b9400), Type-C specification, and visual verification of woven armor braid and thick strain boots.",
+    "ground_truth_product_ids": [
+      "B08WRBG3XW",
+      "B07JW9H4J1"
+    ],
+    "ground_truth_answer": "The boAt Type C A325 (B08WRBG3XW, \u20b9199) and Wayona Nylon Braided Cable (B07JW9H4J1, \u20b9399) offer rugged braided armor cords with elongated flexible joint collars under \u20b9400, unlike unshielded smooth PVC wires.",
+    "target_image_url": "https://m.media-amazon.com/images/I/41xwPQLxTML._SX300_SY300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "USBCables",
+      "required_keywords": [
+        "cable",
+        "type c",
+        "braided"
+      ],
+      "visual_tokens": [
+        "heavy duty cross braid",
+        "extended strain relief boot"
+      ],
+      "max_price": 400
+    },
+    "relevance_grades": {
+      "B08WRBG3XW": 3,
+      "B07JW9H4J1": 3,
+      "B08DDRGWTJ": 1,
+      "B096MSW6CT": 1
+    }
+  },
+  {
+    "id": "MM16",
+    "question": "Which 32-inch Smart Android TV under \u20b915,000 has a frameless three-sided bezel-less screen design?",
+    "category": "Home Entertainment & TV",
+    "query_type": "appearance_with_text_constraint",
+    "required_evidence": "TEXT+IMAGE",
+    "evidence_sources": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "visual_attribute": "frameless_bezel_less_32inch_tv",
+    "description": "Tests price <= \u20b915,000, 32-inch size, Android OS, and visual inspection of edge-to-edge frameless glass borders versus thick plastic bezels.",
+    "ground_truth_product_ids": [
+      "B07MKFNHKG",
+      "B0B6F7LX4C"
+    ],
+    "ground_truth_answer": "The VW 32-inch Frameless Series (B07MKFNHKG, \u20b96,999) and MI 32-inch 5A Series (B0B6F7LX4C, \u20b913,999) feature ultra-thin 3-sided bezel-less displays under \u20b915,000, whereas conventional TVs have thick plastic front borders.",
+    "target_image_url": "https://m.media-amazon.com/images/I/418GxB04szL._SY300_SX300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "SmartTelevisions",
+      "required_keywords": [
+        "tv",
+        "smart tv",
+        "32 inches"
+      ],
+      "visual_tokens": [
+        "bezel-less screen",
+        "edge to edge panel",
+        "slim lower chin"
+      ],
+      "max_price": 15000
+    },
+    "relevance_grades": {
+      "B07MKFNHKG": 3,
+      "B0B6F7LX4C": 3,
+      "B0B1YVCJ2Y": 2,
+      "B08DPLCM6T": 0
+    }
+  },
+  {
+    "id": "MM17",
+    "question": "Find a compact silent wireless mouse under \u20b91,000 with a low-profile symmetrical ambidextrous body.",
+    "category": "Keyboards & Mice",
+    "query_type": "appearance_with_text_constraint",
+    "required_evidence": "TEXT+IMAGE",
+    "evidence_sources": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "visual_attribute": "low_profile_symmetrical_ambidextrous",
+    "description": "Combines price <= \u20b91,000, silent switches/wireless connection, and visual inspection of low-profile symmetrical curved arch.",
+    "ground_truth_product_ids": [
+      "B01M72LILF",
+      "B01J0XWYKQ"
+    ],
+    "ground_truth_answer": "The Logitech M221 Silent (B01M72LILF, \u20b9799) and Logitech B170 (B01J0XWYKQ, \u20b9599) feature symmetrical ambidextrous oval profiles under \u20b91,000, unlike heavy right-handed ergonomic sculpted mice.",
+    "target_image_url": "https://m.media-amazon.com/images/I/31ROHZJMEUL._SX300_SY300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "Mice",
+      "required_keywords": [
+        "mouse",
+        "wireless",
+        "silent"
+      ],
+      "visual_tokens": [
+        "symmetrical oval body",
+        "low arch silhouette",
+        "bilateral finger rests"
+      ],
+      "max_price": 1000
+    },
+    "relevance_grades": {
+      "B01M72LILF": 3,
+      "B01J0XWYKQ": 3,
+      "B073BRXPZX": 1,
+      "B09GB5B4BK": 1
+    }
+  },
+  {
+    "id": "MM18",
+    "question": "Which budget Android smartphone under \u20b97,000 features a leather-like textured back and waterdrop notch display?",
+    "category": "Smartphones & Mobile",
+    "query_type": "appearance_with_text_constraint",
+    "required_evidence": "TEXT+IMAGE",
+    "evidence_sources": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "visual_attribute": "leather_textured_back_waterdrop_notch",
+    "description": "Evaluates price constraint (<= \u20b97,000), Android OS, and visual attributes of faux-leather rear backplate texture and frontal teardrop notch.",
+    "ground_truth_product_ids": [
+      "B0BBN4DZBD",
+      "B0BBN56J5H",
+      "B0BBN3WF7V"
+    ],
+    "ground_truth_answer": "The Redmi A1 series (B0BBN4DZBD / B0BBN56J5H, \u20b96,499) features an anti-fingerprint leather-texture textured matte rear casing and front waterdrop notch display under \u20b97,000, unlike glossy glass-back phones.",
+    "target_image_url": "https://m.media-amazon.com/images/I/41Wd9J6nfpL._SX300_SY300_QL70_ML2_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "Smartphones",
+      "required_keywords": [
+        "redmi",
+        "smartphone",
+        "android"
+      ],
+      "visual_tokens": [
+        "leather texture grain back",
+        "teardrop notch front camera",
+        "dual lens capsule"
+      ],
+      "max_price": 7000
+    },
+    "relevance_grades": {
+      "B0BBN4DZBD": 3,
+      "B0BBN56J5H": 3,
+      "B0BBN3WF7V": 3,
+      "B0BMGB3CH9": 0,
+      "B09XB8GFBQ": 0
+    }
+  },
+  {
+    "id": "MM19",
+    "question": "Which instant water heater geyser under \u20b94,000 features a modern compact vertical tank with a color-changing LED indicator ring?",
+    "category": "Kitchen & Home Appliances",
+    "query_type": "appearance_with_text_constraint",
+    "required_evidence": "TEXT+IMAGE",
+    "evidence_sources": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "visual_attribute": "compact_vertical_geyser_led_ring",
+    "description": "Tests budget bound (<= \u20b94,000), 3-litre capacity, and visual identification of aesthetic wall-mounted vertical tank with illuminated color ring.",
+    "ground_truth_product_ids": [
+      "B078JDNZJ8"
+    ],
+    "ground_truth_answer": "The Havells Instanio 3-Litre Instant Geyser (B078JDNZJ8, \u20b93,600) features a sleek curved vertical white/blue body with an iconic smart LED color-changing temperature indicator ring, unlike crude immersion heating rods.",
+    "target_image_url": "https://m.media-amazon.com/images/I/31991seDfcL._SY300_SX300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "InstantWaterHeaters",
+      "required_keywords": [
+        "geyser",
+        "instant",
+        "water heater"
+      ],
+      "visual_tokens": [
+        "circular led temperature ring",
+        "curved vertical tank",
+        "inlet outlet spouts"
+      ],
+      "max_price": 4000
+    },
+    "relevance_grades": {
+      "B078JDNZJ8": 3,
+      "B097R2V1W8": 2,
+      "B00ABMASXG": 0,
+      "B088ZTJT2R": 0
+    }
+  },
+  {
+    "id": "MM20",
+    "question": "Which steam iron under \u20b92,000 features a translucent blue water reservoir with a front mist spray nozzle?",
+    "category": "Kitchen & Home Appliances",
+    "query_type": "appearance_with_text_constraint",
+    "required_evidence": "TEXT+IMAGE",
+    "evidence_sources": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "visual_attribute": "translucent_water_tank_spray_nozzle",
+    "description": "Tests price <= \u20b92,000 and visual presence of see-through water chamber with spray button versus opaque dry iron soleplates.",
+    "ground_truth_product_ids": [
+      "B008QTK47Q"
+    ],
+    "ground_truth_answer": "The Philips GC1905 Steam Iron (B008QTK47Q, \u20b91,614) features a see-through translucent blue water tank, top fill hatch, and frontal spray nozzle under \u20b92,000, distinctly visible compared to solid dry irons like Bajaj DX-6.",
+    "target_image_url": "https://m.media-amazon.com/images/I/41Xp77o+-YL._SX300_SY300_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "SteamIrons",
+      "required_keywords": [
+        "steam iron",
+        "iron",
+        "water"
+      ],
+      "visual_tokens": [
+        "translucent blue water tank",
+        "forward mist nozzle",
+        "steam boost trigger"
+      ],
+      "max_price": 2000
+    },
+    "relevance_grades": {
+      "B008QTK47Q": 3,
+      "B01C8P29N0": 0,
+      "B01C8P29T4": 0,
+      "B01EY310UM": 0
+    }
+  },
+  {
+    "id": "MM21",
+    "question": "500 watt mixer grinder with 3 stainless steel jars",
+    "category": "Kitchen & Home Appliances",
+    "query_type": "text_control",
+    "required_evidence": "TEXT",
+    "evidence_sources": [
+      "TEXT"
+    ],
+    "visual_attribute": "standard_mixer_grinder_spec",
+    "description": "Text-sufficient control query checking whether adding multimodal analysis preserves high factual precision for structured electrical appliances.",
+    "ground_truth_product_ids": [
+      "B08KDBLMQP",
+      "B00HVXS7WC",
+      "B07TXCY3YK",
+      "B09X5C9VLK"
+    ],
+    "ground_truth_answer": "The Croma 500W (B08KDBLMQP), Bajaj Rex 500W (B00HVXS7WC), Butterfly Hero 500W (B07TXCY3YK), and Lifelong LLMG23 (B09X5C9VLK) strictly satisfy the 500-watt motor specification and include 3 stainless steel jars.",
+    "target_image_url": "https://m.media-amazon.com/images/I/41i1uzCEyWL._SX300_SY300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "MixerGrinders",
+      "required_keywords": [
+        "mixer grinder",
+        "500 watt",
+        "3 jars"
+      ],
+      "visual_tokens": [
+        "mixer motor base",
+        "3 stainless steel jars"
+      ],
+      "max_price": null
+    },
+    "relevance_grades": {
+      "B08KDBLMQP": 3,
+      "B00HVXS7WC": 3,
+      "B07TXCY3YK": 3,
+      "B09X5C9VLK": 3,
+      "B09Y358DZQ": 2,
+      "B096YCN3SD": 0
+    }
+  },
+  {
+    "id": "MM22",
+    "question": "10000mAh fast charging power bank with dual USB output ports",
+    "category": "Mobiles & Accessories",
+    "query_type": "text_control",
+    "required_evidence": "TEXT",
+    "evidence_sources": [
+      "TEXT"
+    ],
+    "visual_attribute": "power_bank_capacity_and_ports",
+    "description": "Text-sufficient control query evaluating battery capacity and dual output ports without strict appearance constraints.",
+    "ground_truth_product_ids": [
+      "B0993BB11X",
+      "B08HVJCW95"
+    ],
+    "ground_truth_answer": "The Ambrane 10000mAh Slim Power Bank (B0993BB11X) and MI 10000mAh 3i Power Bank (B08HVJCW95) precisely match the 10,000mAh capacity specification and deliver dual USB fast-charging outputs.",
+    "target_image_url": "https://m.media-amazon.com/images/I/21e5ZrIutKS._SX300_SY300_QL70_ML2_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "PowerBanks",
+      "required_keywords": [
+        "power bank",
+        "10000mah",
+        "dual output"
+      ],
+      "visual_tokens": [
+        "power bank ports",
+        "led indicator"
+      ],
+      "max_price": null
+    },
+    "relevance_grades": {
+      "B0993BB11X": 3,
+      "B08HVJCW95": 3,
+      "B08HVL8QN3": 3,
+      "B08HV83HL3": 2
+    }
+  },
+  {
+    "id": "MM23",
+    "question": "1.2 meter fast charging USB to 8 pin lightning cable for iPhone",
+    "category": "Cables & Accessories",
+    "query_type": "text_control",
+    "required_evidence": "TEXT",
+    "evidence_sources": [
+      "TEXT"
+    ],
+    "visual_attribute": "cable_length_and_connector_spec",
+    "description": "Text-sufficient control query verifying cable length (1.2m) and Lightning connector compatibility for iPhone.",
+    "ground_truth_product_ids": [
+      "B08CF3B7N1",
+      "B07JW9H4J1"
+    ],
+    "ground_truth_answer": "The Portronics Konnect L 1.2M 8-Pin Cable (B08CF3B7N1) and Wayona USB to Lightning Cable (B07JW9H4J1) fulfill the 1.2m length and Lightning connector requirements for Apple iPhone charging.",
+    "target_image_url": "https://m.media-amazon.com/images/I/31VzNhhqifL._SX300_SY300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "USBCables",
+      "required_keywords": [
+        "lightning",
+        "cable",
+        "iphone",
+        "1.2m"
+      ],
+      "visual_tokens": [
+        "lightning plug tip",
+        "usb-a male connector"
+      ],
+      "max_price": null
+    },
+    "relevance_grades": {
+      "B08CF3B7N1": 3,
+      "B07JW9H4J1": 3,
+      "B08DDRGWTJ": 0,
+      "B096MSW6CT": 0
+    }
+  },
+  {
+    "id": "MM24",
+    "question": "32 inches HD ready smart Android LED TV with Dolby Audio",
+    "category": "Home Entertainment & TV",
+    "query_type": "text_control",
+    "required_evidence": "TEXT",
+    "evidence_sources": [
+      "TEXT"
+    ],
+    "visual_attribute": "tv_specs_and_audio_standard",
+    "description": "Text-sufficient control query specifying 32-inch screen dimension, HD Ready resolution, and Dolby Audio software certification.",
+    "ground_truth_product_ids": [
+      "B0B6F7LX4C",
+      "B08B42LWKN"
+    ],
+    "ground_truth_answer": "The MI 32-inch 5A Series (B0B6F7LX4C) and OnePlus 32-inch Y Series (B08B42LWKN) match the 32-inch diagonal size, Android TV platform, and certified Dolby Audio acoustic configuration.",
+    "target_image_url": "https://m.media-amazon.com/images/I/51fmHk3km+L._SX300_SY300_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "SmartTelevisions",
+      "required_keywords": [
+        "tv",
+        "smart",
+        "32 inches",
+        "dolby audio"
+      ],
+      "visual_tokens": [
+        "television screen",
+        "stand legs"
+      ],
+      "max_price": null
+    },
+    "relevance_grades": {
+      "B0B6F7LX4C": 3,
+      "B08B42LWKN": 3,
+      "B0B1YVCJ2Y": 3,
+      "B07MKFNHKG": 2
+    }
+  },
+  {
+    "id": "MM25",
+    "question": "1000 watt dry iron with non-stick coated soleplate and temperature control",
+    "category": "Kitchen & Home Appliances",
+    "query_type": "text_control",
+    "required_evidence": "TEXT",
+    "evidence_sources": [
+      "TEXT"
+    ],
+    "visual_attribute": "dry_iron_soleplate_and_wattage",
+    "description": "Text-sufficient control query evaluating 1000W electric dry iron heating element and non-stick soleplate specification.",
+    "ground_truth_product_ids": [
+      "B01C8P29N0",
+      "B01C8P29T4"
+    ],
+    "ground_truth_answer": "The Bajaj DX-6 1000W (B01C8P29N0) and Bajaj Majesty DX-11 1000W (B01C8P29T4) feature 1000-watt heating elements with non-stick German coating soleplates and variable temperature dials.",
+    "target_image_url": "https://m.media-amazon.com/images/I/31ke2NdHJ-L._SY300_SX300_QL70_FMwebp_.jpg",
+    "intent_criteria": {
+      "target_subcategory": "DryIrons",
+      "required_keywords": [
+        "dry iron",
+        "1000w",
+        "non stick"
+      ],
+      "visual_tokens": [
+        "dry iron soleplate",
+        "temperature control dial"
+      ],
+      "max_price": null
+    },
+    "relevance_grades": {
+      "B01C8P29N0": 3,
+      "B01C8P29T4": 3,
+      "B01MY839VW": 3,
+      "B008QTK47Q": 0
+    }
+  }
+]

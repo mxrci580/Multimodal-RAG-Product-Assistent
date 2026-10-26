@@ -1,0 +1,1997 @@
+[
+  {
+    "id": "MM-001",
+    "question": "Which electric kettle has a transparent glass body with blue LED illumination during boiling?",
+    "evidence_type": "IMAGE",
+    "difficulty": "easy",
+    "intent_type": "visual_appearance",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "category": "kettle",
+      "visual": [
+        "transparent glass body",
+        "blue LED ring"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B07YR26BJ3",
+        "product_name": "KENT 16052 Elegant Electric Glass Kettle 1.8L 2000 W | Blue LED Illumination | Borosilicate Glass Body | Boil Drying Protection | Used as Boiler | Milk | Tea | Water & Soup | 1 Year Warranty",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08HLC7Z3G",
+        "product_name": "Inalsa Electric Kettle Prism Inox - 1350 W with LED Illumination & Boro-Silicate Body, 1.8 L Capacity along with Cordless Base, 2 Year Warranty (Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B07WMS7TWB",
+        "product_name": "Pigeon by Stovekraft Amaze Plus Electric Kettle (14289) with Stainless Steel Body, 1.5 litre, used for boiling Water, making tea and coffee, instant noodles, soup etc. 1500 Watt (Silver)",
+        "relevance": 0
+      },
+      {
+        "product_id": "B01MQZ7J8K",
+        "product_name": "Prestige Electric Kettle PKOSS - 1500watts, Steel (1.5Ltr), Black",
+        "relevance": 0
+      },
+      {
+        "product_id": "B00NW4UWN6",
+        "product_name": "Prestige PKGSS 1.7L 1500W Electric Kettle (Stainless Steel)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "product_type": "text",
+      "body_material": "image",
+      "illumination": "image"
+    }
+  },
+  {
+    "id": "MM-002",
+    "question": "Which smartwatch features a circular round dial with a rotating side crown instead of a rectangular face?",
+    "evidence_type": "IMAGE",
+    "difficulty": "adversarial",
+    "intent_type": "visual_appearance",
+    "category": "Electronics",
+    "constraints": {
+      "category": "smartwatch",
+      "visual": [
+        "circular round dial",
+        "rotating side crown"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B0B3RRWSF6",
+        "product_name": "Fire-Boltt Phoenix Smart Watch with Bluetooth Calling 1.3\",120+ Sports Modes, 240*240 PX High Res with SpO2, Heart Rate Monitoring & IP67 Rating",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0BF57RN3K",
+        "product_name": "Fire-Boltt Ninja Call Pro Plus 1.83\" Smart Watch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240*280 Pixel High Resolution",
+        "relevance": 0
+      },
+      {
+        "product_id": "B09NVPSCQT",
+        "product_name": "Noise ColorFit Pulse Grand Smart Watch with 1.69\"(4.29cm) HD Display, 60 Sports Modes, 150 Watch Faces, Fast Charge, Spo2, Stress, Sleep, Heart Rate Monitoring & IP68 Waterproof (Jet Black)",
+        "relevance": 0
+      },
+      {
+        "product_id": "B09ZQK9X8G",
+        "product_name": "Noise ColorFit Pro 4 Advanced Bluetooth Calling Smart Watch with 1.72\" TruView Display, Fully-Functional Digital Crown, 311 PPI, 60Hz Refresh Rate, 500 NITS Brightness (Charcoal Black)",
+        "relevance": 0
+      },
+      {
+        "product_id": "B09V12K8NT",
+        "product_name": "boAt Wave Lite Smartwatch with 1.69\" HD Display, Sleek Metal Body, HR & SpO2 Level Monitor, 140+ Watch Faces, Activity Tracker, Multiple Sports Modes, IP68 & 7 Days Battery Life(Active Black)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "product_type": "text",
+      "dial_shape": "image",
+      "side_crown": "image"
+    }
+  },
+  {
+    "id": "MM-003",
+    "question": "Which wireless earbuds feature an elongated stem-style design rather than a compact rounded pebble bud?",
+    "evidence_type": "IMAGE",
+    "difficulty": "adversarial",
+    "intent_type": "visual_appearance",
+    "category": "Electronics",
+    "constraints": {
+      "category": "earbuds",
+      "visual": [
+        "elongated stem-style design"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B09N3ZNHTY",
+        "product_name": "boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds with mic, 42H Playtime, Beast Mode(Low Latency Upto 80ms) for Gaming, ENx Tech, ASAP Charge, IWP, IPX4 Water Resistance (Bold Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08FN6WGDQ",
+        "product_name": "Samsung Galaxy Buds Live Bluetooth Truly Wireless in Ear Earbuds with Mic, Upto 21 Hours Playtime, Mystic Black",
+        "relevance": 0
+      },
+      {
+        "product_id": "B01DEWVZ2C",
+        "product_name": "JBL C100SI Wired In Ear Headphones with Mic, JBL Pure Bass Sound, One Button Multi-function Remote, Angled Buds for Comfort fit (Black)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "product_type": "text",
+      "form_factor": "image"
+    }
+  },
+  {
+    "id": "MM-004",
+    "question": "Which wireless earbuds charging case features an interior digital numeric LED battery percentage display?",
+    "evidence_type": "IMAGE",
+    "difficulty": "adversarial",
+    "intent_type": "visual_appearance",
+    "category": "Electronics",
+    "constraints": {
+      "category": "earbuds",
+      "visual": [
+        "interior digital numeric LED battery percentage"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B09NNJ9WYM",
+        "product_name": "Sansui 80cm (32 inches) HD Ready Smart LED TV JSY32SKHD (BLACK) With Bezel-less Design",
+        "relevance": 3
+      },
+      {
+        "product_id": "B09N3ZNHTY",
+        "product_name": "boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds with mic, 42H Playtime, Beast Mode(Low Latency Upto 80ms) for Gaming, ENx Tech, ASAP Charge, IWP, IPX4 Water Resistance (Bold Black)",
+        "relevance": 0
+      },
+      {
+        "product_id": "B08FN6WGDQ",
+        "product_name": "Samsung Galaxy Buds Live Bluetooth Truly Wireless in Ear Earbuds with Mic, Upto 21 Hours Playtime, Mystic Black",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "product_type": "text",
+      "battery_indicator_type": "image"
+    }
+  },
+  {
+    "id": "MM-005",
+    "question": "Which Bluetooth headphones have large circumaural over-ear cups that fully enclose the ear rather than sitting on top of the ear?",
+    "evidence_type": "IMAGE",
+    "difficulty": "medium",
+    "intent_type": "visual_appearance",
+    "category": "Electronics",
+    "constraints": {
+      "category": "headphones",
+      "visual": [
+        "circumaural over-ear cups"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B0856HNMR7",
+        "product_name": "boAt Rockerz 370 On Ear Bluetooth Headphones with Upto 12 Hours Playtime, Cozy Padded Earcups and Bluetooth v5.0, with Mic (Buoyant Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08D77XZX5",
+        "product_name": "PTron Tangentbeat in-Ear Bluetooth 5.0 Wireless Headphones with Mic, Enhanced Bass, 10mm Drivers, Clear Calls, Snug-Fit, Fast Charging, Magnetic Buds, Voice Assistant & IPX4 Wireless Neckband (Black)",
+        "relevance": 0
+      },
+      {
+        "product_id": "B01DEWVZ2C",
+        "product_name": "JBL C100SI Wired In Ear Headphones with Mic, JBL Pure Bass Sound, One Button Multi-function Remote, Angled Buds for Comfort fit (Black)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "product_type": "text",
+      "earcup_coupling": "image"
+    }
+  },
+  {
+    "id": "MM-006",
+    "question": "Which USB fast charging cable features a dual-tone red and black braided nylon weave jacket?",
+    "evidence_type": "IMAGE",
+    "difficulty": "easy",
+    "intent_type": "visual_appearance",
+    "category": "Computers & Accessories",
+    "constraints": {
+      "category": "cable",
+      "visual": [
+        "red and black braided nylon weave"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B07JW9H4J1",
+        "product_name": "Wayona Nylon Braided USB to Lightning Fast Charging and Data Sync Cable Compatible for iPhone 13, 12,11, X, 8, 7, 6, 5, iPad Air, Pro, Mini (3 FT Pack of 1, Grey)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08WRBG3XW",
+        "product_name": "boAt Type C A325 Tangle-free, Sturdy Type C Cable with 3A Rapid Charging & 480mbps Data Transmission(Black)",
+        "relevance": 0
+      },
+      {
+        "product_id": "B08WRWPM22",
+        "product_name": "boAt Micro USB 55 Tangle-free, Sturdy Micro USB Cable with 3A Fast Charging & 480mbps Data Transmission (Black)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "product_type": "text",
+      "jacket_texture_color": "image"
+    }
+  },
+  {
+    "id": "MM-007",
+    "question": "Which HDMI cable features a thick nylon braided protective jacket with gold-plated metal connector housings?",
+    "evidence_type": "IMAGE",
+    "difficulty": "medium",
+    "intent_type": "visual_appearance",
+    "category": "Electronics",
+    "constraints": {
+      "category": "cable",
+      "visual": [
+        "nylon braided jacket",
+        "gold-plated metal connectors"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B07VSG5SXZ",
+        "product_name": "ZEBRONICS HAA2021 HDMI version 2.1 cable with 8K @ 60Hz, 4K @ 120Hz, eARC & CEC support, 3D compatible, 2 meters length, 48Gbps max and Gold-plated connectors",
+        "relevance": 3
+      },
+      {
+        "product_id": "B07KSMBL2H",
+        "product_name": "AmazonBasics Flexible Premium HDMI Cable (Black, 4K@60Hz, 18Gbps), 3-Foot",
+        "relevance": 0
+      },
+      {
+        "product_id": "B01D5H8ZI8",
+        "product_name": "AmazonBasics 3 Feet High Speed HDMI Male to Female 2.0 Extension Cable",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "product_type": "text",
+      "cable_jacket": "image",
+      "connector_finish": "image"
+    }
+  },
+  {
+    "id": "MM-008",
+    "question": "Which computer mouse features an asymmetric ergonomic body with a contoured thumb rest and textured grip?",
+    "evidence_type": "IMAGE",
+    "difficulty": "medium",
+    "intent_type": "visual_appearance",
+    "category": "Computers & Accessories",
+    "constraints": {
+      "category": "mouse",
+      "visual": [
+        "asymmetric ergonomic body",
+        "contoured thumb rest"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B01J0XWYKQ",
+        "product_name": "Logitech B170 Wireless Mouse, 2.4 GHz with USB Nano Receiver, Optical Tracking, 12-Months Battery Life, Ambidextrous, PC/Mac/Laptop - Black",
+        "relevance": 3
+      },
+      {
+        "product_id": "B01HJI0FS2",
+        "product_name": "Dell MS116 1000Dpi USB Wired Optical Mouse, Led Tracking, Scrolling Wheel, Plug and Play.",
+        "relevance": 0
+      },
+      {
+        "product_id": "B009VCGPSY",
+        "product_name": "HP X1000 Wired USB Mouse with 3 Handy Buttons, Fast-Moving Scroll Wheel and Optical Sensor works on most Surfaces (H2C21AA, Black/Grey)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "product_type": "text",
+      "ergonomic_geometry": "image"
+    }
+  },
+  {
+    "id": "MM-009",
+    "question": "Which television remote control features dedicated rectangular colored branded shortcut buttons for Netflix and Prime Video?",
+    "evidence_type": "IMAGE",
+    "difficulty": "easy",
+    "intent_type": "visual_appearance",
+    "category": "Electronics",
+    "constraints": {
+      "category": "remote",
+      "visual": [
+        "dedicated shortcut buttons for Netflix and Prime Video"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B0BHZCNC4P",
+        "product_name": "Remote Control Compatible for Amazon Fire Tv Stick Remote Control [ 3rd Gen ](Not Compatible for Fire TV Edition Smart TV) from basesailor",
+        "relevance": 3
+      },
+      {
+        "product_id": "B09F6D21BY",
+        "product_name": "7SEVEN Compatible LG TV Remote Suitable for LG Non Magic Smart tv Remote Control (Mouse & Voice Non-Support) MR20GA Prime Video and Netflix Hotkeys",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "product_type": "text",
+      "app_buttons": "image"
+    }
+  },
+  {
+    "id": "MM-010",
+    "question": "Which portable selfie stick accessory features an extendable shaft with built-in folding tripod legs at the handle base?",
+    "evidence_type": "IMAGE",
+    "difficulty": "easy",
+    "intent_type": "visual_appearance",
+    "category": "Electronics",
+    "constraints": {
+      "category": "selfie_stick",
+      "visual": [
+        "folding tripod legs at handle base"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B08ZN4B121",
+        "product_name": "WeCool Bluetooth Extendable Selfie Sticks with Wireless Remote and Tripod Stand, 3-in-1 Multifunctional Selfie Stick with Tripod Stand Compatible with iPhone/OnePlus/Samsung/Oppo/Vivo and All Phones",
+        "relevance": 3
+      },
+      {
+        "product_id": "B094YFFSMY",
+        "product_name": "Tygot Bluetooth Extendable Selfie Sticks with Wireless Remote and Tripod Stand, 3-in-1 Multifunctional Selfie Stick with Tripod Stand Compatible with iPhone/OnePlus/Samsung/Oppo/Vivo and All Phones",
+        "relevance": 3
+      },
+      {
+        "product_id": "B07QCWY5XV",
+        "product_name": "Mobilife Bluetooth Extendable Selfie Stick with Tripod Stand and Wireless Remote,3-in-1 Multifunctional Selfie Stick Tripod for iPhone Samsung Mi Realme Oppo Vivo Google More,Black",
+        "relevance": 3
+      }
+    ],
+    "required_evidence": {
+      "product_type": "text",
+      "tripod_integration": "image"
+    }
+  },
+  {
+    "id": "MM-011",
+    "question": "Which kitchen appliance is a pop-up bread toaster with two vertical top-loading slots and a side carriage lever?",
+    "evidence_type": "IMAGE",
+    "difficulty": "easy",
+    "intent_type": "visual_appearance",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "category": "toaster",
+      "visual": [
+        "two vertical top-loading bread slots",
+        "side carriage lever"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B06XPYRWV5",
+        "product_name": "Pigeon by Stovekraft 2 Slice Auto Pop up Toaster. A Smart Bread Toaster for Your Home (750 Watt) (black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0073QGKAS",
+        "product_name": "Bajaj ATX 4 750-Watt Pop-up Toaster (White)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B071VNHMX2",
+        "product_name": "Philips Daily Collection HD2582/00 830-Watt 2-Slice Pop-up Toaster (White)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B00935MGHS",
+        "product_name": "Prestige PSMFB 800 Watt Sandwich Toaster with Fixed Plates, Black",
+        "relevance": 0
+      },
+      {
+        "product_id": "B07S851WX5",
+        "product_name": "Prestige Sandwich Maker PGMFD 01, Black",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "product_type": "text",
+      "slot_configuration": "image",
+      "lever": "image"
+    }
+  },
+  {
+    "id": "MM-012",
+    "question": "Which sandwich maker features hinged clamp plates with pronounced ribbed grill ridges and a front handle lock clasp?",
+    "evidence_type": "IMAGE",
+    "difficulty": "medium",
+    "intent_type": "visual_appearance",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "category": "sandwich_maker",
+      "visual": [
+        "ribbed grill ridges",
+        "front handle lock clasp"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B07S851WX5",
+        "product_name": "Prestige Sandwich Maker PGMFD 01, Black",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0B2DD8BQ8",
+        "product_name": "Wipro Vesta Grill 1000 Watt Sandwich Maker |Dual function-SW Maker&Griller|Non stick Coat -BPA&PTFE Free |Auto Temp Cut-off| Height Control -180\u1dbf&105\u1dbf |2 year warranty|SS Finish|Standard size",
+        "relevance": 3
+      },
+      {
+        "product_id": "B07GWTWFS2",
+        "product_name": "KENT 16025 Sandwich Grill 700W | Non-Toxic Ceramic Coating | Automatic Temperature Cut-off with LED Indicator | Adjustable Height Control, Metallic Silver, Standard",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0073QGKAS",
+        "product_name": "Bajaj ATX 4 750-Watt Pop-up Toaster (White)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "product_type": "text",
+      "plate_texture": "image",
+      "handle_lock": "image"
+    }
+  },
+  {
+    "id": "MM-013",
+    "question": "Which USB flash drive features an ultra-compact seamless all-metal unibody with an integrated key ring hole and no removable plastic cap?",
+    "evidence_type": "IMAGE",
+    "difficulty": "hard",
+    "intent_type": "visual_appearance",
+    "category": "Computers & Accessories",
+    "constraints": {
+      "category": "flash_drive",
+      "visual": [
+        "all-metal unibody",
+        "integrated key ring hole",
+        "no removable cap"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B01L8ZNWN2",
+        "product_name": "HP v236w USB 2.0 64GB Pen Drive, Metal",
+        "relevance": 3
+      },
+      {
+        "product_id": "B07SLMR1K6",
+        "product_name": "SanDisk Ultra Flair 64GB USB 3.0 Pen Drive, Multicolor",
+        "relevance": 2
+      },
+      {
+        "product_id": "B005FYNT3G",
+        "product_name": "SanDisk Cruzer Blade 32GB USB Flash Drive",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "product_type": "text",
+      "casing_material": "image",
+      "keyring_hole": "image"
+    }
+  },
+  {
+    "id": "MM-014",
+    "question": "Which handheld kitchen blender is an immersion stick blender with an exposed stainless steel blade bell housing at the bottom?",
+    "evidence_type": "IMAGE",
+    "difficulty": "hard",
+    "intent_type": "visual_appearance",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "category": "hand_blender",
+      "visual": [
+        "immersion stick shaft",
+        "exposed blade bell housing"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B07QHHCB27",
+        "product_name": "KENT 16044 Hand Blender Stainless Steel 400 W | Variable Speed Control | Easy to Clean and Store | Low Noise Operation",
+        "relevance": 3
+      },
+      {
+        "product_id": "B00A7PLVU6",
+        "product_name": "Orpat HHB-100E WOB 250-Watt Hand Blender (White)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B00W56GLOQ",
+        "product_name": "Wonderchef Nutri-blend Mixer, Grinder & Blender | Powerful 400W 22000 RPM motor | Stainless steel Blades | 2 unbreakable jars | 2 Years warranty | Online recipe book by Chef Sanjeev Kapoor | Black",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "product_type": "text",
+      "wand_structure": "image",
+      "blade_housing": "image"
+    }
+  },
+  {
+    "id": "MM-015",
+    "question": "Which portable smoothie blender features a transparent personal drinking tumbler with an integrated carry loop handle and bottom motor base?",
+    "evidence_type": "IMAGE",
+    "difficulty": "hard",
+    "intent_type": "visual_appearance",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "category": "portable_blender",
+      "visual": [
+        "transparent drinking tumbler",
+        "carry loop handle",
+        "compact motor base"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B09NTHQRW3",
+        "product_name": "InstaCuppa Portable Blender for Smoothie, Milk Shakes, Crushing Ice and Juices, USB Rechargeable Personal Blender Machine for Kitchen with 2000 mAh Rechargeable Battery, 150 Watt Motor, 400 ML",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0B3G5XZN5",
+        "product_name": "InstaCuppa Portable Blender for Smoothie, Milk Shakes, Crushing Ice and Juices, USB Rechargeable Personal Blender Machine for Kitchen with 4000 mAh Rechargeable Battery, 230 Watt Motor, 500 ML",
+        "relevance": 3
+      },
+      {
+        "product_id": "B00W56GLOQ",
+        "product_name": "Wonderchef Nutri-blend Mixer, Grinder & Blender | Powerful 400W 22000 RPM motor | Stainless steel Blades | 2 unbreakable jars | 2 Years warranty | Online recipe book by Chef Sanjeev Kapoor | Black",
+        "relevance": 1
+      },
+      {
+        "product_id": "B00A7PLVU6",
+        "product_name": "Orpat HHB-100E WOB 250-Watt Hand Blender (White)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "product_type": "text",
+      "bottle_design": "image",
+      "carry_loop": "image"
+    }
+  },
+  {
+    "id": "MM-016",
+    "question": "Show me a round dial smartwatch under \u20b92,000 with Bluetooth calling and metallic bezel styling.",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "easy",
+    "intent_type": "price_constrained",
+    "category": "Electronics",
+    "constraints": {
+      "price_max": 2000,
+      "category": "smartwatch",
+      "specs": [
+        "Bluetooth calling"
+      ],
+      "visual": [
+        "round dial",
+        "metallic bezel"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B0B3RRWSF6",
+        "product_name": "Fire-Boltt Phoenix Smart Watch with Bluetooth Calling 1.3\",120+ Sports Modes, 240*240 PX High Res with SpO2, Heart Rate Monitoring & IP67 Rating",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0B5B6PQCT",
+        "product_name": "boAt Wave Call Smart Watch, Smart Talk with Advanced Dedicated Bluetooth Calling Chip, 1.69\u201d HD Display with 550 NITS & 70% Color Gamut, 150+ Watch Faces, Multi-Sport Modes,HR,SpO2, IP68(Active Black)",
+        "relevance": 1
+      },
+      {
+        "product_id": "B09V12K8NT",
+        "product_name": "boAt Wave Lite Smartwatch with 1.69\" HD Display, Sleek Metal Body, HR & SpO2 Level Monitor, 140+ Watch Faces, Activity Tracker, Multiple Sports Modes, IP68 & 7 Days Battery Life(Active Black)",
+        "relevance": 0
+      },
+      {
+        "product_id": "B0BF57RN3K",
+        "product_name": "Fire-Boltt Ninja Call Pro Plus 1.83\" Smart Watch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240*280 Pixel High Resolution",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "bluetooth_calling": "text",
+      "dial_shape": "image",
+      "bezel_finish": "image"
+    }
+  },
+  {
+    "id": "MM-017",
+    "question": "Find black over-ear Bluetooth headphones under \u20b92,000 with cushioned headband and full-sized earcups.",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "easy",
+    "intent_type": "price_constrained",
+    "category": "Electronics",
+    "constraints": {
+      "price_max": 2000,
+      "category": "headphones",
+      "visual": [
+        "over-ear cups",
+        "cushioned headband",
+        "black color"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B0856HNMR7",
+        "product_name": "boAt Rockerz 370 On Ear Bluetooth Headphones with Upto 12 Hours Playtime, Cozy Padded Earcups and Bluetooth v5.0, with Mic (Buoyant Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08D77XZX5",
+        "product_name": "PTron Tangentbeat in-Ear Bluetooth 5.0 Wireless Headphones with Mic, Enhanced Bass, 10mm Drivers, Clear Calls, Snug-Fit, Fast Charging, Magnetic Buds, Voice Assistant & IPX4 Wireless Neckband (Black)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "color": "image",
+      "cushioned_headband": "image",
+      "earcup_size": "image"
+    }
+  },
+  {
+    "id": "MM-018",
+    "question": "Which electric kettle under \u20b91,500 has a transparent glass body and blue LED heating indicator?",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "easy",
+    "intent_type": "price_constrained",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "price_max": 1500,
+      "category": "kettle",
+      "visual": [
+        "transparent glass body",
+        "blue LED indicator"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B07YR26BJ3",
+        "product_name": "KENT 16052 Elegant Electric Glass Kettle 1.8L 2000 W | Blue LED Illumination | Borosilicate Glass Body | Boil Drying Protection | Used as Boiler | Milk | Tea | Water & Soup | 1 Year Warranty",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08HLC7Z3G",
+        "product_name": "Inalsa Electric Kettle Prism Inox - 1350 W with LED Illumination & Boro-Silicate Body, 1.8 L Capacity along with Cordless Base, 2 Year Warranty (Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B07WMS7TWB",
+        "product_name": "Pigeon by Stovekraft Amaze Plus Electric Kettle (14289) with Stainless Steel Body, 1.5 litre, used for boiling Water, making tea and coffee, instant noodles, soup etc. 1500 Watt (Silver)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "glass_body": "image",
+      "blue_led": "image"
+    }
+  },
+  {
+    "id": "MM-019",
+    "question": "Find wireless earbuds under \u20b91,500 with a stem-style design and type-C charging port.",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "easy",
+    "intent_type": "price_constrained",
+    "category": "Electronics",
+    "constraints": {
+      "price_max": 1500,
+      "category": "earbuds",
+      "specs": [
+        "Type-C charging"
+      ],
+      "visual": [
+        "stem-style design"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B09N3ZNHTY",
+        "product_name": "boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds with mic, 42H Playtime, Beast Mode(Low Latency Upto 80ms) for Gaming, ENx Tech, ASAP Charge, IWP, IPX4 Water Resistance (Bold Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08FN6WGDQ",
+        "product_name": "Samsung Galaxy Buds Live Bluetooth Truly Wireless in Ear Earbuds with Mic, Upto 21 Hours Playtime, Mystic Black",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "charging_port": "text",
+      "stem_design": "image"
+    }
+  },
+  {
+    "id": "MM-020",
+    "question": "Which fast charging Type-C cable under \u20b9400 has a heavy-duty braided nylon sleeve and reinforced strain relief collars?",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "easy",
+    "intent_type": "price_constrained",
+    "category": "Computers & Accessories",
+    "constraints": {
+      "price_max": 400,
+      "category": "cable",
+      "specs": [
+        "Type-C",
+        "Fast charging"
+      ],
+      "visual": [
+        "braided nylon sleeve",
+        "reinforced strain relief"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B082LZGK39",
+        "product_name": "Ambrane Unbreakable 60W / 3A Fast Charging 1.5m Braided Micro USB Cable for Smartphones, Tablets, Laptops & Other Micro USB Devices, 480Mbps Data Sync, Quick Charge 3.0 (RCM15, Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B07JW9H4J1",
+        "product_name": "Wayona Nylon Braided USB to Lightning Fast Charging and Data Sync Cable Compatible for iPhone 13, 12,11, X, 8, 7, 6, 5, iPad Air, Pro, Mini (3 FT Pack of 1, Grey)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08WRBG3XW",
+        "product_name": "boAt Type C A325 Tangle-free, Sturdy Type C Cable with 3A Rapid Charging & 480mbps Data Transmission(Black)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "connector_type": "text",
+      "braided_sleeve": "image",
+      "strain_relief": "image"
+    }
+  },
+  {
+    "id": "MM-021",
+    "question": "Which 32-inch Smart Android TV under \u20b915,000 has a frameless three-sided bezel-less screen design?",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "easy",
+    "intent_type": "price_constrained",
+    "category": "Electronics",
+    "constraints": {
+      "price_max": 15000,
+      "category": "television",
+      "specs": [
+        "32-inch",
+        "Smart Android TV"
+      ],
+      "visual": [
+        "three-sided bezel-less screen"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B0B6F7LX4C",
+        "product_name": "MI 80 cm (32 inches) 5A Series HD Ready Smart Android LED TV L32M7-5AIN (Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08B42LWKN",
+        "product_name": "OnePlus 80 cm (32 inches) Y Series HD Ready LED Smart Android TV 32Y1 (Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08DPLCM6T",
+        "product_name": "LG 80 cm (32 inches) HD Ready Smart LED TV 32LM563BPTC (Dark Iron Gray)",
+        "relevance": 1
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "screen_size": "text",
+      "os": "text",
+      "bezel_design": "image"
+    }
+  },
+  {
+    "id": "MM-022",
+    "question": "Find a compact silent wireless mouse under \u20b91,000 with a low-profile symmetrical ambidextrous body.",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "medium",
+    "intent_type": "multi_constraint",
+    "category": "Computers & Accessories",
+    "constraints": {
+      "price_max": 1000,
+      "category": "mouse",
+      "specs": [
+        "Wireless",
+        "2.4GHz"
+      ],
+      "visual": [
+        "symmetrical ambidextrous body",
+        "low-profile"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B01J0XWYKQ",
+        "product_name": "Logitech B170 Wireless Mouse, 2.4 GHz with USB Nano Receiver, Optical Tracking, 12-Months Battery Life, Ambidextrous, PC/Mac/Laptop - Black",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0B296NTFV",
+        "product_name": "Portronics Toad 23 Wireless Optical Mouse with 2.4GHz, USB Nano Dongle, Optical Orientation, Click Wheel, Adjustable DPI(Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B01HJI0FS2",
+        "product_name": "Dell MS116 1000Dpi USB Wired Optical Mouse, Led Tracking, Scrolling Wheel, Plug and Play.",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "connectivity": "text",
+      "body_symmetry": "image"
+    }
+  },
+  {
+    "id": "MM-023",
+    "question": "Which budget Android smartphone under \u20b97,000 features a leather-like textured back and waterdrop notch display?",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "medium",
+    "intent_type": "multi_constraint",
+    "category": "Electronics",
+    "constraints": {
+      "price_max": 7000,
+      "category": "smartphones",
+      "specs": [
+        "Android",
+        "Budget under 7000"
+      ],
+      "visual": [
+        "leather-texture back",
+        "waterdrop notch"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B0BBN4DZBD",
+        "product_name": "Redmi A1 (Light Blue, 2GB RAM, 32GB Storage) | Segment Best AI Dual Cam | 5000mAh Battery | Leather Texture Design | Android 12",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0BBN56J5H",
+        "product_name": "Redmi A1 (Black, 2GB RAM, 32GB Storage) | Segment Best AI Dual Cam | 5000mAh Battery | Leather Texture Design | Android 12",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0BBN3WF7V",
+        "product_name": "Redmi A1 (Light Green, 2GB RAM 32GB ROM) | Segment Best AI Dual Cam | 5000mAh Battery | Leather Texture Design | Android 12",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08D77XZX5",
+        "product_name": "PTron Tangentbeat in-Ear Bluetooth 5.0 Wireless Headphones with Mic, Enhanced Bass, 10mm Drivers, Clear Calls, Snug-Fit, Fast Charging, Magnetic Buds, Voice Assistant & IPX4 Wireless Neckband (Black)",
+        "relevance": 0
+      },
+      {
+        "product_id": "B07JW9H4J1",
+        "product_name": "Wayona Nylon Braided USB to Lightning Fast Charging and Data Sync Cable Compatible for iPhone 13, 12,11, X, 8, 7, 6, 5, iPad Air, Pro, Mini (3 FT Pack of 1, Grey)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "operating_system": "text",
+      "back_panel_texture": "image",
+      "notch_display": "image"
+    }
+  },
+  {
+    "id": "MM-024",
+    "question": "Which instant water heater geyser under \u20b94,000 features a modern compact vertical tank with a color-changing LED indicator ring?",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "medium",
+    "intent_type": "multi_constraint",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "price_max": 4000,
+      "category": "water_heater",
+      "visual": [
+        "vertical tank",
+        "color-changing LED ring"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B078JDNZJ8",
+        "product_name": "Havells Instanio 3-Litre Instant Geyser (White/Blue)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B078JBK4GX",
+        "product_name": "Havells Instanio 1-Litre 3KW Instant Water Heater (Geyser), White Blue",
+        "relevance": 3
+      },
+      {
+        "product_id": "B078JF6X9B",
+        "product_name": "Havells Instanio 3-Litre 4.5KW Instant Water Heater (Geyser), White Blue",
+        "relevance": 3
+      },
+      {
+        "product_id": "B00P0R95EA",
+        "product_name": "Usha IH2415 1500-Watt Immersion Heater (Silver)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "tank_orientation": "image",
+      "led_indicator": "image"
+    }
+  },
+  {
+    "id": "MM-025",
+    "question": "Which steam iron under \u20b92,000 features a translucent blue water reservoir with a front mist spray nozzle?",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "medium",
+    "intent_type": "multi_constraint",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "price_max": 2000,
+      "category": "iron",
+      "specs": [
+        "Steam iron"
+      ],
+      "visual": [
+        "translucent blue water tank",
+        "front spray nozzle"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B008QTK47Q",
+        "product_name": "Philips GC1905 1440-Watt Steam Iron with Spray (Blue)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B01C8P29N0",
+        "product_name": "Bajaj DX-6 1000W Dry Iron with Advance Soleplate and Anti-bacterial German Coating Technology, White",
+        "relevance": 0
+      },
+      {
+        "product_id": "B01C8P29T4",
+        "product_name": "Bajaj Majesty DX-11 1000W Dry Iron with Advance Soleplate and Anti-bacterial German Coating Technology, White and Blue",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "water_tank_color": "image",
+      "spray_nozzle": "image"
+    }
+  },
+  {
+    "id": "MM-026",
+    "question": "Find a 2-slice pop-up bread toaster under \u20b91,500 with white heat-resistant plastic housing and browning dial.",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "medium",
+    "intent_type": "multi_constraint",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "price_max": 1500,
+      "category": "toaster",
+      "visual": [
+        "white plastic housing",
+        "front browning dial",
+        "top pop-up slots"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B06XPYRWV5",
+        "product_name": "Pigeon by Stovekraft 2 Slice Auto Pop up Toaster. A Smart Bread Toaster for Your Home (750 Watt) (black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0073QGKAS",
+        "product_name": "Bajaj ATX 4 750-Watt Pop-up Toaster (White)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B071VNHMX2",
+        "product_name": "Philips Daily Collection HD2582/00 830-Watt 2-Slice Pop-up Toaster (White)",
+        "relevance": 1
+      },
+      {
+        "product_id": "B00935MGHS",
+        "product_name": "Prestige PSMFB 800 Watt Sandwich Toaster with Fixed Plates, Black",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "housing_color": "image",
+      "control_dial": "image",
+      "slot_type": "image"
+    }
+  },
+  {
+    "id": "MM-027",
+    "question": "Find an ergonomic wireless mouse under \u20b91,000 with a sculpted thumb shelf and rubberized grip texture.",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "hard",
+    "intent_type": "multi_constraint",
+    "category": "Computers & Accessories",
+    "constraints": {
+      "price_max": 1000,
+      "category": "mouse",
+      "specs": [
+        "Wireless"
+      ],
+      "visual": [
+        "sculpted thumb shelf",
+        "rubberized side grip"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B01J0XWYKQ",
+        "product_name": "Logitech B170 Wireless Mouse, 2.4 GHz with USB Nano Receiver, Optical Tracking, 12-Months Battery Life, Ambidextrous, PC/Mac/Laptop - Black",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0B296NTFV",
+        "product_name": "Portronics Toad 23 Wireless Optical Mouse with 2.4GHz, USB Nano Dongle, Optical Orientation, Click Wheel, Adjustable DPI(Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B01HJI0FS2",
+        "product_name": "Dell MS116 1000Dpi USB Wired Optical Mouse, Led Tracking, Scrolling Wheel, Plug and Play.",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "wireless": "text",
+      "thumb_shelf": "image",
+      "side_grip": "image"
+    }
+  },
+  {
+    "id": "MM-028",
+    "question": "Which digital air fryer under \u20b99,000 has a black glossy exterior with a flat glass LED capacitive touch control panel?",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "hard",
+    "intent_type": "multi_constraint",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "price_max": 9000,
+      "category": "air_fryer",
+      "specs": [
+        "Digital air fryer"
+      ],
+      "visual": [
+        "black glossy exterior",
+        "flat glass touch panel"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B097RJ867P",
+        "product_name": "PHILIPS Digital Air Fryer HD9252/90 with Touch Panel, uses up to 90% less fat, 7 Pre-set Menu, 1400W, 4.1 Liter, with Rapid Air Technology (Black), Large",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0B8XNPQPN",
+        "product_name": "Pigeon Healthifry Digital Air Fryer, 360\u00b0 High Speed Air Circulation Technology 1200 W with Non-Stick 4.2 L Basket - Green",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0B53DS4TF",
+        "product_name": "Instant Pot Air Fryer, Vortex 2QT, Touch Control Panel, 360\u00b0 EvenCrisp\u2122 Technology, Uses 95 % less Oil, 4-in-1 Appliance: Air Fry, Roast, Bake, Reheat (Vortex 1.97Litre, Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B09CTWFV5W",
+        "product_name": "PHILIPS Air Fryer HD9200/90, uses up to 90% less fat, 1400W, 4.1 Liter, with Rapid Air Technology (Black), Large",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "control_type": "image",
+      "exterior_finish": "image"
+    }
+  },
+  {
+    "id": "MM-029",
+    "question": "Find an air fryer under \u20b98,000 with mechanical rotary control knobs on the front rather than a digital touch screen.",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "adversarial",
+    "intent_type": "multi_constraint",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "price_max": 8000,
+      "category": "air_fryer",
+      "visual": [
+        "analog rotary control knobs"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B09CTWFV5W",
+        "product_name": "PHILIPS Air Fryer HD9200/90, uses up to 90% less fat, 1400W, 4.1 Liter, with Rapid Air Technology (Black), Large",
+        "relevance": 3
+      },
+      {
+        "product_id": "B097RJ867P",
+        "product_name": "PHILIPS Digital Air Fryer HD9252/90 with Touch Panel, uses up to 90% less fat, 7 Pre-set Menu, 1400W, 4.1 Liter, with Rapid Air Technology (Black), Large",
+        "relevance": 0
+      },
+      {
+        "product_id": "B0B8XNPQPN",
+        "product_name": "Pigeon Healthifry Digital Air Fryer, 360\u00b0 High Speed Air Circulation Technology 1200 W with Non-Stick 4.2 L Basket - Green",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "knob_controls": "image"
+    }
+  },
+  {
+    "id": "MM-030",
+    "question": "Find a Philips steam iron under \u20b92,000 with a transparent water window and integrated spray button.",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "medium",
+    "intent_type": "brand_plus_feature",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "price_max": 2000,
+      "brand": "Philips",
+      "category": "iron",
+      "visual": [
+        "transparent water window",
+        "spray button"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B008QTK47Q",
+        "product_name": "Philips GC1905 1440-Watt Steam Iron with Spray (Blue)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B01C8P29N0",
+        "product_name": "Bajaj DX-6 1000W Dry Iron with Advance Soleplate and Anti-bacterial German Coating Technology, White",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "brand": "text",
+      "price": "text",
+      "water_window": "image",
+      "spray_button": "image"
+    }
+  },
+  {
+    "id": "MM-031",
+    "question": "Which portable smoothie blender under \u20b92,500 features a transparent Tritan cup with a silicone carry loop and hidden blade assembly?",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "medium",
+    "intent_type": "multi_constraint",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "price_max": 2500,
+      "category": "blender",
+      "visual": [
+        "transparent Tritan cup",
+        "silicone carry loop"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B09NTHQRW3",
+        "product_name": "InstaCuppa Portable Blender for Smoothie, Milk Shakes, Crushing Ice and Juices, USB Rechargeable Personal Blender Machine for Kitchen with 2000 mAh Rechargeable Battery, 150 Watt Motor, 400 ML",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0B3G5XZN5",
+        "product_name": "InstaCuppa Portable Blender for Smoothie, Milk Shakes, Crushing Ice and Juices, USB Rechargeable Personal Blender Machine for Kitchen with 4000 mAh Rechargeable Battery, 230 Watt Motor, 500 ML",
+        "relevance": 1
+      },
+      {
+        "product_id": "B00W56GLOQ",
+        "product_name": "Wonderchef Nutri-blend Mixer, Grinder & Blender | Powerful 400W 22000 RPM motor | Stainless steel Blades | 2 unbreakable jars | 2 Years warranty | Online recipe book by Chef Sanjeev Kapoor | Black",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "cup_transparency": "image",
+      "carry_loop": "image"
+    }
+  },
+  {
+    "id": "MM-032",
+    "question": "Find a 10000mAh pocket-sized power bank under \u20b91,600 with an ultra-compact body and matte non-slip surface.",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "hard",
+    "intent_type": "multi_constraint",
+    "category": "Electronics",
+    "constraints": {
+      "price_max": 1600,
+      "category": "power_bank",
+      "specs": [
+        "10000mAh"
+      ],
+      "visual": [
+        "pocket-sized body",
+        "matte surface"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B08MC57J31",
+        "product_name": "MI 10000mAh Lithium Ion, Lithium Polymer Power Bank Pocket Pro with 22.5 Watt Fast Charging, Dual Input Ports(Micro-USB and Type C), Triple Output Ports, (Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0993BB11X",
+        "product_name": "Ambrane 10000mAh Slim Power Bank, 20W Fast Charging, Dual Output, Type C PD (Input & Output), Quick Charge, Li-Polymer, Multi-Layer Protection for iPhone, Anrdoid & Other Devices (Stylo 10K, Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08HVL8QN3",
+        "product_name": "Mi 10000mAH Li-Polymer, Micro-USB and Type C Input Port, Power Bank 3i with 18W Fast Charging (Midnight Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08HV83HL3",
+        "product_name": "MI Power Bank 3i 20000mAh Lithium Polymer 18W Fast Power Delivery Charging | Input- Type C | Micro USB| Triple Output | Sandstone Black",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "capacity": "text",
+      "price": "text",
+      "compact_form": "image",
+      "surface_texture": "image"
+    }
+  },
+  {
+    "id": "MM-033",
+    "question": "Which dual-connector USB Type-C flash drive under \u20b91,500 features a rotating metal swivel cap protecting the ports?",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "hard",
+    "intent_type": "multi_constraint",
+    "category": "Computers & Accessories",
+    "constraints": {
+      "price_max": 1500,
+      "category": "flash_drive",
+      "specs": [
+        "Type-C",
+        "Dual connector"
+      ],
+      "visual": [
+        "rotating metal swivel cap"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B0819ZZK5K",
+        "product_name": "SanDisk Ultra Dual Drive Go USB Type C Pendrive for Mobile (Black, 128 GB, 5Y - SDDDC3-128G-I35)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B01EZ0X3L8",
+        "product_name": "SanDisk Ultra 64 GB USB Pen Drives (SDDDC2-064G-I35, Black, Silver)",
+        "relevance": 2
+      },
+      {
+        "product_id": "B005FYNT3G",
+        "product_name": "SanDisk Cruzer Blade 32GB USB Flash Drive",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "connectors": "text",
+      "swivel_cap": "image"
+    }
+  },
+  {
+    "id": "MM-034",
+    "question": "Which HD webcam under \u20b92,000 includes a hinged universal monitor clamp and front green activity LED light?",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "hard",
+    "intent_type": "multi_constraint",
+    "category": "Computers & Accessories",
+    "constraints": {
+      "price_max": 2000,
+      "category": "webcam",
+      "specs": [
+        "HD 720p or 1080p"
+      ],
+      "visual": [
+        "hinged monitor clamp",
+        "front activity LED"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B008QS9J6Y",
+        "product_name": "Logitech C270 Digital HD Webcam with Widescreen HD Video Calling, HD Light Correction, Noise-Reducing Mic, for Skype, FaceTime, Hangouts, WebEx, PC/Mac/Laptop/MacBook/Tablet - (Black, HD 720p/30fps)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B09P22HXH6",
+        "product_name": "Lenovo 300 FHD Webcam with Full Stereo Dual Built-in mics | FHD 1080P 2.1 Megapixel CMOS Camera |Privacy Shutter | Ultra-Wide 95 Lens | 360 Rotation | Flexible Mount, Plug-n-Play | Cloud Grey",
+        "relevance": 3
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "resolution": "text",
+      "monitor_clamp": "image",
+      "status_led": "image"
+    }
+  },
+  {
+    "id": "MM-035",
+    "question": "Find boAt wired earphones under \u20b9400 with hawk-inspired angled metallic earbuds and ribbed strain reliefs.",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "adversarial",
+    "intent_type": "multi_constraint",
+    "category": "Electronics",
+    "constraints": {
+      "price_max": 400,
+      "brand": "boAt",
+      "category": "earphones",
+      "visual": [
+        "hawk-inspired angled metallic earbuds",
+        "ribbed strain reliefs"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B07GPXXNNG",
+        "product_name": "boAt Bassheads 100 in Ear Wired Earphones with Mic(Taffy Pink)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B07GQD4K6L",
+        "product_name": "boAt Bassheads 100 in Ear Wired Earphones with Mic(Furious Red)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B01DEWVZ2C",
+        "product_name": "JBL C100SI Wired In Ear Headphones with Mic, JBL Pure Bass Sound, One Button Multi-function Remote, Angled Buds for Comfort fit (Black)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "brand": "text",
+      "price": "text",
+      "earbud_contour": "image",
+      "strain_relief": "image"
+    }
+  },
+  {
+    "id": "MM-036",
+    "question": "Which 4-socket universal surge protector strip under \u20b91,500 features individual earth ground LED indicator and a heavy-duty cord?",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "adversarial",
+    "intent_type": "multi_constraint",
+    "category": "Computers & Accessories",
+    "constraints": {
+      "price_max": 1500,
+      "category": "surge_protector",
+      "specs": [
+        "4 sockets"
+      ],
+      "visual": [
+        "ground LED indicator",
+        "heavy-duty cord"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B0083T231O",
+        "product_name": "Belkin Essential Series 4-Socket Surge Protector Universal Socket with 5ft Heavy Duty Cable (Grey)",
+        "relevance": 3
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "socket_count": "text",
+      "led_indicators": "image",
+      "cord_thickness": "image"
+    }
+  },
+  {
+    "id": "MM-037",
+    "question": "Which 2-in-1 hybrid USB charging cable under \u20b9400 features dual micro-USB and Type-C stepped connectors on a braided jacket?",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "hard",
+    "intent_type": "multi_constraint",
+    "category": "Computers & Accessories",
+    "constraints": {
+      "price_max": 400,
+      "category": "cable",
+      "specs": [
+        "2-in-1 hybrid"
+      ],
+      "visual": [
+        "stepped dual connector tether",
+        "braided jacket"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B08HDJ86NZ",
+        "product_name": "boAt Deuce USB 300 2 in 1 Type-C & Micro USB Stress Resistant, Tangle-Free, Sturdy Cable with 3A Fast Charging & 480mbps Data Transmission, 10000+ Bends Lifespan and Extended 1.5m Length(Martian Red)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08WRBG3XW",
+        "product_name": "boAt Type C A325 Tangle-free, Sturdy Type C Cable with 3A Rapid Charging & 480mbps Data Transmission(Black)",
+        "relevance": 0
+      },
+      {
+        "product_id": "B08WRWPM22",
+        "product_name": "boAt Micro USB 55 Tangle-free, Sturdy Micro USB Cable with 3A Fast Charging & 480mbps Data Transmission (Black)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "connector_tether": "image",
+      "braided_jacket": "image"
+    }
+  },
+  {
+    "id": "MM-038",
+    "question": "Find a 500-watt mixer grinder under \u20b91,500 with a white compact base body and 3 stainless steel jars with transparent dome lids.",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "hard",
+    "intent_type": "multi_constraint",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "price_max": 1500,
+      "category": "mixer_grinder",
+      "specs": [
+        "500 watt",
+        "3 jars"
+      ],
+      "visual": [
+        "white base body",
+        "transparent dome lids"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B08KDBLMQP",
+        "product_name": "Croma 500W Mixer Grinder with 3 Stainless Steel Leak-proof Jars, 3 speed & Pulse function, 2 years warranty (CRAK4184, White & Purple)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B09X5C9VLK",
+        "product_name": "Lifelong LLMG23 Power Pro 500-Watt Mixer Grinder with 3 Jars (Liquidizing, Wet Grinding and Chutney Jar), Stainless Steel blades, 1 Year Warranty (Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B00HVXS7WC",
+        "product_name": "Bajaj Rex 500W Mixer Grinder with Nutri-Pro Feature, 3 Jars, White",
+        "relevance": 1
+      },
+      {
+        "product_id": "B07DGD4Z4C",
+        "product_name": "Butterfly Jet Elite Mixer Grinder, 750W, 4 Jars (Grey)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "wattage": "text",
+      "price": "text",
+      "jar_count": "text",
+      "base_color": "image",
+      "dome_lids": "image"
+    }
+  },
+  {
+    "id": "MM-039",
+    "question": "Which pop-up bread toaster under \u20b92,500 has dual top drop-in slots rather than a clamshell sandwich grill press?",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "medium",
+    "intent_type": "comparison",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "price_max": 2500,
+      "category": "toaster",
+      "visual": [
+        "dual top drop slots",
+        "not clamshell press"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B071VNHMX2",
+        "product_name": "Philips Daily Collection HD2582/00 830-Watt 2-Slice Pop-up Toaster (White)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B06XPYRWV5",
+        "product_name": "Pigeon by Stovekraft 2 Slice Auto Pop up Toaster. A Smart Bread Toaster for Your Home (750 Watt) (black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0073QGKAS",
+        "product_name": "Bajaj ATX 4 750-Watt Pop-up Toaster (White)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B00935MGHS",
+        "product_name": "Prestige PSMFB 800 Watt Sandwich Toaster with Fixed Plates, Black",
+        "relevance": 0
+      },
+      {
+        "product_id": "B07S851WX5",
+        "product_name": "Prestige Sandwich Maker PGMFD 01, Black",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "slot_mechanism": "image"
+    }
+  },
+  {
+    "id": "MM-040",
+    "question": "Show me a circular round dial smartwatch under \u20b92,000 rather than a rectangular square smartwatch.",
+    "evidence_type": "TEXT+IMAGE",
+    "difficulty": "adversarial",
+    "intent_type": "brand_plus_feature",
+    "category": "Electronics",
+    "constraints": {
+      "price_max": 2000,
+      "category": "smartwatch",
+      "visual": [
+        "circular round case",
+        "not rectangular"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B0B3RRWSF6",
+        "product_name": "Fire-Boltt Phoenix Smart Watch with Bluetooth Calling 1.3\",120+ Sports Modes, 240*240 PX High Res with SpO2, Heart Rate Monitoring & IP67 Rating",
+        "relevance": 3
+      },
+      {
+        "product_id": "B09V12K8NT",
+        "product_name": "boAt Wave Lite Smartwatch with 1.69\" HD Display, Sleek Metal Body, HR & SpO2 Level Monitor, 140+ Watch Faces, Activity Tracker, Multiple Sports Modes, IP68 & 7 Days Battery Life(Active Black)",
+        "relevance": 0
+      },
+      {
+        "product_id": "B0BF57RN3K",
+        "product_name": "Fire-Boltt Ninja Call Pro Plus 1.83\" Smart Watch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240*280 Pixel High Resolution",
+        "relevance": 0
+      },
+      {
+        "product_id": "B09NVPSCQT",
+        "product_name": "Noise ColorFit Pulse Grand Smart Watch with 1.69\"(4.29cm) HD Display, 60 Sports Modes, 150 Watch Faces, Fast Charge, Spo2, Stress, Sleep, Heart Rate Monitoring & IP68 Waterproof (Jet Black)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "price": "text",
+      "case_geometry": "image"
+    }
+  },
+  {
+    "id": "MM-041",
+    "question": "500 watt mixer grinder with 3 stainless steel jars",
+    "evidence_type": "TEXT",
+    "difficulty": "easy",
+    "intent_type": "feature_matching",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "category": "mixer_grinder",
+      "specs": [
+        "500 watt",
+        "3 stainless steel jars"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B09X5C9VLK",
+        "product_name": "Lifelong LLMG23 Power Pro 500-Watt Mixer Grinder with 3 Jars (Liquidizing, Wet Grinding and Chutney Jar), Stainless Steel blades, 1 Year Warranty (Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08KDBLMQP",
+        "product_name": "Croma 500W Mixer Grinder with 3 Stainless Steel Leak-proof Jars, 3 speed & Pulse function, 2 years warranty (CRAK4184, White & Purple)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B00HVXS7WC",
+        "product_name": "Bajaj Rex 500W Mixer Grinder with Nutri-Pro Feature, 3 Jars, White",
+        "relevance": 3
+      },
+      {
+        "product_id": "B07DGD4Z4C",
+        "product_name": "Butterfly Jet Elite Mixer Grinder, 750W, 4 Jars (Grey)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "wattage": "text",
+      "jar_count": "text",
+      "jar_material": "text"
+    }
+  },
+  {
+    "id": "MM-042",
+    "question": "10000mAh fast charging power bank with dual USB output ports",
+    "evidence_type": "TEXT",
+    "difficulty": "easy",
+    "intent_type": "feature_matching",
+    "category": "Electronics",
+    "constraints": {
+      "category": "power_bank",
+      "specs": [
+        "10000mAh",
+        "fast charging",
+        "dual USB output"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B08HVL8QN3",
+        "product_name": "Mi 10000mAH Li-Polymer, Micro-USB and Type C Input Port, Power Bank 3i with 18W Fast Charging (Midnight Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B0993BB11X",
+        "product_name": "Ambrane 10000mAh Slim Power Bank, 20W Fast Charging, Dual Output, Type C PD (Input & Output), Quick Charge, Li-Polymer, Multi-Layer Protection for iPhone, Anrdoid & Other Devices (Stylo 10K, Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08MC57J31",
+        "product_name": "MI 10000mAh Lithium Ion, Lithium Polymer Power Bank Pocket Pro with 22.5 Watt Fast Charging, Dual Input Ports(Micro-USB and Type C), Triple Output Ports, (Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08HV83HL3",
+        "product_name": "MI Power Bank 3i 20000mAh Lithium Polymer 18W Fast Power Delivery Charging | Input- Type C | Micro USB| Triple Output | Sandstone Black",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "capacity": "text",
+      "charging_speed": "text",
+      "output_ports": "text"
+    }
+  },
+  {
+    "id": "MM-043",
+    "question": "1.2 meter fast charging USB to 8 pin lightning cable for iPhone",
+    "evidence_type": "TEXT",
+    "difficulty": "easy",
+    "intent_type": "feature_matching",
+    "category": "Computers & Accessories",
+    "constraints": {
+      "category": "cable",
+      "specs": [
+        "1.2m length",
+        "Lightning connector",
+        "Fast charging"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B07JW9H4J1",
+        "product_name": "Wayona Nylon Braided USB to Lightning Fast Charging and Data Sync Cable Compatible for iPhone 13, 12,11, X, 8, 7, 6, 5, iPad Air, Pro, Mini (3 FT Pack of 1, Grey)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08WRBG3XW",
+        "product_name": "boAt Type C A325 Tangle-free, Sturdy Type C Cable with 3A Rapid Charging & 480mbps Data Transmission(Black)",
+        "relevance": 0
+      },
+      {
+        "product_id": "B08WRWPM22",
+        "product_name": "boAt Micro USB 55 Tangle-free, Sturdy Micro USB Cable with 3A Fast Charging & 480mbps Data Transmission (Black)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "length": "text",
+      "connector_type": "text",
+      "compatibility": "text"
+    }
+  },
+  {
+    "id": "MM-044",
+    "question": "32 inches HD ready smart Android LED TV with Dolby Audio",
+    "evidence_type": "TEXT",
+    "difficulty": "easy",
+    "intent_type": "feature_matching",
+    "category": "Electronics",
+    "constraints": {
+      "category": "television",
+      "specs": [
+        "32 inches",
+        "HD Ready",
+        "Smart Android",
+        "Dolby Audio"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B0B6F7LX4C",
+        "product_name": "MI 80 cm (32 inches) 5A Series HD Ready Smart Android LED TV L32M7-5AIN (Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08B42LWKN",
+        "product_name": "OnePlus 80 cm (32 inches) Y Series HD Ready LED Smart Android TV 32Y1 (Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08DPLCM6T",
+        "product_name": "LG 80 cm (32 inches) HD Ready Smart LED TV 32LM563BPTC (Dark Iron Gray)",
+        "relevance": 3
+      }
+    ],
+    "required_evidence": {
+      "screen_size": "text",
+      "resolution": "text",
+      "operating_system": "text",
+      "audio_technology": "text"
+    }
+  },
+  {
+    "id": "MM-045",
+    "question": "1000 watt dry iron with non-stick coated soleplate and temperature control dial",
+    "evidence_type": "TEXT",
+    "difficulty": "medium",
+    "intent_type": "feature_matching",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "category": "iron",
+      "specs": [
+        "1000 watt",
+        "dry iron",
+        "non-stick soleplate",
+        "temperature control"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B01C8P29N0",
+        "product_name": "Bajaj DX-6 1000W Dry Iron with Advance Soleplate and Anti-bacterial German Coating Technology, White",
+        "relevance": 3
+      },
+      {
+        "product_id": "B01C8P29T4",
+        "product_name": "Bajaj Majesty DX-11 1000W Dry Iron with Advance Soleplate and Anti-bacterial German Coating Technology, White and Blue",
+        "relevance": 3
+      },
+      {
+        "product_id": "B008QTK47Q",
+        "product_name": "Philips GC1905 1440-Watt Steam Iron with Spray (Blue)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "wattage": "text",
+      "iron_type": "text",
+      "soleplate": "text",
+      "temperature_control": "text"
+    }
+  },
+  {
+    "id": "MM-046",
+    "question": "Belkin 4 socket surge protector with 6.5 feet heavy duty cable",
+    "evidence_type": "TEXT",
+    "difficulty": "medium",
+    "intent_type": "exact_lookup",
+    "category": "Computers & Accessories",
+    "constraints": {
+      "brand": "Belkin",
+      "category": "surge_protector",
+      "specs": [
+        "4 sockets",
+        "6.5 feet cable"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B0083T231O",
+        "product_name": "Belkin Essential Series 4-Socket Surge Protector Universal Socket with 5ft Heavy Duty Cable (Grey)",
+        "relevance": 3
+      }
+    ],
+    "required_evidence": {
+      "brand": "text",
+      "socket_count": "text",
+      "cable_length": "text"
+    }
+  },
+  {
+    "id": "MM-047",
+    "question": "750 watt mixer grinder with 4 multipurpose stainless steel jars",
+    "evidence_type": "TEXT",
+    "difficulty": "medium",
+    "intent_type": "feature_matching",
+    "category": "Home & Kitchen",
+    "constraints": {
+      "category": "mixer_grinder",
+      "specs": [
+        "750 watt",
+        "4 jars"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B07DGD4Z4C",
+        "product_name": "Butterfly Jet Elite Mixer Grinder, 750W, 4 Jars (Grey)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08KDBLMQP",
+        "product_name": "Croma 500W Mixer Grinder with 3 Stainless Steel Leak-proof Jars, 3 speed & Pulse function, 2 years warranty (CRAK4184, White & Purple)",
+        "relevance": 0
+      },
+      {
+        "product_id": "B09X5C9VLK",
+        "product_name": "Lifelong LLMG23 Power Pro 500-Watt Mixer Grinder with 3 Jars (Liquidizing, Wet Grinding and Chutney Jar), Stainless Steel blades, 1 Year Warranty (Black)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "wattage": "text",
+      "jar_count": "text"
+    }
+  },
+  {
+    "id": "MM-048",
+    "question": "20000mAh power bank with 18W fast two-way Power Delivery charging and triple output ports",
+    "evidence_type": "TEXT",
+    "difficulty": "hard",
+    "intent_type": "multi_constraint",
+    "category": "Electronics",
+    "constraints": {
+      "category": "power_bank",
+      "specs": [
+        "20000mAh",
+        "18W or 20W",
+        "triple output"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B08HV83HL3",
+        "product_name": "MI Power Bank 3i 20000mAh Lithium Polymer 18W Fast Power Delivery Charging | Input- Type C | Micro USB| Triple Output | Sandstone Black",
+        "relevance": 3
+      },
+      {
+        "product_id": "B07RD611Z8",
+        "product_name": "Ambrane 20000mAh Power Bank with 20W Fast Charging, Triple Output, Power Delivery, Type C Input, Made in India, Multi-Layer Protection, Li-Polymer + Type C Cable (Stylo-20k, Black)",
+        "relevance": 3
+      },
+      {
+        "product_id": "B08MC57J31",
+        "product_name": "MI 10000mAh Lithium Ion, Lithium Polymer Power Bank Pocket Pro with 22.5 Watt Fast Charging, Dual Input Ports(Micro-USB and Type C), Triple Output Ports, (Black)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "capacity": "text",
+      "power_delivery": "text",
+      "port_count": "text"
+    }
+  },
+  {
+    "id": "MM-049",
+    "question": "High speed HDMI 2.1 cable supporting 8K resolution at 60Hz and 48Gbps bandwidth",
+    "evidence_type": "TEXT",
+    "difficulty": "hard",
+    "intent_type": "multi_constraint",
+    "category": "Electronics",
+    "constraints": {
+      "category": "cable",
+      "specs": [
+        "HDMI 2.1",
+        "8K@60Hz",
+        "48Gbps"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B07VSG5SXZ",
+        "product_name": "ZEBRONICS HAA2021 HDMI version 2.1 cable with 8K @ 60Hz, 4K @ 120Hz, eARC & CEC support, 3D compatible, 2 meters length, 48Gbps max and Gold-plated connectors",
+        "relevance": 3
+      },
+      {
+        "product_id": "B07KSMBL2H",
+        "product_name": "AmazonBasics Flexible Premium HDMI Cable (Black, 4K@60Hz, 18Gbps), 3-Foot",
+        "relevance": 0
+      },
+      {
+        "product_id": "B01D5H8ZI8",
+        "product_name": "AmazonBasics 3 Feet High Speed HDMI Male to Female 2.0 Extension Cable",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "hdmi_version": "text",
+      "resolution_support": "text",
+      "bandwidth": "text"
+    }
+  },
+  {
+    "id": "MM-050",
+    "question": "Wireless in-ear earphones with dedicated active noise cancellation ANC and ambient listening mode",
+    "evidence_type": "TEXT",
+    "difficulty": "adversarial",
+    "intent_type": "feature_matching",
+    "category": "Electronics",
+    "constraints": {
+      "category": "earphones",
+      "specs": [
+        "ANC active noise cancellation",
+        "ambient mode"
+      ]
+    },
+    "relevant_products": [
+      {
+        "product_id": "B08FN6WGDQ",
+        "product_name": "Samsung Galaxy Buds Live Bluetooth Truly Wireless in Ear Earbuds with Mic, Upto 21 Hours Playtime, Mystic Black",
+        "relevance": 3
+      },
+      {
+        "product_id": "B01DEWVZ2C",
+        "product_name": "JBL C100SI Wired In Ear Headphones with Mic, JBL Pure Bass Sound, One Button Multi-function Remote, Angled Buds for Comfort fit (Black)",
+        "relevance": 0
+      },
+      {
+        "product_id": "B08D77XZX5",
+        "product_name": "PTron Tangentbeat in-Ear Bluetooth 5.0 Wireless Headphones with Mic, Enhanced Bass, 10mm Drivers, Clear Calls, Snug-Fit, Fast Charging, Magnetic Buds, Voice Assistant & IPX4 Wireless Neckband (Black)",
+        "relevance": 0
+      }
+    ],
+    "required_evidence": {
+      "anc": "text",
+      "ambient_mode": "text"
+    }
+  }
+]

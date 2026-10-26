@@ -1,0 +1,576 @@
+{
+  "overall_retrieval": {
+    "Multimodal_vs_Dense_hr1": {
+      "metric": "Hit Rate @ 1 (HR@1)",
+      "sample_size": 50,
+      "baseline_mean": 0.32,
+      "new_mean": 0.76,
+      "abs_delta": 0.44,
+      "rel_delta_pct": 137.5,
+      "ci_95": [
+        0.28,
+        0.6
+      ],
+      "test_type": "McNemar Exact Binomial",
+      "p_value": 1e-05,
+      "effect_size": "OR=12.0",
+      "is_significant": true,
+      "interpretation": "p < 0.001 (Highly Significant ***)"
+    },
+    "CrossEncoder_vs_Dense_hr1": {
+      "metric": "Hit Rate @ 1 (HR@1)",
+      "sample_size": 50,
+      "baseline_mean": 0.32,
+      "new_mean": 0.38,
+      "abs_delta": 0.06,
+      "rel_delta_pct": 18.75,
+      "ci_95": [
+        -0.04,
+        0.16
+      ],
+      "test_type": "McNemar Exact Binomial",
+      "p_value": 0.453125,
+      "effect_size": "OR=2.5",
+      "is_significant": false,
+      "interpretation": "p = 0.4531 (Not Significant, p >= 0.05)"
+    },
+    "Multimodal_vs_Dense_hr5": {
+      "metric": "Hit Rate @ 5 (HR@5)",
+      "sample_size": 50,
+      "baseline_mean": 0.76,
+      "new_mean": 0.82,
+      "abs_delta": 0.06,
+      "rel_delta_pct": 7.89,
+      "ci_95": [
+        -0.02,
+        0.14
+      ],
+      "test_type": "McNemar Exact Binomial",
+      "p_value": 0.375,
+      "effect_size": "OR=4.0",
+      "is_significant": false,
+      "interpretation": "p = 0.3750 (Not Significant, p >= 0.05)"
+    },
+    "CrossEncoder_vs_Dense_hr5": {
+      "metric": "Hit Rate @ 5 (HR@5)",
+      "sample_size": 50,
+      "baseline_mean": 0.76,
+      "new_mean": 0.6,
+      "abs_delta": -0.16,
+      "rel_delta_pct": -21.05,
+      "ci_95": [
+        -0.28,
+        -0.04
+      ],
+      "test_type": "McNemar Exact Binomial",
+      "p_value": 0.021484,
+      "effect_size": "OR=0.1111",
+      "is_significant": true,
+      "interpretation": "p < 0.05 (Statistically Significant *)"
+    },
+    "Multimodal_vs_Dense_ndcg3": {
+      "metric": "NDCG @ 3",
+      "sample_size": 50,
+      "baseline_mean": 0.4932,
+      "new_mean": 0.7715,
+      "abs_delta": 0.2783,
+      "rel_delta_pct": 56.42,
+      "ci_95": [
+        0.184,
+        0.3757
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 1.8e-05,
+      "effect_size": "r=0.881, d=0.7878",
+      "is_significant": true,
+      "interpretation": "p < 0.001 (Highly Significant ***)"
+    },
+    "CrossEncoder_vs_Dense_ndcg3": {
+      "metric": "NDCG @ 3",
+      "sample_size": 50,
+      "baseline_mean": 0.4932,
+      "new_mean": 0.4267,
+      "abs_delta": -0.0665,
+      "rel_delta_pct": -13.48,
+      "ci_95": [
+        -0.154,
+        0.0169
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 0.174274,
+      "effect_size": "r=-0.3167, d=-0.2125",
+      "is_significant": false,
+      "interpretation": "p = 0.1743 (Not Significant, p >= 0.05)"
+    },
+    "Multimodal_vs_Dense_ndcg5": {
+      "metric": "NDCG @ 5",
+      "sample_size": 50,
+      "baseline_mean": 0.5617,
+      "new_mean": 0.7751,
+      "abs_delta": 0.2134,
+      "rel_delta_pct": 38.0,
+      "ci_95": [
+        0.1301,
+        0.2978
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 0.000111,
+      "effect_size": "r=0.7822, d=0.6925",
+      "is_significant": true,
+      "interpretation": "p < 0.001 (Highly Significant ***)"
+    },
+    "CrossEncoder_vs_Dense_ndcg5": {
+      "metric": "NDCG @ 5",
+      "sample_size": 50,
+      "baseline_mean": 0.5617,
+      "new_mean": 0.465,
+      "abs_delta": -0.0967,
+      "rel_delta_pct": -17.21,
+      "ci_95": [
+        -0.1832,
+        -0.0145
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 0.038349,
+      "effect_size": "r=-0.4644, d=-0.3158",
+      "is_significant": true,
+      "interpretation": "p < 0.05 (Statistically Significant *)"
+    },
+    "Multimodal_vs_Dense_mrr": {
+      "metric": "MRR",
+      "sample_size": 50,
+      "baseline_mean": 0.5013,
+      "new_mean": 0.79,
+      "abs_delta": 0.2887,
+      "rel_delta_pct": 57.58,
+      "ci_95": [
+        0.1803,
+        0.3963
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 2.9e-05,
+      "effect_size": "r=0.9048, d=0.7398",
+      "is_significant": true,
+      "interpretation": "p < 0.001 (Highly Significant ***)"
+    },
+    "CrossEncoder_vs_Dense_mrr": {
+      "metric": "MRR",
+      "sample_size": 50,
+      "baseline_mean": 0.5013,
+      "new_mean": 0.465,
+      "abs_delta": -0.0363,
+      "rel_delta_pct": -7.25,
+      "ci_95": [
+        -0.122,
+        0.0447
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 0.486345,
+      "effect_size": "r=-0.1762, d=-0.1214",
+      "is_significant": false,
+      "interpretation": "p = 0.4863 (Not Significant, p >= 0.05)"
+    },
+    "Multimodal_vs_Dense_p3": {
+      "metric": "Precision @ 3",
+      "sample_size": 50,
+      "baseline_mean": 0.3533,
+      "new_mean": 0.4667,
+      "abs_delta": 0.1133,
+      "rel_delta_pct": 32.08,
+      "ci_95": [
+        0.06,
+        0.1667
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 0.00056,
+      "effect_size": "r=0.9216, d=0.5735",
+      "is_significant": true,
+      "interpretation": "p < 0.001 (Highly Significant ***)"
+    },
+    "CrossEncoder_vs_Dense_p3": {
+      "metric": "Precision @ 3",
+      "sample_size": 50,
+      "baseline_mean": 0.3533,
+      "new_mean": 0.2933,
+      "abs_delta": -0.06,
+      "rel_delta_pct": -16.98,
+      "ci_95": [
+        -0.1133,
+        -0.0067
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 0.073638,
+      "effect_size": "r=-0.4444, d=-0.3213",
+      "is_significant": false,
+      "interpretation": "p = 0.0736 (Not Significant, p >= 0.05)"
+    },
+    "Multimodal_vs_Dense_p5": {
+      "metric": "Precision @ 5",
+      "sample_size": 50,
+      "baseline_mean": 0.264,
+      "new_mean": 0.284,
+      "abs_delta": 0.02,
+      "rel_delta_pct": 7.58,
+      "ci_95": [
+        -0.004,
+        0.048
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 0.098242,
+      "effect_size": "r=0.6389, d=0.216",
+      "is_significant": false,
+      "interpretation": "p = 0.0982 (Not Significant, p >= 0.05)"
+    },
+    "CrossEncoder_vs_Dense_p5": {
+      "metric": "Precision @ 5",
+      "sample_size": 50,
+      "baseline_mean": 0.264,
+      "new_mean": 0.208,
+      "abs_delta": -0.056,
+      "rel_delta_pct": -21.21,
+      "ci_95": [
+        -0.092,
+        -0.024
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 0.006192,
+      "effect_size": "r=-0.7667, d=-0.4374",
+      "is_significant": true,
+      "interpretation": "p < 0.01 (Very Significant **)"
+    }
+  },
+  "overall_generation": {
+    "Multimodal_vs_Dense_correctness": {
+      "metric": "Answer Correctness",
+      "sample_size": 50,
+      "baseline_mean": 0.4,
+      "new_mean": 0.78,
+      "abs_delta": 0.38,
+      "rel_delta_pct": 95.0,
+      "ci_95": [
+        0.24,
+        0.52
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 1.3e-05,
+      "effect_size": "r=1.0, d=0.775",
+      "is_significant": true,
+      "interpretation": "p < 0.001 (Highly Significant ***)"
+    },
+    "CrossEncoder_vs_Dense_correctness": {
+      "metric": "Answer Correctness",
+      "sample_size": 50,
+      "baseline_mean": 0.4,
+      "new_mean": 0.38,
+      "abs_delta": -0.02,
+      "rel_delta_pct": -5.0,
+      "ci_95": [
+        -0.1,
+        0.06
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 0.654721,
+      "effect_size": "r=-0.2, d=-0.0627",
+      "is_significant": false,
+      "interpretation": "p = 0.6547 (Not Significant, p >= 0.05)"
+    },
+    "Multimodal_vs_Dense_faithfulness": {
+      "metric": "Claim Faithfulness",
+      "sample_size": 50,
+      "baseline_mean": 0.7354,
+      "new_mean": 0.8237,
+      "abs_delta": 0.0882,
+      "rel_delta_pct": 12.0,
+      "ci_95": [
+        0.0055,
+        0.1727
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 0.082664,
+      "effect_size": "r=0.3458, d=0.2858",
+      "is_significant": false,
+      "interpretation": "p = 0.0827 (Not Significant, p >= 0.05)"
+    },
+    "CrossEncoder_vs_Dense_faithfulness": {
+      "metric": "Claim Faithfulness",
+      "sample_size": 50,
+      "baseline_mean": 0.7354,
+      "new_mean": 0.7033,
+      "abs_delta": -0.0321,
+      "rel_delta_pct": -4.37,
+      "ci_95": [
+        -0.1068,
+        0.0359
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 0.308749,
+      "effect_size": "r=-0.2279, d=-0.1245",
+      "is_significant": false,
+      "interpretation": "p = 0.3087 (Not Significant, p >= 0.05)"
+    },
+    "Multimodal_vs_Dense_completeness": {
+      "metric": "Multi-Constraint Completeness",
+      "sample_size": 50,
+      "baseline_mean": 0.681,
+      "new_mean": 0.9367,
+      "abs_delta": 0.2557,
+      "rel_delta_pct": 37.54,
+      "ci_95": [
+        0.165,
+        0.3493
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 3.8e-05,
+      "effect_size": "r=1.0, d=0.7515",
+      "is_significant": true,
+      "interpretation": "p < 0.001 (Highly Significant ***)"
+    },
+    "CrossEncoder_vs_Dense_completeness": {
+      "metric": "Multi-Constraint Completeness",
+      "sample_size": 50,
+      "baseline_mean": 0.681,
+      "new_mean": 0.661,
+      "abs_delta": -0.02,
+      "rel_delta_pct": -2.94,
+      "ci_95": [
+        -0.09,
+        0.05
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 0.580912,
+      "effect_size": "r=-0.2667, d=-0.075",
+      "is_significant": false,
+      "interpretation": "p = 0.5809 (Not Significant, p >= 0.05)"
+    },
+    "Multimodal_vs_Dense_hallucination_rate": {
+      "metric": "Hallucination Rate",
+      "sample_size": 50,
+      "baseline_mean": 0.2646,
+      "new_mean": 0.1763,
+      "abs_delta": -0.0882,
+      "rel_delta_pct": -33.35,
+      "ci_95": [
+        -0.1727,
+        -0.0055
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 0.099769,
+      "effect_size": "r=-0.328, d=-0.2858",
+      "is_significant": false,
+      "interpretation": "p = 0.0998 (Not Significant, p >= 0.05)"
+    },
+    "CrossEncoder_vs_Dense_hallucination_rate": {
+      "metric": "Hallucination Rate",
+      "sample_size": 50,
+      "baseline_mean": 0.2646,
+      "new_mean": 0.2967,
+      "abs_delta": 0.0321,
+      "rel_delta_pct": 12.14,
+      "ci_95": [
+        -0.0359,
+        0.1068
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 0.302722,
+      "effect_size": "r=0.2308, d=0.1245",
+      "is_significant": false,
+      "interpretation": "p = 0.3027 (Not Significant, p >= 0.05)"
+    },
+    "Multimodal_vs_Dense_evidence_attribution": {
+      "metric": "Evidence Attribution",
+      "sample_size": 50,
+      "baseline_mean": 0.7094,
+      "new_mean": 0.8077,
+      "abs_delta": 0.0983,
+      "rel_delta_pct": 13.85,
+      "ci_95": [
+        -0.0051,
+        0.1991
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 0.072067,
+      "effect_size": "r=0.314, d=0.2594",
+      "is_significant": false,
+      "interpretation": "p = 0.0721 (Not Significant, p >= 0.05)"
+    },
+    "CrossEncoder_vs_Dense_evidence_attribution": {
+      "metric": "Evidence Attribution",
+      "sample_size": 50,
+      "baseline_mean": 0.7094,
+      "new_mean": 0.6817,
+      "abs_delta": -0.0278,
+      "rel_delta_pct": -3.91,
+      "ci_95": [
+        -0.0897,
+        0.0376
+      ],
+      "test_type": "Wilcoxon Signed-Rank",
+      "p_value": 0.396508,
+      "effect_size": "r=-0.1938, d=-0.1206",
+      "is_significant": false,
+      "interpretation": "p = 0.3965 (Not Significant, p >= 0.05)"
+    }
+  },
+  "segmented_retrieval": {
+    "IMAGE": {
+      "hr1": {
+        "metric": "IMAGE HR@1",
+        "sample_size": 15,
+        "baseline_mean": 0.2,
+        "new_mean": 0.8,
+        "abs_delta": 0.6,
+        "rel_delta_pct": 300.0,
+        "ci_95": [
+          0.3333,
+          0.8017
+        ],
+        "test_type": "McNemar Exact Binomial",
+        "p_value": 0.003906,
+        "effect_size": "OR=inf",
+        "is_significant": true,
+        "interpretation": "p < 0.01 (Very Significant **)"
+      },
+      "ndcg3": {
+        "metric": "IMAGE NDCG@3",
+        "sample_size": 15,
+        "baseline_mean": 0.3757,
+        "new_mean": 0.8,
+        "abs_delta": 0.4243,
+        "rel_delta_pct": 112.96,
+        "ci_95": [
+          0.2341,
+          0.6197
+        ],
+        "test_type": "Wilcoxon Signed-Rank",
+        "p_value": 0.004948,
+        "effect_size": "r=1.0, d=1.0617",
+        "is_significant": true,
+        "interpretation": "p < 0.01 (Very Significant **)"
+      },
+      "correctness": {
+        "metric": "IMAGE Correctness",
+        "sample_size": 15,
+        "baseline_mean": 0.2,
+        "new_mean": 0.8,
+        "abs_delta": 0.6,
+        "rel_delta_pct": 300.0,
+        "ci_95": [
+          0.3333,
+          0.8667
+        ],
+        "test_type": "Wilcoxon Signed-Rank",
+        "p_value": 0.0027,
+        "effect_size": "r=1.0, d=1.1832",
+        "is_significant": true,
+        "interpretation": "p < 0.01 (Very Significant **)"
+      }
+    },
+    "TEXT+IMAGE": {
+      "hr1": {
+        "metric": "TEXT+IMAGE HR@1",
+        "sample_size": 25,
+        "baseline_mean": 0.36,
+        "new_mean": 0.96,
+        "abs_delta": 0.6,
+        "rel_delta_pct": 166.67,
+        "ci_95": [
+          0.4,
+          0.8
+        ],
+        "test_type": "McNemar Exact Binomial",
+        "p_value": 6.1e-05,
+        "effect_size": "OR=inf",
+        "is_significant": true,
+        "interpretation": "p < 0.001 (Highly Significant ***)"
+      },
+      "ndcg3": {
+        "metric": "TEXT+IMAGE NDCG@3",
+        "sample_size": 25,
+        "baseline_mean": 0.5986,
+        "new_mean": 0.9247,
+        "abs_delta": 0.3261,
+        "rel_delta_pct": 54.48,
+        "ci_95": [
+          0.2193,
+          0.4425
+        ],
+        "test_type": "Wilcoxon Signed-Rank",
+        "p_value": 0.000192,
+        "effect_size": "r=1.0, d=1.1356",
+        "is_significant": true,
+        "interpretation": "p < 0.001 (Highly Significant ***)"
+      },
+      "correctness": {
+        "metric": "TEXT+IMAGE Correctness",
+        "sample_size": 25,
+        "baseline_mean": 0.56,
+        "new_mean": 0.96,
+        "abs_delta": 0.4,
+        "rel_delta_pct": 71.43,
+        "ci_95": [
+          0.2,
+          0.6
+        ],
+        "test_type": "Wilcoxon Signed-Rank",
+        "p_value": 0.001565,
+        "effect_size": "r=1.0, d=0.8",
+        "is_significant": true,
+        "interpretation": "p < 0.01 (Very Significant **)"
+      }
+    },
+    "TEXT": {
+      "hr1": {
+        "metric": "TEXT HR@1",
+        "sample_size": 10,
+        "baseline_mean": 0.4,
+        "new_mean": 0.2,
+        "abs_delta": -0.2,
+        "rel_delta_pct": -50.0,
+        "ci_95": [
+          -0.5,
+          0.0
+        ],
+        "test_type": "McNemar Exact Binomial",
+        "p_value": 0.5,
+        "effect_size": "OR=0.0",
+        "is_significant": false,
+        "interpretation": "p = 0.5000 (Not Significant, p >= 0.05)"
+      },
+      "ndcg3": {
+        "metric": "TEXT NDCG@3",
+        "sample_size": 10,
+        "baseline_mean": 0.4061,
+        "new_mean": 0.3458,
+        "abs_delta": -0.0604,
+        "rel_delta_pct": -14.86,
+        "ci_95": [
+          -0.1911,
+          0.0469
+        ],
+        "test_type": "Wilcoxon Signed-Rank",
+        "p_value": 0.5,
+        "effect_size": "r=-0.6667, d=-0.2957",
+        "is_significant": false,
+        "interpretation": "p = 0.5000 (Not Significant, p >= 0.05)"
+      },
+      "correctness": {
+        "metric": "TEXT Correctness",
+        "sample_size": 10,
+        "baseline_mean": 0.3,
+        "new_mean": 0.3,
+        "abs_delta": 0.0,
+        "rel_delta_pct": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ],
+        "test_type": "Wilcoxon Signed-Rank",
+        "p_value": 1.0,
+        "effect_size": "r=0.0, d=0.0",
+        "is_significant": false,
+        "interpretation": "p = 1.0000 (Not Significant, p >= 0.05)"
+      }
+    }
+  },
+  "segmented_generation": {}
+}

@@ -1,0 +1,1306 @@
+{
+  "system_a_text_only": [
+    {
+      "id": "MM01",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B08HLC7Z3G",
+        "B07YR26BJ3",
+        "B07WGPBXY9",
+        "B07WJXCTG9",
+        "B091V8HK8Z"
+      ],
+      "grades": [
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.6666666666666666,
+      "p5": 0.4,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 0.75,
+      "answer": "1.  **Recommended product ID and name:**\n    KENT 16052 Elegant Electric Glass Kettle (ID: B07YR26BJ3)\n\n2.  **Explanation of how the text confirms the user's requirements:**\n    The product description explicitly states \"Borosilicate Glass Body,\" which confirms a transparent glass body. It also mentions \"Blue LED Illumination,\" directly addressing the user's requirement for blue LED illumination."
+    },
+    {
+      "id": "MM02",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B09DG9VNWB",
+        "B0B5GF6DQD",
+        "B09ZQK9X8G",
+        "B0949SBKMP",
+        "B0B3RRWSF6"
+      ],
+      "grades": [
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "hr1": 0.0,
+      "p3": 0.0,
+      "p5": 0.2,
+      "ndcg3": 0.0,
+      "ndcg5": 0.1815417925373527,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "1.  **Recommended product ID and name:**\n    Product 3 [ID: B09ZQK9X8G] - Noise ColorFit Pro 4 Advanced Bluetooth Calling Smart Watch\n\n2.  **Explanation of how the text confirms the user's requirements:**\n    The product description for the Noise ColorFit Pro 4 Advanced Bluetooth Calling Smart Watch explicitly mentions a \"Fully-Functional Digital Crown,\" which fulfills the user's requirement for a smartwatch with a rotating side crown.\n\n    However, the provided product text descriptions do not explicitly state whether the dial of this (or any other) smartwatch is circular/round or rectangular. Therefore, the shape of the dial cannot be confirmed solely based on the given text."
+    },
+    {
+      "id": "MM03",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B0B2931FCV",
+        "B08D11DZ2W",
+        "B09N3ZNHTY",
+        "B098R25TGC",
+        "B09Y5MP7C4"
+      ],
+      "grades": [
+        0,
+        0,
+        3,
+        3,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.3333333333333333,
+      "p5": 0.4,
+      "ndcg3": 0.3065735963827292,
+      "ndcg5": 0.57064171895532,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on the provided product text descriptions, none of the products explicitly state that they feature an \"elongated stem-style design\" or distinguish their design from a \"compact rounded pebble bud.\" The descriptions primarily focus on features like playback time, connectivity, controls, and charging, rather than the specific physical form factor of the earbuds themselves.\n\nTherefore, I cannot recommend a product that definitively meets your design requirement using only the given information."
+    },
+    {
+      "id": "MM04",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B08D11DZ2W",
+        "B09MDCZJXS",
+        "B08JQN8DGZ",
+        "B0B5GJRTHB",
+        "B0B2931FCV"
+      ],
+      "grades": [
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.3333333333333333,
+      "p5": 0.2,
+      "ndcg3": 0.5,
+      "ndcg5": 0.5,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on the provided product descriptions, none of the wireless earbuds charging cases explicitly state that they feature an \"interior digital numeric LED battery percentage display.\"\n\nHere's a breakdown of what each product's text mentions regarding battery indicators:\n\n*   **Product 1 [ID: B08D11DZ2W] - Boult Audio AirBass PowerBuds:** The description mentions \"Inbuilt Powerbank\" and \"120H Total Playtime,\" but there is no mention of any type of battery display or indicator, digital, numeric, LED, or otherwise.\n\n*   **Product 2 [ID: B09MDCZJXS] - Wings Phantom Pro Earphones:** The product name and details mention \"LED Battery Indicator.\" While it confirms an \"LED\" and a \"Battery Indicator,\" the text does not specify that it is \"digital numeric,\" shows a \"percentage,\" or is \"interior.\"\n\n*   **Product 3 [ID: B08JQN8DGZ] - boAt Airdopes 121v2:** The product name and details mention \"Battery Indicators.\" This is a general term and does not specify if it's LED, digital numeric, displays a percentage, or its location (e.g., interior).\n\nTherefore, none of the products, based solely on the provided text, fully confirm the user's specific requirement for an \"interior digital numeric LED battery percentage display.\""
+    },
+    {
+      "id": "MM05",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B0856HY85J",
+        "B0856HNMR7",
+        "B07PR1CL3S",
+        "B01FSYQ2A4",
+        "B0873L7J6X"
+      ],
+      "grades": [
+        3,
+        0,
+        1,
+        1,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.3333333333333333,
+      "p5": 0.2,
+      "ndcg3": 0.6293789948297479,
+      "ndcg5": 0.6423064581352996,
+      "pid_match": 1.0,
+      "visual_groundedness": 0.3333333333333333,
+      "answer": "1.  **Recommended product ID and name:**\n    B0856HY85J - boAt Rockerz 550 Over Ear Bluetooth Headphones\n\n2.  **Explanation of how the text confirms the user's requirements:**\n    The product name and category explicitly state \"Over Ear Bluetooth Headphones\" and \"Headphones|Over-Ear\" respectively. The user's query specifies \"circumaural over-ear cups that fully enclose the ear rather than sitting on top of the ear,\" which aligns with the definition of \"Over Ear\" headphones."
+    },
+    {
+      "id": "MM06",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B08HDJ86NZ",
+        "B07LGT55SJ",
+        "B0B5ZF3NRK",
+        "B09RX1FK54",
+        "B083342NKJ"
+      ],
+      "grades": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.0,
+      "p5": 0.0,
+      "ndcg3": 0.0,
+      "ndcg5": 0.0,
+      "pid_match": 0.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on the product text descriptions provided:\n\nNo product fully matches all the requirements of a \"USB fast charging cable [with] a dual-tone red and black braided nylon exterior with reinforced strain relief collars.\"\n\nHowever, **Product 2 [ID: B07LGT55SJ] - Wayona Usb Nylon Braided Data Sync And Charging Cable For Iphone, Ipad Tablet (Red, Black)** is the only product that features a \"Nylon Braided\" exterior with a \"(Red, Black)\" color, indicating a dual-tone red and black braided nylon exterior.\n\n**Explanation of how the text confirms/does not confirm the user's requirements for Product 2:**\n*   **Dual-tone red and black braided nylon exterior:** The product name explicitly states \"Nylon Braided Data Sync And Charging Cable For Iphone, Ipad Tablet (Red, Black)\", confirming the dual-tone red and black braided nylon exterior.\n*   **USB fast charging cable:** The product is described as a \"Charging Cable\", but it does not explicitly state \"fast charging\".\n*   **Reinforced strain relief collars:** The text does not mention \"reinforced strain relief collars\"."
+    },
+    {
+      "id": "MM07",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B075ZTJ9XR",
+        "B07RY2X9MP",
+        "B01M5967SY",
+        "B07RX14W1Q",
+        "B07VSG5SXZ"
+      ],
+      "grades": [
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "hr1": 0.0,
+      "p3": 0.0,
+      "p5": 0.2,
+      "ndcg3": 0.0,
+      "ndcg5": 0.23719771276929622,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on the product descriptions provided:\n\nNone of the listed HDMI cables explicitly feature both a \"thick nylon braided protective jacket\" and \"gold-plated metal connector housings.\"\n\n*   **Product 1 [ID: B075ZTJ9XR]** mentions a \"Nylon-braided HDMI cable,\" addressing the \"nylon braided\" part of the jacket requirement, but does not specify \"thick\" or \"protective jacket\" and does not mention gold-plated connectors.\n*   **Product 2 [ID: B07RY2X9MP]** mentions a \"Braided Cord\" but does not specify it as \"nylon,\" \"thick,\" or \"protective jacket,\" and does not mention gold-plated connectors.\n*   **Product 3 [ID: B01M5967SY]** is named \"TIZUM High Speed HDMI Cable Aura -Gold Plated-,\" indicating gold-plated connectors, but it does not mention a braided, nylon, thick, or protective jacket.\n\nTherefore, no single product meets all the requirements specified in your query based *solely* on the provided text."
+    },
+    {
+      "id": "MM08",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B08D64C9FN",
+        "B00NFD0ETQ",
+        "B004IO5BMQ",
+        "B08497Z1MQ",
+        "B0819HZPXL"
+      ],
+      "grades": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.0,
+      "p5": 0.0,
+      "ndcg3": 0.0,
+      "ndcg5": 0.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 0.6666666666666666,
+      "answer": "Based on the provided product descriptions, no single computer mouse explicitly features **all** the requested characteristics: an asymmetric ergonomic body with a contoured thumb rest and textured rubber side grip.\n\nHowever, Product 3, the Logitech M235 Wireless Mouse, features some related elements:\n\n1.  **Recommended product ID and name:**\n    No single product fully matches all requirements. Product 3 [ID: B004IO5BMQ] - Logitech M235 Wireless Mouse, is the closest match for some features.\n\n2.  **Explanation of how the text confirms the user's requirements:**\n    *   **Asymmetric ergonomic body / Contoured thumb rest:** The description for Product 3 mentions a \"contoured design.\" While this suggests an ergonomic shape for comfort, it does not explicitly state \"asymmetric\" or specifically mention a \"contoured thumb rest.\"\n    *   **Textured rubber side grip:** Product 3's description includes \"soft rubber grips.\" This partially aligns with \"textured rubber side grip,\" as \"rubber grips\" implies a side grip, and \"soft\" could be interpreted as a type of material for grip, although \"textured\" is not explicitly mentioned.\n\nThe other products (Product 1 and Product 2) do not provide any details regarding ergonomic body, thumb rests, or rubber grips in their descriptions."
+    },
+    {
+      "id": "MM09",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B08RX8G496",
+        "B09L8DSSFH",
+        "B09F6D21BY",
+        "B08XMSKKMM",
+        "B08RWCZ6SY"
+      ],
+      "grades": [
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.3333333333333333,
+      "p5": 0.2,
+      "ndcg3": 0.38685280723454163,
+      "ndcg5": 0.38685280723454163,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "1.  **Recommended product ID and name:**\n    Product 3 [ID: B09F6D21BY] - 7SEVEN Compatible LG TV Remote Suitable for LG Non Magic Smart tv Remote Control (Mouse & Voice Non-Support) MR20GA Prime Video and Netflix Hotkeys\n\n2.  **Explanation of how the text confirms the user's requirements:**\n    The product name for Product 3 explicitly states \"Prime Video and Netflix Hotkeys\". This confirms that the remote control features dedicated, branded shortcut buttons (referred to as \"Hotkeys\") for Prime Video and Netflix. The provided text does not contain information regarding the shape (rectangular) or color of these buttons."
+    },
+    {
+      "id": "MM10",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B09XX51X2G",
+        "B07XCM6T4N",
+        "B0BCVJ3PVP",
+        "B08WKCTFF3",
+        "B07MSLTW8Z"
+      ],
+      "grades": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.3333333333333333,
+      "p5": 0.2,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "1. **Recommended Product:**\n   - **ID:** B09XX51X2G (or B0BCVJ3PVP)\n   - **Name:** STRIFF Laptop Tabletop Stand, Fold-Up, Adjustable, Ventilated, Portable Holder for Desk, Aluminum Foldable Laptop Ergonomic Compatibility with up to 15.6-inch Laptop, All Mac, Tab, and Mobile (Silver) / SupCares Laptop Stand 7 Height Adjustable, Aluminium, Ventilated, Foldable, Portable Laptop Holder for Desk & Table Mount Upto 15.6 inch Laptop with Carry Pouch (Silver) *(Note: Both Product 1 and Product 3 explicitly match the aluminum and ventilated criteria)*.\n\n2. **Explanation:**\n   - The provided text confirms these products are made of **aluminum** (explicitly stated in Product 1 and Product 3 titles/descriptions) and are **ventilated** foldable riser stands/holders for desks rather than flat wooden bed desks. \n   - (Product 2 is excluded as its description specifies it has a \"thin, hard plastic frame\" rather than aluminum)."
+    },
+    {
+      "id": "MM11",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B09YV3K34W",
+        "B09YV4MW2T",
+        "B0B3RRWSF6",
+        "B0B3RSDSZ3",
+        "B0B3RS9DNF"
+      ],
+      "grades": [
+        0,
+        2,
+        3,
+        3,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.6666666666666666,
+      "p5": 0.6,
+      "ndcg3": 0.4175113851126525,
+      "ndcg5": 0.6509131561120757,
+      "pid_match": 1.0,
+      "visual_groundedness": 0.6666666666666666,
+      "answer": "Based on the provided product texts, here is the recommendation that matches your criteria:\n\n### 1. Recommended Product\n* **Product ID:** B0B3RRWSF6\n* **Product Name:** Fire-Boltt Phoenix Smart Watch with Bluetooth Calling 1.3\",120+ Sports Modes, 240*240 PX High Res with SpO2, Heart Rate Monitoring & IP67 Rating\n\n### 2. Explanation of How the Text Confirms Your Requirements\n* **Under \u20b92,000:** The price listed for this product is \u20b91,998, which is under \u20b92,000.\n* **Bluetooth Calling:** The product name and description explicitly state that it features \"Bluetooth Calling\" and enables you to make calls. \n\n*(Note: While the text confirms the price and Bluetooth calling feature, the provided product texts do not explicitly mention details about a \"round dial\" or \"metallic bezel styling\" for any of the retrieved products.)*"
+    },
+    {
+      "id": "MM12",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B0856HY85J",
+        "B0856HNMR7",
+        "B07L8KNP5F",
+        "B07PR1CL3S",
+        "B01FSYQ2A4"
+      ],
+      "grades": [
+        3,
+        0,
+        3,
+        1,
+        1
+      ],
+      "hr1": 1.0,
+      "p3": 0.6666666666666666,
+      "p5": 0.4,
+      "ndcg3": 0.881130592761647,
+      "ndcg5": 0.9166080785469746,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on the provided product text descriptions, here is the recommendation that matches your requirements:\n\n### 1. Recommended Product\n* **Product ID:** B0856HY85J\n* **Product Name:** boAt Rockerz 550 Over Ear Bluetooth Headphones with Upto 20 Hours Playback, 50MM Drivers, Soft Padded Ear Cushions and Physical Noise Isolation, Without Mic (Black)\n\n### 2. Explanation of How the Text Confirms Requirements\n* **Color:** The product name explicitly specifies the color as \"(Black)\".\n* **Style (Over-Ear & Full-sized earcups):** The product name and category confirm they are \"Over Ear\" headphones (falling under the `Over-Ear` category).\n* **Bluetooth:** The product name and description confirm they feature \"Bluetooth V5.0\" wireless connectivity.\n* **Price:** The price is listed as \u20b91,799, which is under the \u20b92,000 limit.\n* **Cushioned Headband / Ear Cushions:** The product name explicitly mentions \"Soft Padded Ear Cushions\". *(Note: While the text does not explicitly use the exact phrase \"cushioned headband\", it is the only product in the provided context that fully satisfies the Over-Ear, Bluetooth, color, price, and padded cushioning requirements).*"
+    },
+    {
+      "id": "MM13",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B08HLC7Z3G",
+        "B07YR26BJ3",
+        "B07WGPBXY9",
+        "B07QDSN9V6",
+        "B07WJXCTG9"
+      ],
+      "grades": [
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.6666666666666666,
+      "p5": 0.4,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on the product text provided, here is the answer to your query:\n\n**1. Recommended Product:**\n* **Product ID:** B08HLC7Z3G\n* **Product Name:** Inalsa Electric Kettle Prism Inox - 1350 W with LED Illumination & Boro-Silicate Body, 1.8 L Capacity along with Cordless Base, 2 Year Warranty (Black)\n\n**2. Explanation:**\n* **Under \u20b91,500:** The price is listed as \u20b91,182, which is under \u20b91,500.\n* **Transparent glass body:** The text states it features a \"Boro-Silicate Body\" (borosilicate glass).\n* **Concealed stainless steel heating base:** The text mentions it comes with a \"Cordless Base\" and \"Prism Inox\" (inox refers to stainless steel). *Note: While the provided text for this specific product does not explicitly use the word \"concealed,\" it is the only glass-bodied kettle under \u20b91,500 among the options.*"
+    },
+    {
+      "id": "MM14",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B0B5GJRTHB",
+        "B09N3ZNHTY",
+        "B0B2931FCV",
+        "B09Y5MP7C4",
+        "B08D11DZ2W"
+      ],
+      "grades": [
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.3333333333333333,
+      "p5": 0.2,
+      "ndcg3": 0.37062100517025215,
+      "ndcg5": 0.37062100517025215,
+      "pid_match": 0.0,
+      "visual_groundedness": 0.5,
+      "answer": "Based on the product text descriptions provided, none of the retrieved products explicitly mention a \"stem-style design\". Therefore, I cannot recommend a product that fully matches all of your specified criteria based strictly on the provided text."
+    },
+    {
+      "id": "MM15",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B08Y1TFSP6",
+        "B098NS6PVG",
+        "B09SB6SJB4",
+        "B0BFWGBX61",
+        "B09CMM3VGK"
+      ],
+      "grades": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.0,
+      "p5": 0.0,
+      "ndcg3": 0.0,
+      "ndcg5": 0.0,
+      "pid_match": 0.0,
+      "visual_groundedness": 0.0,
+      "answer": "Based on the product text descriptions provided, none of the listed products explicitly mention having a \"reinforced plug neck.\" Therefore, I cannot recommend a specific product that fulfills all parts of your request using *only* the provided text."
+    },
+    {
+      "id": "MM16",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B09NNJ9WYM",
+        "B0B16KD737",
+        "B0B466C3G4",
+        "B09DSXK8JX",
+        "B09Q5SWVBJ"
+      ],
+      "grades": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.0,
+      "p5": 0.0,
+      "ndcg3": 0.0,
+      "ndcg5": 0.0,
+      "pid_match": 0.0,
+      "visual_groundedness": 0.6666666666666666,
+      "answer": "Based on the provided product text descriptions, here is the information matching your request:\n\n**1. Recommended Product:**\n* **Product ID:** B0B16KD737\n* **Product Name:** VW 80 cm (32 inches) Playwall Frameless Series HD Ready Android Smart LED TV VW3251 (Black)\n\n**2. Explanation:**\n* **32-inch size:** The product name explicitly states \"(32 inches)\".\n* **Smart Android TV:** The product name and category confirm it is an Android Smart LED TV.\n* **Under \u20b915,000:** The price is listed as \u20b98,499, which is under \u20b915,000.\n* **Frameless three-sided bezel-less screen design:** The product name and series explicitly include the \"Frameless Series\" designation."
+    },
+    {
+      "id": "MM17",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B08LW31NQ6",
+        "B01M72LILF",
+        "B07X2L5Z8C",
+        "B01MQ2A86A",
+        "B099SD8PRP"
+      ],
+      "grades": [
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.3333333333333333,
+      "p5": 0.2,
+      "ndcg3": 0.37062100517025215,
+      "ndcg5": 0.35769354186470026,
+      "pid_match": 1.0,
+      "visual_groundedness": 0.3333333333333333,
+      "answer": "Based on the provided product text descriptions, here is the recommendation that matches your requirements:\n\n### 1. Recommended Product\n* **Product ID:** B01M72LILF\n* **Product Name:** Logitech M221 Wireless Mouse, Silent Buttons, 2.4 GHz with USB Mini Receiver, 1000 DPI Optical Tracking, 18-Month Battery Life, Ambidextrous PC / Mac / Laptop - Charcoal Grey\n\n### 2. Explanation of How the Text Confirms Your Requirements\n* **Under \u20b91,000:** The price listed for this product is \u20b9799, which is under the \u20b91,000 budget.\n* **Silent:** The product title and description state that it features \"Silent Buttons\" and offers over 90% noise reduction on the click sound.\n* **Wireless:** The title indicates it is a \"Wireless Mouse\" operating on \"2.4 GHz with USB Mini Receiver.\"\n* **Symmetrical Ambidextrous Body:** The product title explicitly designates the mouse as \"Ambidextrous.\" *(Note: Compactness is implied through its categorization and the inclusion of a USB Mini Receiver, matching portable mouse standards).*"
+    },
+    {
+      "id": "MM18",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B0BBN56J5H",
+        "B0BBN4DZBD",
+        "B0BBN3WF7V",
+        "B09FKDH6FS",
+        "B09GFLXVH9"
+      ],
+      "grades": [
+        3,
+        3,
+        3,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 1.0,
+      "p5": 0.6,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 0.6666666666666666,
+      "answer": "Based on the provided product texts, none of the retrieved products explicitly mention a \"waterdrop notch display\" in their descriptions. However, if looking for the smartphone that features the leather-like textured back (referred to as \"Leather Texture Design\") and is priced under \u20b97,000 (priced at \u20b96,499), the options are the Redmi A1 variants.\n\nHere is the best matching product based on the available text:\n\n**1. Recommended Product:**\n* **Product ID:** B0BBN56J5H (Black), B0BBN4DZBD (Light Blue), or B0BBN3WF7V (Light Green)\n* **Product Name:** Redmi A1 (available in Black, Light Blue, and Light Green variants)\n\n**2. Explanation:**\n* **Price:** The product text explicitly states a price of **\u20b96,499**, which is under the user's budget of \u20b97,000.\n* **Back Design:** The product titles and features explicitly state **\"Leather Texture Design\"**, fulfilling the user's requirement for a leather-like textured back.\n* **OS:** The text confirms it runs on **Android 12** (Android smartphone). \n*(Note: While the provided text descriptions confirm the price, Android OS, and leather texture design, the provided text snippets do not explicitly mention the term \"waterdrop notch display\" for any of the products.)*"
+    },
+    {
+      "id": "MM19",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B0B9RN5X8B",
+        "B078JBK4GX",
+        "B078JDNZJ8",
+        "B078JF6X9B",
+        "B097MKZHNV"
+      ],
+      "grades": [
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.3333333333333333,
+      "p5": 0.2,
+      "ndcg3": 0.3935773014954859,
+      "ndcg5": 0.3935773014954859,
+      "pid_match": 1.0,
+      "visual_groundedness": 0.6666666666666666,
+      "answer": "Based on the provided product text descriptions, here is the answer:\n\n1. **Recommended product ID and name:**\n   * **Product ID:** B078JDNZJ8\n   * **Name:** Havells Instanio 3-Litre Instant Geyser (White/Blue)\n\n2. **Explanation of how the text confirms the user's requirements:**\n   * **Price:** The product is priced at \u20b93,600, which is under the user's budget of \u20b94,000.\n   * **Type:** It is categorized as an \"InstantWaterHeaters\" (Instant water geyser).\n   * **Modern compact vertical tank / Outer body:** The text states it features a \"Rust and shock proof ABS outer body for long life\" and a \"Stainless steel inner tank of 304 grade\" with a 3-litre capacity.\n   * **Color-changing LED indicator ring:** The text explicitly confirms it features an \"LED Indicator: Colour-changing LEDs that change from blue to amber to indicate the hotness of the water.\""
+    },
+    {
+      "id": "MM20",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B07989VV5K",
+        "B008QTK47Q",
+        "B08H6CZSHT",
+        "B008LN8KDM",
+        "B08H6B3G96"
+      ],
+      "grades": [
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.3333333333333333,
+      "p5": 0.2,
+      "ndcg3": 0.6309297535714575,
+      "ndcg5": 0.6309297535714575,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on the provided product text descriptions, here is the answer to your query:\n\n**1. Recommended Product:**\n* **Product ID:** B008QTK47Q\n* **Product Name:** Philips GC1905 1440-Watt Steam Iron with Spray (Blue)\n\n**2. Explanation:**\n* **Price under \u20b92,000:** The price for this product is listed as \u20b91,614, which is under the \u20b92,000 limit.\n* **Translucent blue water reservoir with a front mist spray nozzle:** While the provided text descriptions do not explicitly mention a \"translucent blue water reservoir\" or a \"front mist spray nozzle,\" this product is the only steam iron in the retrieved context priced under \u20b92,000 that specifically includes \"Spray\" in its title and is identified as \"Blue\" (Philips GC1905 1440-Watt Steam Iron with Spray (Blue)), matching the feature-set for spray-type steam irons in this price range. *(Note: The other options are either priced above \u20b92,000 or do not feature a spray function in their title/description).*"
+    },
+    {
+      "id": "MM21",
+      "evidence": "TEXT",
+      "retrieved_ids": [
+        "B08KDBLMQP",
+        "B00HVXS7WC",
+        "B07TXCY3YK",
+        "B09X5C9VLK",
+        "B09Y358DZQ"
+      ],
+      "grades": [
+        3,
+        3,
+        3,
+        3,
+        2
+      ],
+      "hr1": 1.0,
+      "p3": 1.0,
+      "p5": 1.0,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on the provided product text descriptions, multiple products match your requirements for a \"500 watt mixer grinder with 3 stainless steel jars.\" Here are the recommended options:\n\n### 1. Recommended Products\n\n* **Option A:**\n  * **Product ID:** B08KDBLMQP\n  * **Product Name:** Croma 500W Mixer Grinder with 3 Stainless Steel Leak-proof Jars, 3 speed & Pulse function, 2 years warranty (CRAK4184, White & Purple)\n  \n* **Option B:**\n  * **Product ID:** B00HVXS7WC\n  * **Product Name:** Bajaj Rex 500W Mixer Grinder with Nutri-Pro Feature, 3 Jars, White\n\n* **Option C:**\n  * **Product ID:** B07TXCY3YK\n  * **Product Name:** Butterfly Hero Mixer Grinder, 500W, 3 Jars (Grey)\n\n---\n\n### 2. Explanation of How the Text Confirms the Requirements\n\nAll three products explicitly meet your criteria in their respective text descriptions:\n* **500 Watt:** \n  * *Croma:* Features a \"500W motor\".\n  * *Bajaj Rex:* States \"Wattage: 500 W\".\n  * *Butterfly Hero:* States \"Wattage: 500 W\".\n* **3 Stainless Steel Jars:** \n  * *Croma:* Features \"3 Stainless Steel Leak-proof Jars\".\n  * *Bajaj Rex:* Specifies \"No of Jars: 3\" and \"Jar Material: Stainless Steel\".\n  * *Butterfly Hero:* Specifies \"No of Jars: 3\" and \"Jar Material: Stainless Steel\"."
+    },
+    {
+      "id": "MM22",
+      "evidence": "TEXT",
+      "retrieved_ids": [
+        "B07X963JNS",
+        "B0993BB11X",
+        "B08HVJCW95",
+        "B08MC57J31",
+        "B09MZCQYHZ"
+      ],
+      "grades": [
+        0,
+        3,
+        3,
+        0,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.6666666666666666,
+      "p5": 0.4,
+      "ndcg3": 0.5307212739772436,
+      "ndcg5": 0.48841593855052057,
+      "pid_match": 1.0,
+      "visual_groundedness": 0.5,
+      "answer": "Based on the provided product text descriptions, here are the recommendations that best match your requirements for a 10000mAh fast charging power bank with dual USB output ports:\n\n### 1. Recommended Product\n* **Product ID:** B07X963JNS\n* **Product Name:** URBN 10000 mAh Lithium Power Bank UPR10K with 12 Watt Fast Charging, Blue\n\n*(Note: Product B0993BB11X and Product B08HVJCW95 also feature 10000mAh capacity and dual outputs, but Product B07X963JNS explicitly highlights \"Dual USB Output\" in its description).*\n\n---\n\n### 2. Explanation of How the Text Confirms Requirements\n* **10000mAh Capacity:** The product title and description explicitly state \"10000 mAh\".\n* **Fast Charging:** The product title and description explicitly mention \"12 Watt Fast Charging\" (and \"5V Fast Charge\").\n* **Dual USB Output Ports:** The description explicitly states \"Dual USB Output 2.4 Amp\"."
+    },
+    {
+      "id": "MM23",
+      "evidence": "TEXT",
+      "retrieved_ids": [
+        "B096MSW6CT",
+        "B095244Q22",
+        "B09KLVMZ3B",
+        "B07JW9H4J1",
+        "B07JPJJZ2H"
+      ],
+      "grades": [
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.0,
+      "p5": 0.2,
+      "ndcg3": 0.0,
+      "ndcg5": 0.2640681225725909,
+      "pid_match": 1.0,
+      "visual_groundedness": 0.5,
+      "answer": "Based on the provided product text descriptions, here is the recommendation that matches your requirements:\n\n**1. Recommended Product ID and Name**\n* **Product ID:** B09KLVMZ3B\n* **Product Name:** Portronics Konnect L 1.2M POR-1401 Fast Charging 3A 8 Pin USB Cable with Charge & Sync Function (White)\n\n**2. Explanation of How the Text Confirms the User's Requirements**\n* **1.2 meter:** The product name explicitly states \"1.2M\".\n* **Fast charging:** The product name and description explicitly state \"Fast Charging\".\n* **USB to 8 pin lightning cable:** The product name specifies it is an \"8 Pin USB Cable\". \n* **iPhone:** The product is designed for Apple devices (as indicated by the 8 pin designation and the brand compatibility typically associated with the Konnect L line)."
+    },
+    {
+      "id": "MM24",
+      "evidence": "TEXT",
+      "retrieved_ids": [
+        "B09X1M3DHX",
+        "B08QX1CC14",
+        "B09ZPJT8B2",
+        "B09DSXK8JX",
+        "B09ZPM4C2C"
+      ],
+      "grades": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.0,
+      "p5": 0.0,
+      "ndcg3": 0.0,
+      "ndcg5": 0.0,
+      "pid_match": 0.0,
+      "visual_groundedness": 0.0,
+      "answer": "Based on the product text descriptions provided, none of the listed products explicitly mention \"Dolby Audio\" in their text. However, matching the other criteria (32 inches, HD ready, Smart, Android, LED TV):\n\n1. **Recommended Product:**\n   * **ID:** B09ZPJT8B2\n   * **Name:** TCL 80 cm (32 inches) HD Ready Certified Android Smart LED TV 32S615 (Black)\n\n2. **Explanation of how the text confirms the user's requirements:**\n   * **32 inches:** The product name states \"80 cm (32 inches)\".\n   * **HD ready:** The description states \"Resolution: HD Ready (1366 x 768)\".\n   * **Smart Android LED TV:** The product name explicitly states \"Certified Android Smart LED TV\". *(Note: Product 1 is also a Smart LED TV, but Product 3 specifically includes \"Android\" in the title).*"
+    },
+    {
+      "id": "MM25",
+      "evidence": "TEXT",
+      "retrieved_ids": [
+        "B08235JZFB",
+        "B009P2L7CO",
+        "B00B7GKXMG",
+        "B01MY839VW",
+        "B07LDN9Q2P"
+      ],
+      "grades": [
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.0,
+      "p5": 0.2,
+      "ndcg3": 0.0,
+      "ndcg5": 0.2021073465005476,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on the provided product text descriptions, here is the recommendation:\n\n**1. Recommended Product:**\n* **Product ID:** B00B7GKXMG\n* **Product Name:** Wipro Smartlife Super Deluxe Dry Iron- 1000W\n\n**2. Explanation:**\nThe text confirms the user's requirements in the following ways:\n* **1000 watt:** The product name and description explicitly state \"1000W\".\n* **Dry iron:** The product name classifies it as a \"Dry Iron\".\n* **Non-stick coated soleplate:** The description explicitly mentions \"teflon non-stick coating\" and \"Smoothest coating dunpont teflon non-stick coating\".\n* **Temperature control:** The description explicitly states \"Adjustable thermostat controls\"."
+    }
+  ],
+  "system_b_multimodal": [
+    {
+      "id": "MM01",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B08HLC7Z3G",
+        "B07YR26BJ3",
+        "B07WGPBXY9",
+        "B07WJXCTG9",
+        "B091V8HK8Z"
+      ],
+      "grades": [
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.6666666666666666,
+      "p5": 0.4,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "The electric kettle that has a transparent glass body with blue LED illumination during boiling is **Product 2**.\n\n---\n\n1.  **Recommended product ID and name:**\n    *   **Product ID:** B07YR26BJ3\n    *   **Product Name:** KENT 16052 Elegant Electric Glass Kettle 1.8L 2000 W | Blue LED Illumination | Borosilicate Glass Body | Boil Drying Protection | Used as Boiler | Milk | Tea | Water & Soup | 1 Year Warranty\n\n2.  **Visual evidence from the image(s) confirming the design/appearance:**\n    The image for Product 2 clearly displays a kettle with a transparent, clear glass body filled with water, which appears to be boiling. A distinct blue light ring is visible at the base of the kettle, illuminating the water within.\n\n3.  **Explanation of why this product matches the user's requirements:**\n    This product perfectly matches the user's query for two reasons:\n    *   **Transparent glass body:** The product description explicitly states \"Borosilicate Glass Body,\" and the image visually confirms a transparent glass construction, allowing the water inside to be fully visible.\n    *   **Blue LED illumination during boiling:** The product description explicitly mentions \"Blue LED Illumination,\" and the image clearly shows a blue light emanating from the base of the kettle, consistent with illumination during the boiling process.\n\n*(Note: Product 1 also features a transparent glass body and shows blue LED illumination in its image, making it another potential match. However, Product 2's description explicitly specifies \"Blue LED Illumination,\" directly addressing the user's requirement.)*"
+    },
+    {
+      "id": "MM02",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B0B3RRWSF6",
+        "B0B3RSDSZ3",
+        "B09DG9VNWB",
+        "B0B5GF6DQD",
+        "B09ZQK9X8G"
+      ],
+      "grades": [
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.6666666666666666,
+      "p5": 0.4,
+      "ndcg3": 0.7653606369886218,
+      "ndcg5": 0.7653606369886218,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "The smartwatch that features a circular round dial with a rotating side crown instead of a rectangular face is the Fire-Boltt Phoenix Smart Watch.\n\n1.  **Recommended product ID and name:**\n    *   ID: B0B3RRWSF6\n    *   Name: Fire-Boltt Phoenix Smart Watch with Bluetooth Calling 1.3\",120+ Sports Modes, 240*240 PX High Res with SpO2, Heart Rate Monitoring & IP67 Rating\n\n2.  **Visual evidence from the image(s) confirming the design/appearance:**\n    *   The image for Product 1 clearly shows a watch with a perfectly circular screen and bezel.\n    *   On the right side of the watch case, there is a distinct, textured, knob-like element that functions as a rotating side crown, visually prominent against the smooth watch body.\n\n3.  **Explanation of why this product matches the user's requirements:**\n    *   **Circular round dial:** The image explicitly displays a smartwatch with a classic circular watch face, fulfilling the primary requirement.\n    *   **Rotating side crown:** A clear, visible rotating crown is present on the right side of the watch case, matching the user's description.\n    *   **Instead of a rectangular face:** The circular design directly contrasts with a rectangular face, meeting the negative constraint.\n\n(Product 2, ID: B0B3RSDSZ3, also matches these criteria as it appears to be the same model in a different color.)"
+    },
+    {
+      "id": "MM03",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B09N3ZNHTY",
+        "B098R25TGC",
+        "B0B2931FCV",
+        "B08D11DZ2W",
+        "B09Y5MP7C4"
+      ],
+      "grades": [
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.6666666666666666,
+      "p5": 0.4,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on your criteria, the following wireless earbuds feature an elongated stem-style design:\n\n---\n\n### Recommended Products\n\n**1. Product ID: B09N3ZNHTY**\n   *   **Name:** boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds with mic\n\n**2. Product ID: B098R25TGC**\n   *   **Name:** Noise Buds VS201 V2 in-Ear Truly Wireless Earbuds with Dual Equalizer\n\n---\n\n### Visual Evidence and Explanation\n\n**Product 1: boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds (B09N3ZNHTY)**\n*   **Visual Evidence:** The provided image for Product 1 clearly shows two black earbuds. Each earbud has a main in-ear component connected to a distinct, downward-extending elongated stem.\n*   **Explanation:** This product matches your requirement for an \"elongated stem-style design\" as its form factor includes a prominent stem extending from the earbud, rather than being a single compact, rounded unit.\n\n**Product 2: Noise Buds VS201 V2 in-Ear Truly Wireless Earbuds (B098R25TGC)**\n*   **Visual Evidence:** The image for Product 2 displays two olive green earbuds. Similar to Product 1, each earbud features a visible stem that projects downwards from the part that fits into the ear.\n*   **Explanation:** This product also fits the description of an \"elongated stem-style design\" due to the noticeable elongated portion extending from the main earbud body, differentiating it from a compact pebble-shaped bud.\n\n---\n\n**Product 3 (ZEBRONICS Zeb-Sound Bomb N1 - B0B2931FCV)** does not meet the requirement, as its image shows compact, rounded earbuds without an elongated stem."
+    },
+    {
+      "id": "MM04",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B08JQN8DGZ",
+        "B08D11DZ2W",
+        "B09MDCZJXS",
+        "B0B5GJRTHB",
+        "B0B2931FCV"
+      ],
+      "grades": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.3333333333333333,
+      "p5": 0.2,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 0.0,
+      "visual_groundedness": 1.0,
+      "answer": "1.  **Recommended product ID and name:** B08D11DZ2W - Boult Audio AirBass PowerBuds with Inbuilt Powerbank\n\n2.  **Visual evidence from the image(s) confirming the design/appearance:**\n    The image for Product 2 displays the black charging case open. Inside the case, positioned between the two compartments for the earbuds, there is a clear, illuminated digital numeric display showing \"100\".\n\n3.  **Explanation of why this product matches the user's requirements:**\n    The user specifically asked for a wireless earbuds charging case featuring an **interior digital numeric LED battery percentage display**. The image of the Boult Audio AirBass PowerBuds charging case distinctly shows a numerical value (\"100\") on an interior screen, indicating the battery percentage, which perfectly matches this requirement. The product description also mentions an \"Inbuilt Powerbank\", which often comes with such a display, though the image is the definitive confirmation."
+    },
+    {
+      "id": "MM05",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B0856HY85J",
+        "B07L8KNP5F",
+        "B07PR1CL3S",
+        "B01FSYQ2A4",
+        "B0856HNMR7"
+      ],
+      "grades": [
+        3,
+        3,
+        1,
+        1,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.6666666666666666,
+      "p5": 0.4,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 0.6666666666666666,
+      "answer": "Based on the product descriptions and visual evidence, the following product best matches your requirements:\n\n1.  **Recommended product ID and name:**\n    *   ID: B0856HY85J\n    *   Name: boAt Rockerz 550 Over Ear Bluetooth Headphones with Upto 20 Hours Playback, 50MM Drivers, Soft Padded Ear Cushions and Physical Noise Isolation, Without Mic (Black)\n\n2.  **Visual evidence from the image(s) confirming the design/appearance:**\n    *   The image for Product 1 shows large, oval-shaped earcups with thick, soft padding around the rim. The size and depth of these earcups are visually consistent with a circumaural design intended to fully enclose the ear.\n\n3.  **Explanation of why this product matches the user's requirements:**\n    *   The product name explicitly states \"boAt Rockerz 550 **Over Ear** Bluetooth Headphones,\" directly addressing the user's need for over-ear headphones.\n    *   The product category also confirms it as \"Over-Ear.\"\n    *   The description mentions \"50MM Drivers\" and \"Soft Padded Ear Cushions,\" which are characteristics typically found in larger, circumaural headphones designed for full ear enclosure and comfort.\n    *   Crucially, the image clearly depicts earcups that are large enough and shaped to fully surround the ear, providing a circumaural fit rather than sitting on top of the ear. The other two products (ZEBRONICS Zeb-Thunder and boAt Rockerz 450) are described as \"On-Ear\" or show visually smaller earcups that would rest on the ear."
+    },
+    {
+      "id": "MM06",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B08HDJ86NZ",
+        "B07LGT55SJ",
+        "B0B5ZF3NRK",
+        "B09RX1FK54",
+        "B083342NKJ"
+      ],
+      "grades": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.0,
+      "p5": 0.0,
+      "ndcg3": 0.0,
+      "ndcg5": 0.0,
+      "pid_match": 0.0,
+      "visual_groundedness": 1.0,
+      "answer": "The product that features a dual-tone red and black braided nylon exterior with reinforced strain relief collars is **Product 2**.\n\n1.  **Recommended product ID and name:**\n    *   ID: B07LGT55SJ\n    *   Name: Wayona Usb Nylon Braided Data Sync And Charging Cable For Iphone, Ipad Tablet (Red, Black)\n\n2.  **Visual evidence from the image(s) confirming the design/appearance:**\n    The image for Product 2 clearly shows the cable's exterior woven with alternating red and black threads, creating a distinct dual-tone braided pattern. Both the USB-A connector and the Lightning connector feature prominent black, robust-looking strain relief collars that are visibly reinforced where the cable meets the connector housing.\n\n3.  **Explanation of why this product matches the user's requirements:**\n    The user specifically asked for a cable with a \"dual-tone red and black braided nylon exterior\" and \"reinforced strain relief collars.\"\n    *   The product description explicitly mentions \"Nylon Braided\" and \"Red, Black,\" directly confirming the material and dual-tone color scheme.\n    *   The product image perfectly illustrates this, showing a cable with a woven texture composed of both red and black threads.\n    *   Furthermore, the image highlights the robust, black-colored strain relief collars at both ends of the cable, indicating a reinforced design that protects against bending stress.\n    *   Products 1 and 3 do not match the dual-tone red and black braided requirement; Product 1 is solid red braided, and Product 3 is solid red and not braided."
+    },
+    {
+      "id": "MM07",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B07VSG5SXZ",
+        "B075ZTJ9XR",
+        "B07RY2X9MP",
+        "B01M5967SY",
+        "B07RX14W1Q"
+      ],
+      "grades": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.3333333333333333,
+      "p5": 0.2,
+      "ndcg3": 0.6131471927654584,
+      "ndcg5": 0.6131471927654584,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "None of the retrieved products perfectly match both criteria of featuring a \"thick nylon braided protective jacket\" *with* \"gold-plated metal connector housings.\"\n\n*   Product 1 (ZEBRONICS HAA2021) has gold-plated connectors (pins) and metallic-looking grey housings, but its jacket is smooth, not braided.\n*   Product 2 (AmazonBasics High-Speed Braided HDMI Cable) has a nylon-braided jacket, but its connectors are silver-plated and the housings are black plastic.\n*   Product 3 (AmazonBasics 10.2 Gbps High-Speed 4K HDMI Cable with Braided Cord) has a braided jacket and metallic-looking grey housings, but its connectors are silver-plated, not gold-plated.\n\nHowever, if we prioritize the \"thick nylon braided protective jacket\" and a robust, metallic housing, Product 3 is the closest match, with a clear explanation of the missing \"gold-plated\" aspect for the connectors/housings.\n\n1.  **Recommended product ID and name:** B07RY2X9MP - AmazonBasics 10.2 Gbps High-Speed 4K HDMI Cable with Braided Cord (10-Foot, Dark Grey)\n\n2.  **Visual evidence from the image(s) confirming the design/appearance:**\n    *   The product image clearly displays a thick, dark grey cable with a visible woven, braided exterior, consistent with a \"thick nylon braided protective jacket\".\n    *   The connector housings are dark grey and appear to be made of a sturdy, metallic material, which aligns with \"metal connector housings\".\n\n3.  **Explanation of why this product matches the user's requirements (and its limitations):**\n    This AmazonBasics HDMI cable features a \"Braided Cord\" as stated in its description and is prominently shown in the image, fulfilling the requirement for a \"thick nylon braided protective jacket\". Additionally, the connector housings are visibly metallic and robust, matching the \"metal connector housings\" aspect.\n\n    However, it's important to note that while the housings are metallic, they are dark grey, not gold-plated. Furthermore, the connector pins themselves are silver, not gold-plated. Therefore, while it meets the braided jacket and metallic housing criteria, it does not feature *gold-plated* metal connector housings."
+    },
+    {
+      "id": "MM08",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B073BRXPZX",
+        "B08D64C9FN",
+        "B00NFD0ETQ",
+        "B004IO5BMQ",
+        "B08497Z1MQ"
+      ],
+      "grades": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.3333333333333333,
+      "p5": 0.2,
+      "ndcg3": 0.5874203951744313,
+      "ndcg5": 0.5874203951744313,
+      "pid_match": 1.0,
+      "visual_groundedness": 0.6666666666666666,
+      "answer": "The product that features an asymmetric ergonomic body with a contoured thumb rest and textured rubber side grip is the **Logitech G402 Hyperion Fury USB Wired Gaming Mouse**.\n\n1.  **Recommended product ID and name:**\n    ID: B00NFD0ETQ - Logitech G402 Hyperion Fury USB Wired Gaming Mouse, 4,000 DPI, Lightweight, 8 Programmable Buttons, Compatible for PC/Mac - Black\n\n2.  **Visual evidence from the image(s) confirming the design/appearance:**\n    The image of the Logitech G402 mouse clearly shows an asymmetric shape, designed to fit a right-hand grip. On the left side, there is a visible contoured area where the thumb naturally rests. Below this area, and extending along the lower side, there is a distinct black panel with a subtle textured pattern, indicating a side grip.\n\n3.  **Explanation of why this product matches the user's requirements:**\n    The Logitech G402 Hyperion Fury mouse fulfills all the user's requirements:\n    *   **Asymmetric ergonomic body:** The mouse's shape is clearly asymmetrical, with a prominent curve on the right side and a more angular, extended left side, indicating it's designed for ergonomic right-handed use, not ambidextrous.\n    *   **Contoured thumb rest:** The left side of the mouse features a noticeable indentation and extended shape, serving as a contoured rest for the user's thumb, enhancing comfort and control.\n    *   **Textured rubber side grip:** On both the left and right sides of the mouse, particularly where fingers and thumb would grip, there are distinct black panels with a subtle patterned texture. These visually appear to be rubberized or textured plastic, providing enhanced grip."
+    },
+    {
+      "id": "MM09",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B09L8DSSFH",
+        "B08RX8G496",
+        "B09F6D21BY",
+        "B08XMSKKMM",
+        "B08RWCZ6SY"
+      ],
+      "grades": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.3333333333333333,
+      "p5": 0.2,
+      "ndcg3": 0.6131471927654584,
+      "ndcg5": 0.6131471927654584,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "1.  **Recommended product ID and name:**\n    ID: B08RX8G496\n    Name: LRIPL Mi Remote Control with Netflix & Prime Video Button Compatible for Mi 4X LED Android Smart TV 4A Remote Control (32\"/43\") with Voice Command (Pairing Required)\n\n2.  **Visual evidence from the image(s) confirming the design/appearance:**\n    The image for Product 2 clearly shows two distinct buttons located below the directional pad. The button on the left is red and rectangular, branded with \"NETFLIX\" in white text. The button on the right is light blue/white and rectangular, branded with \"prime video\" in blue text.\n\n3.  **Explanation of why this product matches the user's requirements:**\n    This remote control perfectly matches the user's requirements as it features dedicated, rectangular, colored, and clearly branded shortcut buttons for both Netflix (red button) and Prime Video (light blue/white button), as specified in the query and visible in its product image. The product description also explicitly confirms the presence of \"Netflix & Prime Video Button\"."
+    },
+    {
+      "id": "MM10",
+      "evidence": "IMAGE",
+      "retrieved_ids": [
+        "B09XX51X2G",
+        "B07XCM6T4N",
+        "B0BCVJ3PVP",
+        "B08WKCTFF3",
+        "B07MSLTW8Z"
+      ],
+      "grades": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.3333333333333333,
+      "p5": 0.2,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on your query, here is the matching product recommendation:\n\n### 1. Recommended Product ID and Name\n* **Product ID:** B09XX51X2G\n* **Product Name:** STRIFF Laptop Tabletop Stand, Fold-Up, Adjustable, Ventilated, Portable Holder for Desk, Aluminum Foldable Laptop Ergonomic Compatibility with up to 15.6-inch Laptop, All Mac, Tab, and Mobile (Silver)\n\n---\n\n### 2. Visual Evidence\nLooking at the first image (Product 1), the accessory features a metallic, open-frame X-shaped structure with folding arms made of silver-colored aluminum. The top supporting arms clearly display elongated, hollow ventilation slots inlaid with anti-slip rubber pads, confirming it is an elevated frame rather than a solid flat tray or wooden lap desk.\n\n---\n\n### 3. Explanation\n* **Elevated Foldable Aluminum Riser Frame:** The product title and physical build confirm it is constructed from lightweight, foldable aluminum material designed to raise laptops ergonomically off a desk surface.\n* **Ventilated Hollow Slots:** The angled arms feature open cut-outs (slots) that allow unobstructed airflow underneath the laptop to prevent overheating.\n* **Not a Flat Wooden Bed Desk:** Unlike traditional bulky wooden lap desks or flat-surface bed trays (such as Product 2), this is a compact, open-design desktop riser meant for tabletops and desks."
+    },
+    {
+      "id": "MM11",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B09YV4MW2T",
+        "B0B3RRWSF6",
+        "B0B3RSDSZ3",
+        "B09YV3K34W",
+        "B0B3RS9DNF"
+      ],
+      "grades": [
+        2,
+        3,
+        3,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 1.0,
+      "p5": 0.6,
+      "ndcg3": 0.8451593915771352,
+      "ndcg5": 0.8451593915771352,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on your requirements for a **round dial smartwatch under \u20b92,000 with Bluetooth calling and metallic bezel styling**, here is the best match:\n\n### 1. Recommended Product\n* **Product ID:** B0B3RRWSF6 (and B0B3RSDSZ3)\n* **Product Name:** Fire-Boltt Phoenix Smart Watch with Bluetooth Calling 1.3\", 120+ Sports Modes, 240*240 PX High Res with SpO2, Heart Rate Monitoring & IP67 Rating\n* **Price:** \u20b91,998 (under the \u20b92,000 budget limit)\n\n---\n\n### 2. Visual Evidence from the Image\n* **Round Dial:** The image (Product 2) clearly displays a classic circular display and case shape.\n* **Metallic Bezel Styling:** The outer casing features a polished metallic finish that frames the screen, giving it a premium metallic aesthetic.\n\n---\n\n### 3. Why This Product Matches Your Requirements\n* **Price:** At \u20b91,998, it fits strictly within your budget of under \u20b92,000.\n* **Round Dial & Metallic Bezel:** The physical design features a circular touchscreen encased in a sleek metallic frame with a side crown button.\n* **Bluetooth Calling:** The product description and features explicitly include built-in Bluetooth calling capabilities."
+    },
+    {
+      "id": "MM12",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B0856HY85J",
+        "B07L8KNP5F",
+        "B07PR1CL3S",
+        "B01FSYQ2A4",
+        "B0856HNMR7"
+      ],
+      "grades": [
+        3,
+        3,
+        1,
+        1,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.6666666666666666,
+      "p5": 0.4,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on your requirements, here is the best matching product:\n\n1. **Recommended Product:**\n   * **Product ID:** B0856HY85J\n   * **Name:** boAt Rockerz 550 Over Ear Bluetooth Headphones (Black)\n\n2. **Visual Evidence:**\n   * The image for Product 1 shows a robust **over-ear / circumaural form-factor** with large, full-sized earcups completely enclosing the ear area, a thick padded headband, and a sleek black color scheme.\n\n3. **Explanation of Match:**\n   * **Price:** At \u20b91,799, it is comfortably under your \u20b92,000 budget limit.\n   * **Type & Design:** It features an **over-ear** design with large earcups and soft padded ear cushions as confirmed by both the title/description and visual evidence (unlike Products 2 and 3, which are categorized and designed as smaller on-ear headphones).\n   * **Connectivity:** It includes wireless Bluetooth functionality. \n   * **Color:** It comes in a black finish matching your preference."
+    },
+    {
+      "id": "MM13",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B08HLC7Z3G",
+        "B07YR26BJ3",
+        "B07WGPBXY9",
+        "B07QDSN9V6",
+        "B07WJXCTG9"
+      ],
+      "grades": [
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.6666666666666666,
+      "p5": 0.4,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on your requirements, here are the matching products under \u20b91,500 that feature a transparent glass body and concealed stainless steel heating base:\n\n### 1. Recommended Products & IDs:\n* **Product 1 [ID: B08HLC7Z3G]** - Inalsa Electric Kettle Prism Inox (Price: \u20b91,182)\n* **Product 2 [ID: B07YR26BJ3]** - KENT 16052 Elegant Electric Glass Kettle (Price: \u20b91,199)\n\n---\n\n### 2. Visual Evidence:\n* **Product 1 Image:** Shows a completely transparent, clear borosilicate glass body revealing boiling water inside, coupled with a metallic stainless steel base wrapping around the lower section and a black handle/lid.\n* **Product 2 Image:** Displays a clear transparent glass pitcher body with graduated volume markings, sitting atop a stainless steel bottom ring enclosing the concealed heating element, accompanied by blue LED illumination around the base.\n\n---\n\n### 3. Explanation:\nBoth options perfectly fit your criteria:\n* **Price:** Both are priced well below your \u20b91,500 budget (\u20b91,182 and \u20b91,199 respectively).\n* **Transparent Glass Body:** Both feature premium borosilicate glass bodies allowing complete visibility of the water and boiling process.\n* **Concealed Stainless Steel Heating Base:** Both incorporate a stainless steel lower band/base design housing concealed heating elements for safe and easy cleaning. \n\n*(Note: Product 3 is excluded because it features an opaque stainless steel body rather than a transparent glass body.)*"
+    },
+    {
+      "id": "MM14",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B09N3ZNHTY",
+        "B098R25TGC",
+        "B08JQN8DGZ",
+        "B0B5GJRTHB",
+        "B0B2931FCV"
+      ],
+      "grades": [
+        3,
+        3,
+        1,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.6666666666666666,
+      "p5": 0.4,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on your requirements, here is the matching product recommendation:\n\n1. **Recommended Product:**\n   * **Product ID:** B09N3ZNHTY\n   * **Product Name:** boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds (Bold Black)\n\n2. **Visual Evidence:**\n   * The image for Product 1 (boAt Airdopes 141) clearly shows an extended **stem-style design** with in-ear silicon tips and a touch control area marked with a fingerprint icon on the stem.\n\n3. **Explanation of Why It Matches:**\n   * **Price:** At \u20b91,499, it fits strictly under the \u20b91,500 budget requirement.\n   * **Design:** The visual inspection confirms the elongated stem-style form-factor.\n   * **Features:** It includes modern charging capabilities (ASAP Charge / Type-C connectivity) along with features like 42H playtime, Beast Mode, and IPX4 water resistance."
+    },
+    {
+      "id": "MM15",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B08Y1TFSP6",
+        "B098NS6PVG",
+        "B09SB6SJB4",
+        "B0BFWGBX61",
+        "B09CMM3VGK"
+      ],
+      "grades": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.0,
+      "p5": 0.0,
+      "ndcg3": 0.0,
+      "ndcg5": 0.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on your requirements, here are the matching products from the retrieved options (all priced well under \u20b9400):\n\n### 1. Recommended Products & Names:\n* **Product 1 [ID: B08Y1TFSP6]:** pTron Solero TB301 3A Type-C Data and Fast Charging Cable (Price: \u20b9149)\n* **Product 2 [ID: B098NS6PVG]:** Ambrane Unbreakable 60W / 3A Fast Charging 1.5m Braided Type C Cable - RCT15A (Price: \u20b9199)\n* **Product 3 [ID: B09SB6SJB4]:** Amazon Brand - Solimo Fast Charging Braided Type C Data Cable Seam (Price: \u20b9129)\n\n---\n\n### 2. Visual Evidence from Images:\n* **Product 1 (pTron Solero):** The image displays a heavy-duty nylon braided cord paired with prominently molded, extended strain relief boots (reinforced plug necks) at both the USB-A and Type-C connectors to prevent bending wear.\n* **Product 2 (Ambrane):** The image shows a sturdy braided outer jacket connected to connectors featuring heavily ribbed, flexible neck reinforcement sleeves designed to absorb stress and prevent fraying.\n* **Product 3 (Amazon Solimo):** The image exhibits a tough braided cable structure featuring extended, ribbed rubberized strain-relief collars right beneath the connector housings for extra neck reinforcement.\n\n---\n\n### 3. Explanation of Why These Products Match:\nAll three options meet your criteria completely:\n* **Pricing:** Every option is priced under \u20b9400 (ranging from \u20b9129 to \u20b9199).\n* **Fast Charging:** They all support 3A fast charging and 480Mbps data sync.\n* **Heavy-Duty Braided Cord & Reinforced Neck:** Each of these cables is built with durable braided exteriors and features clearly visible, reinforced strain-relief (plug necks) in their product images to ensure longevity against daily bending and pulling."
+    },
+    {
+      "id": "MM16",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B0B6F7LX4C",
+        "B09NNJ9WYM",
+        "B0B16KD737",
+        "B0B466C3G4",
+        "B09DSXK8JX"
+      ],
+      "grades": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.3333333333333333,
+      "p5": 0.2,
+      "ndcg3": 0.541942129480027,
+      "ndcg5": 0.541942129480027,
+      "pid_match": 0.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on the product details and visual evidence provided, here is the answer to your query:\n\n1. **Recommended Product:**\n   * **Product ID:** B0B16KD737\n   * **Product Name:** VW 80 cm (32 inches) Playwall Frameless Series HD Ready Android Smart LED TV VW3251 (Black)\n\n2. **Visual Evidence from the Image:**\n   * The product image clearly displays a **\"FRAMELESS design\"** badge in the upper-left corner of the screen. \n   * The physical appearance shows extremely thin borders on the top, left, and right sides of the display panel, creating an edge-to-edge viewing experience while maintaining a slim black chin bar at the bottom.\n\n3. **Explanation of Match:**\n   * **Screen Size & Type:** It is a 32-inch Smart Android TV.\n   * **Design:** It explicitly belongs to the \"Frameless Series\" featuring a three-sided bezel-less design as requested and confirmed by the product image.\n   * **Price:** At **\u20b98,499**, it comfortably falls well below the user's maximum budget of \u20b915,000."
+    },
+    {
+      "id": "MM17",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B01M72LILF",
+        "B01J0XWYKQ",
+        "B09GB5B4BK",
+        "B08LW31NQ6",
+        "B07X2L5Z8C"
+      ],
+      "grades": [
+        3,
+        3,
+        1,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.6666666666666666,
+      "p5": 0.4,
+      "ndcg3": 1.0,
+      "ndcg5": 0.9651194532279319,
+      "pid_match": 1.0,
+      "visual_groundedness": 0.3333333333333333,
+      "answer": "Based on your requirements, here is the best matching product:\n\n### 1. Recommended Product\n* **Product ID:** B01M72LILF\n* **Product Name:** Logitech M221 Wireless Mouse, Silent Buttons, 2.4 GHz with USB Mini Receiver, 1000 DPI Optical Tracking, 18-Month Battery Life, Ambidextrous PC / Mac / Laptop - Charcoal Grey (Price: \u20b9799)\n\n---\n\n### 2. Visual Evidence\n* **Image Analysis (Image 1):** The product image shows a smooth, symmetrical top-down view of the mouse with centered branding and a centrally placed scroll wheel, confirming its ambidextrous form factor. \n* **Design & Form-Factor:** It features a clean, low-profile, and compact shell designed to comfortably fit both left- and right-handed users.\n\n---\n\n### 3. Explanation of Why It Matches Your Requirements\n* **Compact & Wireless:** It operates on a reliable 2.4 GHz wireless connection via a compact USB mini receiver.\n* **Silent:** Specifically engineered with silent buttons to eliminate clicking noise while maintaining the familiar click feel.\n* **Low-Profile & Symmetrical Ambidextrous Body:** The physical shape is symmetrical, allowing comfortable use for either hand, and features a low-profile aesthetic.\n* **Price:** At \u20b9799, it comfortably falls well below your \u20b91,000 budget."
+    },
+    {
+      "id": "MM18",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B0BBN56J5H",
+        "B0BBN4DZBD",
+        "B0BBN3WF7V",
+        "B09FKDH6FS",
+        "B09GFLXVH9"
+      ],
+      "grades": [
+        3,
+        3,
+        3,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 1.0,
+      "p5": 0.6,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on your requirements, all three retrieved variants of the **Redmi A1** match your criteria (available in Black, Light Blue, and Light Green). \n\nHere are the details for the products:\n\n### 1. Recommended Product IDs and Names\n* **Product 1 [ID: B0BBN56J5H]** \u2013 Redmi A1 (Black, 2GB RAM, 32GB Storage)\n* **Product 2 [ID: B0BBN4DZBD]** \u2013 Redmi A1 (Light Blue, 2GB RAM, 32GB Storage)\n* **Product 3 [ID: B0BBN3WF7V]** \u2013 Redmi A1 (Light Green, 2GB RAM, 32GB ROM)\n\n---\n\n### 2. Visual Evidence from Images\n* **Display/Form-Factor:** The provided images for all three products clearly show a modern front panel featuring a centered **waterdrop notch** (or teardrop notch) at the top of the display housing the front-facing camera.\n* **Rear Panel/Design:** The rear view displays a rectangular dual-camera module paired with a clean, matte finish that highlights the **leather-like textured back design** along with the subtle \"Redmi\" branding.\n\n---\n\n### 3. Explanation of Why These Products Match Your Requirements\n* **Price:** Priced at **\u20b96,499**, which is safely under your \u20b97,000 budget limit.\n* **OS:** Runs on **Android 12**.\n* **Leather-Like Textured Back:** Explicitly highlighted in the product titles and descriptions (\"Leather Texture Design\") and structurally designed with a scratch-resistant textured finish for better grip.\n* **Waterdrop Notch Display:** Visually confirmed via the product images showing the teardrop cutout at the top-center of the screen."
+    },
+    {
+      "id": "MM19",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B078JDNZJ8",
+        "B097R2V1W8",
+        "B0B9RN5X8B",
+        "B078JBK4GX",
+        "B078JF6X9B"
+      ],
+      "grades": [
+        3,
+        2,
+        0,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.6666666666666666,
+      "p5": 0.4,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 0.6666666666666666,
+      "answer": "Based on the product descriptions and visual evidence, here is the matching product:\n\n1. **Recommended Product:**\n   - **ID:** B078JDNZJ8\n   - **Name:** Havells Instanio 3-Litre Instant Geyser (White/Blue)\n\n2. **Visual Evidence:**\n   - The product image (Product 1) displays a modern, vertical, compact tank design with a prominent circular LED indicator ring glowing in blue on the front body.\n\n3. **Explanation:**\n   - **Price:** Priced at \u20b93,600, it falls comfortably under the \u20b94,000 budget.\n   - **Design & Features:** The description and image explicitly highlight its modern compact vertical form factor and color-changing LED indicator ring (which changes from blue to amber to indicate water temperature)."
+    },
+    {
+      "id": "MM20",
+      "evidence": "TEXT+IMAGE",
+      "retrieved_ids": [
+        "B008QTK47Q",
+        "B07989VV5K",
+        "B08H6CZSHT",
+        "B008LN8KDM",
+        "B08H6B3G96"
+      ],
+      "grades": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hr1": 1.0,
+      "p3": 0.3333333333333333,
+      "p5": 0.2,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on the user's query and the provided product information and images, here is the assessment:\n\n1. **Recommended Product ID and Name:**\n   - **Product ID:** B07989VV5K\n   - **Product Name:** Usha Steam Pro SI 3713, 1300 W Steam Iron (White & Blue)\n\n2. **Visual Evidence from the Image:**\n   - The product image for Product 2 clearly shows a white and blue steam iron featuring a large **translucent blue water reservoir** running along the lower body and a distinct **front mist spray nozzle** built into the nose of the iron.\n\n3. **Explanation of Why This Product Matches:**\n   - **Price:** At \u20b9999, it is well under the user's \u20b92,000 budget limit (Product 3 is above \u20b92,000, and Product 1 features a purple/white body with a light-blue tint rather than the prominent translucent blue body and clear mist nozzle layout of Product 2).\n   - **Design/Features:** The product image confirms the exact physical design requested\u2014a translucent blue water reservoir combined with a front mist spray nozzle on a white-and-blue form factor."
+    },
+    {
+      "id": "MM21",
+      "evidence": "TEXT",
+      "retrieved_ids": [
+        "B08KDBLMQP",
+        "B00HVXS7WC",
+        "B07TXCY3YK",
+        "B09X5C9VLK",
+        "B09Y358DZQ"
+      ],
+      "grades": [
+        3,
+        3,
+        3,
+        3,
+        2
+      ],
+      "hr1": 1.0,
+      "p3": 1.0,
+      "p5": 1.0,
+      "ndcg3": 1.0,
+      "ndcg5": 1.0,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on your requirements, here is the recommended product:\n\n### 1. Recommended Product\n* **Product ID:** B08KDBLMQP\n* **Product Name:** Croma 500W Mixer Grinder with 3 Stainless Steel Leak-proof Jars, 3 speed & Pulse function, 2 years warranty (CRAK4184, White & Purple)\n\n---\n\n### 2. Visual Evidence from the Image\n* **Appliance Base:** The image displays a smooth, rounded white and purple motorized base unit featuring a central circular speed-control dial outlined in purple.\n* **Jars & Materials:** The set includes **three jars** made of polished **stainless steel** with shiny metallic bodies and matte black bases.\n* **Lids & Handles:** The main jar is equipped with a sturdy ergonomic handle (accented with purple matching the base) and a clear, domed transparent lid. The two smaller jars feature white fitting lids.\n\n---\n\n### 3. Explanation of Why This Product Matches Your Requirements\n* **Power Rating:** It features a **500-watt** motor, perfectly matching your wattage specification.\n* **Jar Count and Material:** The package includes **3 stainless steel jars** (as confirmed by both the title and the visual evidence showing all three metallic jars alongside the motor unit).\n* **Price & Value:** At \u20b91,290, it is also the most budget-friendly option among the retrieved 500W 3-jar appliances while fully satisfying all functional and aesthetic criteria."
+    },
+    {
+      "id": "MM22",
+      "evidence": "TEXT",
+      "retrieved_ids": [
+        "B07X963JNS",
+        "B0993BB11X",
+        "B08HVJCW95",
+        "B08MC57J31",
+        "B09MZCQYHZ"
+      ],
+      "grades": [
+        0,
+        3,
+        3,
+        0,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.6666666666666666,
+      "p5": 0.4,
+      "ndcg3": 0.5307212739772436,
+      "ndcg5": 0.48841593855052057,
+      "pid_match": 1.0,
+      "visual_groundedness": 0.5,
+      "answer": "Based on your requirements, here is the matching product recommendation:\n\n### 1. Recommended Product ID and Name\n* **Product ID:** B0993BB11X\n* **Product Name:** Ambrane 10000mAh Slim Power Bank, 20W Fast Charging, Dual Output, Type C PD (Input & Output), Quick Charge, Li-Polymer, Multi-Layer Protection for iPhone, Android & Other Devices (Stylo 10K, Black)\n\n---\n\n### 2. Visual Evidence from the Image(s)\n* **Image 2 (Stylo 10K):** Shows a sleek, rectangular, slim form-factor power bank in matte black with embossed \"10000\" branding vertically down the front face, highlighting its high capacity and modern aesthetic.\n\n---\n\n### 3. Explanation of Why This Product Matches the Requirements\n* **Capacity:** It features a **10000mAh** capacity battery as specified.\n* **Fast Charging:** It supports **20W Fast Charging** and Quick Charge capabilities.\n* **Dual Output:** The product description and specifications confirm it includes **dual output ports** alongside Type-C PD support for versatile device charging."
+    },
+    {
+      "id": "MM23",
+      "evidence": "TEXT",
+      "retrieved_ids": [
+        "B096MSW6CT",
+        "B095244Q22",
+        "B09KLVMZ3B",
+        "B07JW9H4J1",
+        "B07JPJJZ2H"
+      ],
+      "grades": [
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.0,
+      "p5": 0.2,
+      "ndcg3": 0.0,
+      "ndcg5": 0.2640681225725909,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on your query for a **1.2 meter fast charging USB to 8 pin lightning cable**, here is the recommended product:\n\n### 1. Recommended Product ID and Name\n* **Product ID:** B09KLVMZ3B\n* **Product Name:** Portronics Konnect L 1.2M POR-1401 Fast Charging 3A 8 Pin USB Cable with Charge & Sync Function (White)\n\n### 2. Visual Evidence from the Image\n* **Image Analysis:** The product image shows a standard USB Type-A connector on one end and an 8-pin Lightning connector on the other end. \n* **Design & Form-Factor:** It features a durable white braided nylon cable jacket with reinforced strain-relief collars on the connector housings, and a convenient right-angled (L-shaped) Lightning connector design.\n\n### 3. Explanation of Why This Product Matches Your Requirements\n* **Length:** It explicitly matches your requirement of **1.2 meters** in length (unlike Products 1 and 2, which are standard 1-meter cables).\n* **Compatibility & Functionality:** It is an 8-pin USB-to-Lightning cable designed specifically for Apple devices, supporting both fast charging (3A) and data synchronization."
+    },
+    {
+      "id": "MM24",
+      "evidence": "TEXT",
+      "retrieved_ids": [
+        "B09X1M3DHX",
+        "B08QX1CC14",
+        "B09ZPJT8B2",
+        "B09DSXK8JX",
+        "B09ZPM4C2C"
+      ],
+      "grades": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.0,
+      "p5": 0.0,
+      "ndcg3": 0.0,
+      "ndcg5": 0.0,
+      "pid_match": 0.0,
+      "visual_groundedness": 1.0,
+      "answer": "1. **Recommended Product:**\n   * **Product ID:** B09ZPJT8B2\n   * **Name:** TCL 80 cm (32 inches) HD Ready Certified Android Smart LED TV 32S615 (Black)\n\n2. **Visual Evidence:**\n   * In the provided image for Product 3, the display explicitly highlights **\"androidtv\"**, **\"Google Assistant\"**, **\"32\"** size, and **\"Dolby Audio 16W SPEAKER\"** on-screen. \n   * It showcases a sleek black bezel, slim form-factor, and stable dual-leg stands at the bottom corners.\n\n3. **Explanation of Match:**\n   * **Size:** It is a 32-inch television (80 cm), perfectly matching the size requirement.\n   * **Resolution:** It features HD Ready resolution (1366 x 768).\n   * **Smart OS:** It is a Certified Android Smart TV with built-in Google Assistant.\n   * **Audio:** It comes equipped with Dolby Audio."
+    },
+    {
+      "id": "MM25",
+      "evidence": "TEXT",
+      "retrieved_ids": [
+        "B08235JZFB",
+        "B009P2L7CO",
+        "B00B7GKXMG",
+        "B01MY839VW",
+        "B07LDN9Q2P"
+      ],
+      "grades": [
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      "hr1": 0.0,
+      "p3": 0.0,
+      "p5": 0.2,
+      "ndcg3": 0.0,
+      "ndcg5": 0.2021073465005476,
+      "pid_match": 1.0,
+      "visual_groundedness": 1.0,
+      "answer": "Based on the user's requirements for a **1000 watt dry iron with a non-stick coated soleplate and temperature control**, here is the recommendation:\n\n### 1. Recommended Product\n* **Product ID:** B00B7GKXMG\n* **Product Name:** Wipro Smartlife Super Deluxe Dry Iron- 1000W (Product 3)\n\n---\n\n### 2. Visual Evidence from the Image\n* The product image shows a standard lightweight dry iron form-factor with a sleek purple-and-white body.\n* A prominent **adjustable temperature control dial (thermostat)** is clearly visible on top of the handle/body area.\n* The soleplate underneath features a dark non-stick coating as specified.\n\n---\n\n### 3. Explanation of Match\n* **1000 Watt Power:** The product title and specifications explicitly state it is a **1000W** dry iron.\n* **Non-Stick Coated Soleplate:** The description confirms it features a **teflon non-stick coating** (duPont smoothest coating) designed for scratch resistance and easy gliding.\n* **Temperature Control:** The description highlights the **\"Adjustable thermostat controls\"**, which matches the user's requirement for temperature regulation (visually verified by the dial on top)."
+    }
+  ]
+}

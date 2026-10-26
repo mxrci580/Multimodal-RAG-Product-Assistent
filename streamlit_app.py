@@ -368,6 +368,16 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stMain"],
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
+import re
+
+
+def clean_image_url(url: str) -> str:
+    """Strip expired Amazon CDN experiment path segments."""
+    if not url:
+        return ""
+    return re.sub(r'/images/W/[^/]+/images/', '/images/', str(url).strip())
+
+
 def star_display(rating_str):
     try:
         val = float(str(rating_str).replace("★", "").strip())
@@ -490,13 +500,19 @@ with col_right:
                 name   = product.get("product_name", "Unknown Product")
                 price  = product.get("price", "—")
                 rating = product.get("rating", "")
-                img_url = product.get("image_url", "")
+                img_url = clean_image_url(product.get("image_url", ""))
                 stars_str, rating_val = star_display(rating)
 
                 with cols[idx % 2]:
                     # Image area
                     if img_url:
-                        st.image(img_url, use_container_width=True)
+                        try:
+                            st.image(img_url, use_container_width=True)
+                        except Exception:
+                            st.markdown(
+                                '<div class="pcard-img-placeholder">🛍️</div>',
+                                unsafe_allow_html=True,
+                            )
                     else:
                         st.markdown(
                             '<div class="pcard-img-placeholder">🛍️</div>',

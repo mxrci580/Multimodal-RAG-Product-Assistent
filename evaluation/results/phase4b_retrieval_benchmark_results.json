@@ -1,0 +1,7777 @@
+{
+  "Dense Baseline": {
+    "system_name": "Dense Baseline",
+    "overall": {
+      "hr1": 0.32,
+      "hr5": 0.76,
+      "ideal1": 0.32,
+      "ideal5": 0.76,
+      "mrr": 0.5013333333333333,
+      "p3": 0.3533333333333333,
+      "p5": 0.264,
+      "ndcg3": 0.49323255449192493,
+      "ndcg5": 0.5617089201398896,
+      "count": 50
+    },
+    "by_evidence": {
+      "IMAGE": {
+        "hr1": 0.2,
+        "hr5": 0.7333333333333333,
+        "ideal1": 0.2,
+        "ideal5": 0.7333333333333333,
+        "mrr": 0.39333333333333337,
+        "p3": 0.31111111111111106,
+        "p5": 0.28,
+        "ndcg3": 0.375650793308986,
+        "ndcg5": 0.4925865119922698,
+        "count": 15
+      },
+      "TEXT+IMAGE": {
+        "hr1": 0.36,
+        "hr5": 0.84,
+        "ideal1": 0.36,
+        "ideal5": 0.84,
+        "mrr": 0.5766666666666667,
+        "p3": 0.42666666666666664,
+        "p5": 0.28,
+        "ndcg3": 0.5986169310802788,
+        "ndcg5": 0.6320125811232583,
+        "count": 25
+      },
+      "TEXT": {
+        "hr1": 0.4,
+        "hr5": 0.6,
+        "ideal1": 0.4,
+        "ideal5": 0.6,
+        "mrr": 0.475,
+        "p3": 0.2333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.4061442547954487,
+        "ndcg5": 0.48963337990289746,
+        "count": 10
+      }
+    },
+    "by_difficulty": {
+      "easy": {
+        "hr1": 0.26666666666666666,
+        "hr5": 0.6666666666666666,
+        "ideal1": 0.26666666666666666,
+        "ideal5": 0.6666666666666666,
+        "mrr": 0.4388888888888889,
+        "p3": 0.3333333333333333,
+        "p5": 0.2533333333333333,
+        "ndcg3": 0.4208455356954083,
+        "ndcg5": 0.48997877553374397,
+        "count": 15
+      },
+      "medium": {
+        "hr1": 0.26666666666666666,
+        "hr5": 0.7333333333333333,
+        "ideal1": 0.26666666666666666,
+        "ideal5": 0.7333333333333333,
+        "mrr": 0.45777777777777773,
+        "p3": 0.3555555555555555,
+        "p5": 0.26666666666666666,
+        "ndcg3": 0.48246865903522684,
+        "ndcg5": 0.5473092785534261,
+        "count": 15
+      },
+      "hard": {
+        "hr1": 0.4166666666666667,
+        "hr5": 0.9166666666666666,
+        "ideal1": 0.4166666666666667,
+        "ideal5": 0.9166666666666666,
+        "mrr": 0.6527777777777778,
+        "p3": 0.5,
+        "p5": 0.35000000000000003,
+        "ndcg3": 0.6665639675726053,
+        "ndcg5": 0.7162873864677947,
+        "count": 12
+      },
+      "adversarial": {
+        "hr1": 0.375,
+        "hr5": 0.75,
+        "ideal1": 0.375,
+        "ideal5": 0.75,
+        "mrr": 0.47291666666666665,
+        "p3": 0.16666666666666666,
+        "p5": 0.15000000000000002,
+        "ndcg3": 0.3891433990956823,
+        "ndcg5": 0.4913345697591741,
+        "count": 8
+      }
+    },
+    "records": [
+      {
+        "id": "MM-001",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B08HLC7Z3G",
+          "B07YR26BJ3",
+          "B07WGPBXY9",
+          "B07WJXCTG9",
+          "B091V8HK8Z"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-002",
+        "evidence_type": "IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B09DG9VNWB",
+          "B0B5GF6DQD",
+          "B09ZQK9X8G",
+          "B0949SBKMP",
+          "B0B3RRWSF6"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.2,
+        "p3": 0.0,
+        "p5": 0.2,
+        "ndcg3": 0.0,
+        "ndcg5": 0.38685280723454163
+      },
+      {
+        "id": "MM-003",
+        "evidence_type": "IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B2931FCV",
+          "B08D11DZ2W",
+          "B09N3ZNHTY",
+          "B098R25TGC",
+          "B09Y5MP7C4"
+        ],
+        "grades": [
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.5,
+        "ndcg5": 0.5
+      },
+      {
+        "id": "MM-004",
+        "evidence_type": "IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B08D11DZ2W",
+          "B09MDCZJXS",
+          "B08JQN8DGZ",
+          "B0B5GJRTHB",
+          "B0B2931FCV"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-005",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0856HY85J",
+          "B0856HNMR7",
+          "B07PR1CL3S",
+          "B01FSYQ2A4",
+          "B0873L7J6X"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6309297535714575,
+        "ndcg5": 0.6309297535714575
+      },
+      {
+        "id": "MM-006",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B08HDJ86NZ",
+          "B07LGT55SJ",
+          "B07PFJ5VQD",
+          "B0B5ZF3NRK",
+          "B09CMP1SC8"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-007",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B075ZTJ9XR",
+          "B07RY2X9MP",
+          "B01M5967SY",
+          "B07RX14W1Q",
+          "B07VSG5SXZ"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.2,
+        "p3": 0.0,
+        "p5": 0.2,
+        "ndcg3": 0.0,
+        "ndcg5": 0.38685280723454163
+      },
+      {
+        "id": "MM-008",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B08D64C9FN",
+          "B00NFD0ETQ",
+          "B004IO5BMQ",
+          "B0819HZPXL",
+          "B08497Z1MQ"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-009",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B08RX8G496",
+          "B09L8DSSFH",
+          "B09F6D21BY",
+          "B08XMSKKMM",
+          "B08RWCZ6SY"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-010",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B9BXKBC7",
+          "B094YFFSMY",
+          "B08ZN4B121",
+          "B07QCWY5XV",
+          "B088GXTJM3"
+        ],
+        "grades": [
+          0,
+          3,
+          3,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.6666666666666666,
+        "p5": 0.6,
+        "ndcg3": 0.5307212739772436,
+        "ndcg5": 0.7328286204777911
+      },
+      {
+        "id": "MM-011",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0073QGKAS",
+          "B06XPYRWV5",
+          "B071VNHMX2",
+          "B00935MGHS",
+          "B0B5RP43VN"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-012",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B5RP43VN",
+          "B08LVVTGZK",
+          "B07GWTWFS2",
+          "B07S851WX5",
+          "B0B2DD8BQ8"
+        ],
+        "grades": [
+          0,
+          0,
+          3,
+          3,
+          3
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.6,
+        "ndcg3": 0.23463936301137825,
+        "ndcg5": 0.6182885020492785
+      },
+      {
+        "id": "MM-013",
+        "evidence_type": "IMAGE",
+        "difficulty": "hard",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B084PJSSQ1",
+          "B01LYLJ99X",
+          "B01L8ZNWN2",
+          "B005FYNT3G",
+          "B07SLMR1K6"
+        ],
+        "grades": [
+          0,
+          0,
+          3,
+          0,
+          2
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.3935773014954859,
+        "ndcg5": 0.5240828591646209
+      },
+      {
+        "id": "MM-014",
+        "evidence_type": "IMAGE",
+        "difficulty": "hard",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B9RZ4G4W",
+          "B00A7PLVU6",
+          "B0747VDH9L",
+          "B07QHHCB27",
+          "B00YQLG7GK"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.38685280723454163,
+        "ndcg5": 0.6509209298071325
+      },
+      {
+        "id": "MM-015",
+        "evidence_type": "IMAGE",
+        "difficulty": "hard",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B3G5XZN5",
+          "B09NTHQRW3",
+          "B07NRTCDS5",
+          "B0BFBNXS94",
+          "B0BL3R4RGS"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.9580414003446834,
+        "ndcg5": 0.9580414003446834
+      },
+      {
+        "id": "MM-016",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B09YV3K34W",
+          "B09YV4MW2T",
+          "B0B3RRWSF6",
+          "B0B3RSDSZ3",
+          "B0B3RS9DNF"
+        ],
+        "grades": [
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.45865970635647857,
+        "ndcg5": 0.45865970635647857
+      },
+      {
+        "id": "MM-017",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B0856HY85J",
+          "B0856HNMR7",
+          "B07L8KNP5F",
+          "B07PR1CL3S",
+          "B01FSYQ2A4"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6309297535714575,
+        "ndcg5": 0.6309297535714575
+      },
+      {
+        "id": "MM-018",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B07YR26BJ3",
+          "B08HLC7Z3G",
+          "B07WGPBXY9",
+          "B07WJXCTG9",
+          "B091V8HK8Z"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-019",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B0B5GJRTHB",
+          "B09N3ZNHTY",
+          "B0B2931FCV",
+          "B09Y5MP7C4",
+          "B08D11DZ2W"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6309297535714575,
+        "ndcg5": 0.6309297535714575
+      },
+      {
+        "id": "MM-020",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B08Y1TFSP6",
+          "B098NS6PVG",
+          "B0BFWGBX61",
+          "B09SB6SJB4",
+          "B08CT62BM1"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-021",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B09NNJ9WYM",
+          "B0B16KD737",
+          "B0B466C3G4",
+          "B09DSXK8JX",
+          "B09Q5SWVBJ"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-022",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08LW31NQ6",
+          "B01M72LILF",
+          "B07X2L5Z8C",
+          "B01MQ2A86A",
+          "B099SD8PRP"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-023",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0BBN56J5H",
+          "B0BBN4DZBD",
+          "B0BBN3WF7V",
+          "B09FKDH6FS",
+          "B09GFLXVH9"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-024",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0B9RN5X8B",
+          "B078JBK4GX",
+          "B078JDNZJ8",
+          "B078JF6X9B",
+          "B097MKZHNV"
+        ],
+        "grades": [
+          0,
+          3,
+          3,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.6666666666666666,
+        "p5": 0.6,
+        "ndcg3": 0.5307212739772436,
+        "ndcg5": 0.7328286204777911
+      },
+      {
+        "id": "MM-025",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B07989VV5K",
+          "B008QTK47Q",
+          "B08H6CZSHT",
+          "B008LN8KDM",
+          "B08H6B3G96"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6309297535714575,
+        "ndcg5": 0.6309297535714575
+      },
+      {
+        "id": "MM-026",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0073QGKAS",
+          "B06XPYRWV5",
+          "B071VNHMX2",
+          "B00935MGHS",
+          "B00LUGTJGO"
+        ],
+        "grades": [
+          3,
+          3,
+          1,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-027",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B01MQ2A86A",
+          "B09GB5B4BK",
+          "B004IO5BMQ",
+          "B098JYT4SY",
+          "B099SD8PRP"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-028",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08N6P8G5K",
+          "B097RJ867P",
+          "B0B53DS4TF",
+          "B0B8XNPQPN",
+          "B09CTWFV5W"
+        ],
+        "grades": [
+          0,
+          3,
+          3,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.6666666666666666,
+        "p5": 0.6,
+        "ndcg3": 0.5307212739772436,
+        "ndcg5": 0.7328286204777911
+      },
+      {
+        "id": "MM-029",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08N6P8G5K",
+          "B0B53DS4TF",
+          "B097RJ867P",
+          "B09CTWFV5W",
+          "B0B8XNPQPN"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.25,
+        "p3": 0.0,
+        "p5": 0.2,
+        "ndcg3": 0.0,
+        "ndcg5": 0.43067655807339306
+      },
+      {
+        "id": "MM-030",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "brand_plus_feature",
+        "retrieved_pids": [
+          "B008LN8KDM",
+          "B08H6CZSHT",
+          "B008QTK47Q",
+          "B08H6B3G96",
+          "B009UORDX4"
+        ],
+        "grades": [
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.5,
+        "ndcg5": 0.5
+      },
+      {
+        "id": "MM-031",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0B3G5XZN5",
+          "B09NTHQRW3",
+          "B07NRTCDS5",
+          "B08S6RKT4L",
+          "B0BFBNXS94"
+        ],
+        "grades": [
+          1,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.7098097413968655,
+        "ndcg5": 0.7098097413968655
+      },
+      {
+        "id": "MM-032",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08MC57J31",
+          "B0993BB11X",
+          "B07X963JNS",
+          "B09MZCQYHZ",
+          "B08HVJCW95"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.7653606369886218,
+        "ndcg5": 0.7653606369886218
+      },
+      {
+        "id": "MM-033",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B084PJSSQ1",
+          "B0819ZZK5K",
+          "B01EZ0X3L8",
+          "B01N6LU1VF",
+          "B07PFJ5W31"
+        ],
+        "grades": [
+          0,
+          3,
+          2,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.6653152460429406,
+        "ndcg5": 0.6653152460429406
+      },
+      {
+        "id": "MM-034",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B008QS9J6Y",
+          "B08FTFXNNB",
+          "B09P22HXH6",
+          "B09RF2QXGX",
+          "B09NNHFSSF"
+        ],
+        "grades": [
+          3,
+          0,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.9197207891481876,
+        "ndcg5": 0.9197207891481876
+      },
+      {
+        "id": "MM-035",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B07GQD4K6L",
+          "B07QZ3CZ48",
+          "B071Z8M4KX",
+          "B08H9Z3XQW",
+          "B07KY3FNQP"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6131471927654584,
+        "ndcg5": 0.6131471927654584
+      },
+      {
+        "id": "MM-036",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0083T231O",
+          "B01IOZUHRS",
+          "B016XVRKZM",
+          "B0116MIKKC",
+          "B01M4GGIVU"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-037",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08HDH26JX",
+          "B08HDJ86NZ",
+          "B09CMP1SC8",
+          "B07PFJ5VQD",
+          "B09C6H53KH"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6309297535714575,
+        "ndcg5": 0.6309297535714575
+      },
+      {
+        "id": "MM-038",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B00HVXS7WC",
+          "B08KDBLMQP",
+          "B09X5C9VLK",
+          "B09GYBZPHF",
+          "B0BDZWMGZ1"
+        ],
+        "grades": [
+          1,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.7482484020681008,
+        "ndcg5": 0.7482484020681008
+      },
+      {
+        "id": "MM-039",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "comparison",
+        "retrieved_pids": [
+          "B0073QGKAS",
+          "B06XPYRWV5",
+          "B071VNHMX2",
+          "B00935MGHS",
+          "B0B5RP43VN"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-040",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "brand_plus_feature",
+        "retrieved_pids": [
+          "B0B3RRWSF6",
+          "B0B3RSDSZ3",
+          "B0B3RS9DNF",
+          "B09YV3K34W",
+          "B0949SBKMP"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-041",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B08KDBLMQP",
+          "B00HVXS7WC",
+          "B07TXCY3YK",
+          "B09X5C9VLK",
+          "B09Y358DZQ"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          3,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.6,
+        "ndcg3": 0.7653606369886218,
+        "ndcg5": 0.9674679834891693
+      },
+      {
+        "id": "MM-042",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B07X963JNS",
+          "B0993BB11X",
+          "B08HVJCW95",
+          "B08MC57J31",
+          "B09MZCQYHZ"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.2960819109658653,
+        "ndcg5": 0.49818925746641285
+      },
+      {
+        "id": "MM-043",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B096MSW6CT",
+          "B095244Q22",
+          "B09KLVMZ3B",
+          "B07JW9H4J1",
+          "B07JPJJZ2H"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.25,
+        "p3": 0.0,
+        "p5": 0.2,
+        "ndcg3": 0.0,
+        "ndcg5": 0.43067655807339306
+      },
+      {
+        "id": "MM-044",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B09X1M3DHX",
+          "B08QX1CC14",
+          "B09ZPJT8B2",
+          "B09DSXK8JX",
+          "B09ZPM4C2C"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-045",
+        "evidence_type": "TEXT",
+        "difficulty": "medium",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B08235JZFB",
+          "B009P2L7CO",
+          "B00B7GKXMG",
+          "B01MY839VW",
+          "B07LDN9Q2P"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-046",
+        "evidence_type": "TEXT",
+        "difficulty": "medium",
+        "intent_type": "exact_lookup",
+        "retrieved_pids": [
+          "B0083T231O",
+          "B084N1BM9L",
+          "B084MZXJN6",
+          "B084N18QZY",
+          "B084MZYBTV"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-047",
+        "evidence_type": "TEXT",
+        "difficulty": "medium",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B08CFJBZRK",
+          "B08G8H8DPL",
+          "B09MFR93KS",
+          "B0756K5DYZ",
+          "B07TTSS5MP"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-048",
+        "evidence_type": "TEXT",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08HV83HL3",
+          "B07RD611Z8",
+          "B08JW1GVS7",
+          "B098QXR9X2",
+          "B08HF4W2CT"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-049",
+        "evidence_type": "TEXT",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B07VSG5SXZ",
+          "B08TGG316Z",
+          "B0BBMGLQDW",
+          "B09HCH3JZG",
+          "B07KSMBL2H"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-050",
+        "evidence_type": "TEXT",
+        "difficulty": "adversarial",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B09Y5MP7C4",
+          "B0B5GJRTHB",
+          "B09MDCZJXS",
+          "B0B2931FCV",
+          "B098R25TGC"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      }
+    ]
+  },
+  "Metadata Guardrails": {
+    "system_name": "Metadata Guardrails",
+    "overall": {
+      "hr1": 0.28,
+      "hr5": 0.72,
+      "ideal1": 0.28,
+      "ideal5": 0.72,
+      "mrr": 0.45799999999999996,
+      "p3": 0.33333333333333326,
+      "p5": 0.256,
+      "ndcg3": 0.4506139594204958,
+      "ndcg5": 0.5243716875199123,
+      "count": 50
+    },
+    "by_evidence": {
+      "IMAGE": {
+        "hr1": 0.13333333333333333,
+        "hr5": 0.6666666666666666,
+        "ideal1": 0.13333333333333333,
+        "ideal5": 0.6666666666666666,
+        "mrr": 0.31555555555555553,
+        "p3": 0.26666666666666666,
+        "p5": 0.2533333333333333,
+        "ndcg3": 0.3002554764042222,
+        "ndcg5": 0.41719119508750596,
+        "count": 15
+      },
+      "TEXT+IMAGE": {
+        "hr1": 0.36,
+        "hr5": 0.84,
+        "ideal1": 0.36,
+        "ideal5": 0.84,
+        "mrr": 0.5766666666666667,
+        "p3": 0.42666666666666664,
+        "p5": 0.28800000000000003,
+        "ndcg3": 0.5986169310802788,
+        "ndcg5": 0.642575306026162,
+        "count": 25
+      },
+      "TEXT": {
+        "hr1": 0.3,
+        "hr5": 0.5,
+        "ideal1": 0.3,
+        "ideal5": 0.5,
+        "mrr": 0.375,
+        "p3": 0.2,
+        "p5": 0.18,
+        "ndcg3": 0.3061442547954487,
+        "ndcg5": 0.38963337990289754,
+        "count": 10
+      }
+    },
+    "by_difficulty": {
+      "easy": {
+        "hr1": 0.2,
+        "hr5": 0.6,
+        "ideal1": 0.2,
+        "ideal5": 0.6,
+        "mrr": 0.3722222222222222,
+        "p3": 0.28888888888888886,
+        "p5": 0.22666666666666666,
+        "ndcg3": 0.3541788690287416,
+        "ndcg5": 0.4233121088670773,
+        "count": 15
+      },
+      "medium": {
+        "hr1": 0.2,
+        "hr5": 0.6666666666666666,
+        "ideal1": 0.2,
+        "ideal5": 0.6666666666666666,
+        "mrr": 0.38,
+        "p3": 0.3333333333333333,
+        "p5": 0.2533333333333333,
+        "ndcg3": 0.407073342130463,
+        "ndcg5": 0.47191396164866234,
+        "count": 15
+      },
+      "hard": {
+        "hr1": 0.4166666666666667,
+        "hr5": 0.9166666666666666,
+        "ideal1": 0.4166666666666667,
+        "ideal5": 0.9166666666666666,
+        "mrr": 0.6527777777777778,
+        "p3": 0.5,
+        "p5": 0.35000000000000003,
+        "ndcg3": 0.6665639675726053,
+        "ndcg5": 0.7162873864677947,
+        "count": 12
+      },
+      "adversarial": {
+        "hr1": 0.375,
+        "hr5": 0.75,
+        "ideal1": 0.375,
+        "ideal5": 0.75,
+        "mrr": 0.47291666666666665,
+        "p3": 0.16666666666666666,
+        "p5": 0.17500000000000002,
+        "ndcg3": 0.3891433990956823,
+        "ndcg5": 0.524343085080748,
+        "count": 8
+      }
+    },
+    "records": [
+      {
+        "id": "MM-001",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B07WGPBXY9",
+          "B07WJXCTG9",
+          "B091V8HK8Z",
+          "B07WMS7TWB",
+          "B07VZYMQNZ"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-002",
+        "evidence_type": "IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B09DG9VNWB",
+          "B0B5GF6DQD",
+          "B09ZQK9X8G",
+          "B0949SBKMP",
+          "B0B3RRWSF6"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.2,
+        "p3": 0.0,
+        "p5": 0.2,
+        "ndcg3": 0.0,
+        "ndcg5": 0.38685280723454163
+      },
+      {
+        "id": "MM-003",
+        "evidence_type": "IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B2931FCV",
+          "B08D11DZ2W",
+          "B09N3ZNHTY",
+          "B098R25TGC",
+          "B09Y5MP7C4"
+        ],
+        "grades": [
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.5,
+        "ndcg5": 0.5
+      },
+      {
+        "id": "MM-004",
+        "evidence_type": "IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B08D11DZ2W",
+          "B08JQN8DGZ",
+          "B0B5GJRTHB",
+          "B0B2931FCV",
+          "B09N3ZNHTY"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-005",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0856HY85J",
+          "B08FY4FG5X",
+          "B0856HNMR7",
+          "B07PR1CL3S",
+          "B01FSYQ2A4"
+        ],
+        "grades": [
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.5,
+        "ndcg5": 0.5
+      },
+      {
+        "id": "MM-006",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B08HDJ86NZ",
+          "B07LGT55SJ",
+          "B07PFJ5VQD",
+          "B0B5ZF3NRK",
+          "B09CMP1SC8"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-007",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B075ZTJ9XR",
+          "B07RY2X9MP",
+          "B01M5967SY",
+          "B07RX14W1Q",
+          "B07VSG5SXZ"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.2,
+        "p3": 0.0,
+        "p5": 0.2,
+        "ndcg3": 0.0,
+        "ndcg5": 0.38685280723454163
+      },
+      {
+        "id": "MM-008",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B004IO5BMQ",
+          "B073BRXPZX",
+          "B003L62T7W",
+          "B079Y6JZC8",
+          "B01MQ2A86A"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-009",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B087JWLZ2K",
+          "B0B7B9V9QP",
+          "B0B1YZ9CB8",
+          "B0B15CPR37",
+          "B0B15GSPQW"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-010",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B9BXKBC7",
+          "B094YFFSMY",
+          "B08ZN4B121",
+          "B07QCWY5XV",
+          "B088GXTJM3"
+        ],
+        "grades": [
+          0,
+          3,
+          3,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.6666666666666666,
+        "p5": 0.6,
+        "ndcg3": 0.5307212739772436,
+        "ndcg5": 0.7328286204777911
+      },
+      {
+        "id": "MM-011",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0073QGKAS",
+          "B06XPYRWV5",
+          "B071VNHMX2",
+          "B00935MGHS",
+          "B0B5RP43VN"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-012",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B5RP43VN",
+          "B08LVVTGZK",
+          "B07GWTWFS2",
+          "B07S851WX5",
+          "B0B2DD8BQ8"
+        ],
+        "grades": [
+          0,
+          0,
+          3,
+          3,
+          3
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.6,
+        "ndcg3": 0.23463936301137825,
+        "ndcg5": 0.6182885020492785
+      },
+      {
+        "id": "MM-013",
+        "evidence_type": "IMAGE",
+        "difficulty": "hard",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B084PJSSQ1",
+          "B01LYLJ99X",
+          "B01L8ZNWN2",
+          "B005FYNT3G",
+          "B07SLMR1K6"
+        ],
+        "grades": [
+          0,
+          0,
+          3,
+          0,
+          2
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.3935773014954859,
+        "ndcg5": 0.5240828591646209
+      },
+      {
+        "id": "MM-014",
+        "evidence_type": "IMAGE",
+        "difficulty": "hard",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B9RZ4G4W",
+          "B00A7PLVU6",
+          "B0747VDH9L",
+          "B07QHHCB27",
+          "B00YQLG7GK"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.38685280723454163,
+        "ndcg5": 0.6509209298071325
+      },
+      {
+        "id": "MM-015",
+        "evidence_type": "IMAGE",
+        "difficulty": "hard",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B3G5XZN5",
+          "B09NTHQRW3",
+          "B07NRTCDS5",
+          "B0BFBNXS94",
+          "B0BL3R4RGS"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.9580414003446834,
+        "ndcg5": 0.9580414003446834
+      },
+      {
+        "id": "MM-016",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B09YV3K34W",
+          "B09YV4MW2T",
+          "B0B3RRWSF6",
+          "B0B3RSDSZ3",
+          "B0B3RS9DNF"
+        ],
+        "grades": [
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.45865970635647857,
+        "ndcg5": 0.45865970635647857
+      },
+      {
+        "id": "MM-017",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B0856HY85J",
+          "B0856HNMR7",
+          "B07L8KNP5F",
+          "B07PR1CL3S",
+          "B01FSYQ2A4"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6309297535714575,
+        "ndcg5": 0.6309297535714575
+      },
+      {
+        "id": "MM-018",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B07YR26BJ3",
+          "B08HLC7Z3G",
+          "B07WGPBXY9",
+          "B07WJXCTG9",
+          "B091V8HK8Z"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-019",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B0B5GJRTHB",
+          "B09N3ZNHTY",
+          "B0B2931FCV",
+          "B09Y5MP7C4",
+          "B08D11DZ2W"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6309297535714575,
+        "ndcg5": 0.6309297535714575
+      },
+      {
+        "id": "MM-020",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B08Y1TFSP6",
+          "B098NS6PVG",
+          "B0BFWGBX61",
+          "B09SB6SJB4",
+          "B08CT62BM1"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-021",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B09NNJ9WYM",
+          "B0B16KD737",
+          "B0B466C3G4",
+          "B09DSXK8JX",
+          "B09Q5SWVBJ"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-022",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08LW31NQ6",
+          "B01M72LILF",
+          "B07X2L5Z8C",
+          "B01MQ2A86A",
+          "B099SD8PRP"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-023",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0BBN56J5H",
+          "B0BBN4DZBD",
+          "B0BBN3WF7V",
+          "B09FKDH6FS",
+          "B09GFLXVH9"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-024",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0B9RN5X8B",
+          "B078JBK4GX",
+          "B078JDNZJ8",
+          "B078JF6X9B",
+          "B097MKZHNV"
+        ],
+        "grades": [
+          0,
+          3,
+          3,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.6666666666666666,
+        "p5": 0.6,
+        "ndcg3": 0.5307212739772436,
+        "ndcg5": 0.7328286204777911
+      },
+      {
+        "id": "MM-025",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B07989VV5K",
+          "B008QTK47Q",
+          "B08H6CZSHT",
+          "B008LN8KDM",
+          "B08H6B3G96"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6309297535714575,
+        "ndcg5": 0.6309297535714575
+      },
+      {
+        "id": "MM-026",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0073QGKAS",
+          "B06XPYRWV5",
+          "B071VNHMX2",
+          "B00935MGHS",
+          "B00LUGTJGO"
+        ],
+        "grades": [
+          3,
+          3,
+          1,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-027",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B01MQ2A86A",
+          "B09GB5B4BK",
+          "B004IO5BMQ",
+          "B098JYT4SY",
+          "B099SD8PRP"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-028",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08N6P8G5K",
+          "B097RJ867P",
+          "B0B53DS4TF",
+          "B0B8XNPQPN",
+          "B09CTWFV5W"
+        ],
+        "grades": [
+          0,
+          3,
+          3,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.6666666666666666,
+        "p5": 0.6,
+        "ndcg3": 0.5307212739772436,
+        "ndcg5": 0.7328286204777911
+      },
+      {
+        "id": "MM-029",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08N6P8G5K",
+          "B0B53DS4TF",
+          "B097RJ867P",
+          "B09CTWFV5W",
+          "B0B8XNPQPN"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.25,
+        "p3": 0.0,
+        "p5": 0.2,
+        "ndcg3": 0.0,
+        "ndcg5": 0.43067655807339306
+      },
+      {
+        "id": "MM-030",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "brand_plus_feature",
+        "retrieved_pids": [
+          "B008LN8KDM",
+          "B08H6CZSHT",
+          "B008QTK47Q",
+          "B08H6B3G96",
+          "B009UORDX4"
+        ],
+        "grades": [
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.5,
+        "ndcg5": 0.5
+      },
+      {
+        "id": "MM-031",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0B3G5XZN5",
+          "B09NTHQRW3",
+          "B07NRTCDS5",
+          "B08S6RKT4L",
+          "B0BFBNXS94"
+        ],
+        "grades": [
+          1,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.7098097413968655,
+        "ndcg5": 0.7098097413968655
+      },
+      {
+        "id": "MM-032",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08MC57J31",
+          "B0993BB11X",
+          "B07X963JNS",
+          "B09MZCQYHZ",
+          "B08HVJCW95"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.7653606369886218,
+        "ndcg5": 0.7653606369886218
+      },
+      {
+        "id": "MM-033",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B084PJSSQ1",
+          "B0819ZZK5K",
+          "B01EZ0X3L8",
+          "B01N6LU1VF",
+          "B07PFJ5W31"
+        ],
+        "grades": [
+          0,
+          3,
+          2,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.6653152460429406,
+        "ndcg5": 0.6653152460429406
+      },
+      {
+        "id": "MM-034",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B008QS9J6Y",
+          "B08FTFXNNB",
+          "B09P22HXH6",
+          "B09RF2QXGX",
+          "B09NNHFSSF"
+        ],
+        "grades": [
+          3,
+          0,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.9197207891481876,
+        "ndcg5": 0.9197207891481876
+      },
+      {
+        "id": "MM-035",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B07GQD4K6L",
+          "B07QZ3CZ48",
+          "B071Z8M4KX",
+          "B07GPXXNNG",
+          "B08MTLLSL8"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          3,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.6131471927654584,
+        "ndcg5": 0.8772153153380492
+      },
+      {
+        "id": "MM-036",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0083T231O",
+          "B01IOZUHRS",
+          "B016XVRKZM",
+          "B0116MIKKC",
+          "B01M4GGIVU"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-037",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08HDH26JX",
+          "B08HDJ86NZ",
+          "B09CMP1SC8",
+          "B07PFJ5VQD",
+          "B09C6H53KH"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6309297535714575,
+        "ndcg5": 0.6309297535714575
+      },
+      {
+        "id": "MM-038",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B00HVXS7WC",
+          "B08KDBLMQP",
+          "B09X5C9VLK",
+          "B09GYBZPHF",
+          "B0BDZWMGZ1"
+        ],
+        "grades": [
+          1,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.7482484020681008,
+        "ndcg5": 0.7482484020681008
+      },
+      {
+        "id": "MM-039",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "comparison",
+        "retrieved_pids": [
+          "B0073QGKAS",
+          "B06XPYRWV5",
+          "B071VNHMX2",
+          "B00935MGHS",
+          "B0B5RP43VN"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-040",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "brand_plus_feature",
+        "retrieved_pids": [
+          "B0B3RRWSF6",
+          "B0B3RSDSZ3",
+          "B0B3RS9DNF",
+          "B09YV3K34W",
+          "B0949SBKMP"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-041",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B08KDBLMQP",
+          "B00HVXS7WC",
+          "B07TXCY3YK",
+          "B09X5C9VLK",
+          "B09Y358DZQ"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          3,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.6,
+        "ndcg3": 0.7653606369886218,
+        "ndcg5": 0.9674679834891693
+      },
+      {
+        "id": "MM-042",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B07X963JNS",
+          "B0993BB11X",
+          "B08HVJCW95",
+          "B08MC57J31",
+          "B09MZCQYHZ"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.2960819109658653,
+        "ndcg5": 0.49818925746641285
+      },
+      {
+        "id": "MM-043",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B096MSW6CT",
+          "B095244Q22",
+          "B09KLVMZ3B",
+          "B07JW9H4J1",
+          "B07JPJJZ2H"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.25,
+        "p3": 0.0,
+        "p5": 0.2,
+        "ndcg3": 0.0,
+        "ndcg5": 0.43067655807339306
+      },
+      {
+        "id": "MM-044",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B09X1M3DHX",
+          "B08QX1CC14",
+          "B09ZPJT8B2",
+          "B09DSXK8JX",
+          "B09ZPM4C2C"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-045",
+        "evidence_type": "TEXT",
+        "difficulty": "medium",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B08235JZFB",
+          "B009P2L7CO",
+          "B00B7GKXMG",
+          "B01MY839VW",
+          "B07LDN9Q2P"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-046",
+        "evidence_type": "TEXT",
+        "difficulty": "medium",
+        "intent_type": "exact_lookup",
+        "retrieved_pids": [
+          "B084N1BM9L",
+          "B084MZXJN6",
+          "B084N18QZY",
+          "B084MZYBTV",
+          "B084N133Y7"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-047",
+        "evidence_type": "TEXT",
+        "difficulty": "medium",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B08CFJBZRK",
+          "B08G8H8DPL",
+          "B09MFR93KS",
+          "B0756K5DYZ",
+          "B07TTSS5MP"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-048",
+        "evidence_type": "TEXT",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08HV83HL3",
+          "B07RD611Z8",
+          "B08JW1GVS7",
+          "B098QXR9X2",
+          "B08HF4W2CT"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-049",
+        "evidence_type": "TEXT",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B07VSG5SXZ",
+          "B08TGG316Z",
+          "B0BBMGLQDW",
+          "B09HCH3JZG",
+          "B07KSMBL2H"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-050",
+        "evidence_type": "TEXT",
+        "difficulty": "adversarial",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B09Y5MP7C4",
+          "B0B5GJRTHB",
+          "B0B2931FCV",
+          "B098R25TGC",
+          "B09X76VL5L"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      }
+    ]
+  },
+  "Hybrid RRF": {
+    "system_name": "Hybrid RRF",
+    "overall": {
+      "hr1": 0.28,
+      "hr5": 0.64,
+      "ideal1": 0.28,
+      "ideal5": 0.64,
+      "mrr": 0.4236666666666667,
+      "p3": 0.2733333333333333,
+      "p5": 0.22,
+      "ndcg3": 0.37943551344611587,
+      "ndcg5": 0.4507383393036895,
+      "count": 50
+    },
+    "by_evidence": {
+      "IMAGE": {
+        "hr1": 0.2,
+        "hr5": 0.5333333333333333,
+        "ideal1": 0.2,
+        "ideal5": 0.5333333333333333,
+        "mrr": 0.3277777777777778,
+        "p3": 0.26666666666666666,
+        "p5": 0.21333333333333335,
+        "ndcg3": 0.31072702581916617,
+        "ndcg5": 0.37787981586326386,
+        "count": 15
+      },
+      "TEXT+IMAGE": {
+        "hr1": 0.36,
+        "hr5": 0.76,
+        "ideal1": 0.36,
+        "ideal5": 0.76,
+        "mrr": 0.5106666666666667,
+        "p3": 0.29333333333333333,
+        "p5": 0.248,
+        "ndcg3": 0.4341254938601493,
+        "ndcg5": 0.5291777998473439,
+        "count": 25
+      },
+      "TEXT": {
+        "hr1": 0.2,
+        "hr5": 0.5,
+        "ideal1": 0.2,
+        "ideal5": 0.5,
+        "mrr": 0.35,
+        "p3": 0.2333333333333333,
+        "p5": 0.16,
+        "ndcg3": 0.34577329385145666,
+        "ndcg5": 0.3639274731051919,
+        "count": 10
+      }
+    },
+    "by_difficulty": {
+      "easy": {
+        "hr1": 0.2,
+        "hr5": 0.4666666666666667,
+        "ideal1": 0.2,
+        "ideal5": 0.4666666666666667,
+        "mrr": 0.3333333333333333,
+        "p3": 0.28888888888888886,
+        "p5": 0.2,
+        "ndcg3": 0.32721166677599983,
+        "ndcg5": 0.3527882760451932,
+        "count": 15
+      },
+      "medium": {
+        "hr1": 0.3333333333333333,
+        "hr5": 0.6,
+        "ideal1": 0.3333333333333333,
+        "ideal5": 0.6,
+        "mrr": 0.43555555555555553,
+        "p3": 0.2222222222222222,
+        "p5": 0.2,
+        "ndcg3": 0.36848906806317633,
+        "ndcg5": 0.4460421997925722,
+        "count": 15
+      },
+      "hard": {
+        "hr1": 0.3333333333333333,
+        "hr5": 0.9166666666666666,
+        "ideal1": 0.3333333333333333,
+        "ideal5": 0.9166666666666666,
+        "mrr": 0.5625,
+        "p3": 0.4166666666666667,
+        "p5": 0.3166666666666667,
+        "ndcg3": 0.5243489752817695,
+        "ndcg5": 0.6082899628368915,
+        "count": 12
+      },
+      "adversarial": {
+        "hr1": 0.25,
+        "hr5": 0.625,
+        "ideal1": 0.25,
+        "ideal5": 0.625,
+        "mrr": 0.3625,
+        "p3": 0.125,
+        "p5": 0.15000000000000002,
+        "ndcg3": 0.2805096182921145,
+        "ndcg5": 0.40687253419691194,
+        "count": 8
+      }
+    },
+    "records": [
+      {
+        "id": "MM-001",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B08HLC7Z3G",
+          "B07YR26BJ3",
+          "B07WGPBXY9",
+          "B07WJXCTG9",
+          "B07WMS7TWB"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-002",
+        "evidence_type": "IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B09ZQK9X8G",
+          "B09YV575RK",
+          "B0BGSV43WY",
+          "B0B3MWYCHQ",
+          "B0B3RSDSZ3"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-003",
+        "evidence_type": "IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B2931FCV",
+          "B09N3ZNHTY",
+          "B086WMSCN3",
+          "B08JQN8DGZ",
+          "B098R25TGC"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6309297535714575,
+        "ndcg5": 0.6309297535714575
+      },
+      {
+        "id": "MM-004",
+        "evidence_type": "IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B08JQN8DGZ",
+          "B0B5GJRTHB",
+          "B0B2931FCV",
+          "B086WMSCN3",
+          "B08D11DZ2W"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-005",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0856HY85J",
+          "B01FSYQ2A4",
+          "B07L8KNP5F",
+          "B07PR1CL3S",
+          "B09Y5MP7C4"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-006",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B08HDJ86NZ",
+          "B07LGT55SJ",
+          "B081FG1QYX",
+          "B0B5F3YZY4",
+          "B08Y1TFSP6"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-007",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B07RY2X9MP",
+          "B00GG59HU2",
+          "B0718ZN31Q",
+          "B07KSMBL2H",
+          "B07JPJJZ2H"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-008",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B004IO5BMQ",
+          "B0819HZPXL",
+          "B08WLY8V9S",
+          "B01MQ2A86A",
+          "B08D64C9FN"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-009",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B08RX8G496",
+          "B09F6D21BY",
+          "B09L8DSSFH",
+          "B09MM6P76N",
+          "B08GJNM9N7"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-010",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B9BXKBC7",
+          "B094YFFSMY",
+          "B07QCWY5XV",
+          "B08ZN4B121",
+          "B074CWD7MS"
+        ],
+        "grades": [
+          0,
+          3,
+          3,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.6666666666666666,
+        "p5": 0.6,
+        "ndcg3": 0.5307212739772436,
+        "ndcg5": 0.7328286204777911
+      },
+      {
+        "id": "MM-011",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0073QGKAS",
+          "B06XPYRWV5",
+          "B071VNHMX2",
+          "B07GWTWFS2",
+          "B07YQ5SN4H"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-012",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B08LVVTGZK",
+          "B0B5RP43VN",
+          "B0B2DD8BQ8",
+          "B07GWTWFS2",
+          "B09XRBJ94N"
+        ],
+        "grades": [
+          0,
+          0,
+          3,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.23463936301137825,
+        "ndcg5": 0.43674670951192585
+      },
+      {
+        "id": "MM-013",
+        "evidence_type": "IMAGE",
+        "difficulty": "hard",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B084PJSSQ1",
+          "B005FYNT3G",
+          "B0819ZZK5K",
+          "B01L8ZNWN2",
+          "B08JD36C6H"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.25,
+        "p3": 0.0,
+        "p5": 0.2,
+        "ndcg3": 0.0,
+        "ndcg5": 0.3390090350877799
+      },
+      {
+        "id": "MM-014",
+        "evidence_type": "IMAGE",
+        "difficulty": "hard",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B9RZ4G4W",
+          "B0747VDH9L",
+          "B07QHHCB27",
+          "B00A7PLVU6",
+          "B07FL3WRX5"
+        ],
+        "grades": [
+          0,
+          0,
+          3,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.3065735963827292,
+        "ndcg5": 0.57064171895532
+      },
+      {
+        "id": "MM-015",
+        "evidence_type": "IMAGE",
+        "difficulty": "hard",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B3G5XZN5",
+          "B09NTHQRW3",
+          "B0BFBNXS94",
+          "B0BL3R4RGS",
+          "B07NRTCDS5"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.9580414003446834,
+        "ndcg5": 0.9580414003446834
+      },
+      {
+        "id": "MM-016",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B0972BQ2RS",
+          "B09YV3K34W",
+          "B09YV4MW2T",
+          "B09P18XVW6",
+          "B0B3RSDSZ3"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-017",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B0856HY85J",
+          "B0856HNMR7",
+          "B07L8KNP5F",
+          "B0873L7J6X",
+          "B08FY4FG5X"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6309297535714575,
+        "ndcg5": 0.6309297535714575
+      },
+      {
+        "id": "MM-018",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B07YR26BJ3",
+          "B07WGPBXY9",
+          "B08HLC7Z3G",
+          "B07WJXCTG9",
+          "B07WMS7TWB"
+        ],
+        "grades": [
+          3,
+          0,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.9197207891481876,
+        "ndcg5": 0.9197207891481876
+      },
+      {
+        "id": "MM-019",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B086WMSCN3",
+          "B08JQN8DGZ",
+          "B08D11DZ2W",
+          "B0B2931FCV",
+          "B098R25TGC"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-020",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B08Y1TFSP6",
+          "B08QSDKFGQ",
+          "B09Q8WQ5QJ",
+          "B08HDH26JX",
+          "B098NS6PVG"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-021",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B09NNJ9WYM",
+          "B0B16KD737",
+          "B09DSXK8JX",
+          "B0B466C3G4",
+          "B09Q5SWVBJ"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-022",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08LW31NQ6",
+          "B01M72LILF",
+          "B07X2L5Z8C",
+          "B01MQ2A86A",
+          "B08Y7MXFMK"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-023",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B07WJWRNVK",
+          "B0BBN56J5H",
+          "B0B61DSF17",
+          "B0BBN4DZBD",
+          "B084PJSSQ1"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.2960819109658653,
+        "ndcg5": 0.49818925746641285
+      },
+      {
+        "id": "MM-024",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B078JBK4GX",
+          "B077BTLQ67",
+          "B09WMTJPG7",
+          "B078JF6X9B",
+          "B097MKZHNV"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          3,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.4692787260227565,
+        "ndcg5": 0.6713860725233041
+      },
+      {
+        "id": "MM-025",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B008QTK47Q",
+          "B07989VV5K",
+          "B008LN8KDM",
+          "B08H6CZSHT",
+          "B09WF4Q7B3"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-026",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0073QGKAS",
+          "B06XPYRWV5",
+          "B071VNHMX2",
+          "B00LUGTJGO",
+          "B00935MGHS"
+        ],
+        "grades": [
+          3,
+          3,
+          1,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-027",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B07J2NGB69",
+          "B09GB5B4BK",
+          "B0B296NTFV",
+          "B099SD8PRP",
+          "B01MQ2A86A"
+        ],
+        "grades": [
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.3065735963827292,
+        "ndcg5": 0.3065735963827292
+      },
+      {
+        "id": "MM-028",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08N6P8G5K",
+          "B0B53DS4TF",
+          "B097RJ867P",
+          "B0B8XNPQPN",
+          "B09CTWFV5W"
+        ],
+        "grades": [
+          0,
+          3,
+          3,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.6666666666666666,
+        "p5": 0.6,
+        "ndcg3": 0.5307212739772436,
+        "ndcg5": 0.7328286204777911
+      },
+      {
+        "id": "MM-029",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08N6P8G5K",
+          "B0B53DS4TF",
+          "B097RJ867P",
+          "B0B8XNPQPN",
+          "B09CTWFV5W"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.2,
+        "p3": 0.0,
+        "p5": 0.2,
+        "ndcg3": 0.0,
+        "ndcg5": 0.38685280723454163
+      },
+      {
+        "id": "MM-030",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "brand_plus_feature",
+        "retrieved_pids": [
+          "B008LN8KDM",
+          "B008QTK47Q",
+          "B08H6CZSHT",
+          "B08H6B3G96",
+          "B07989VV5K"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6309297535714575,
+        "ndcg5": 0.6309297535714575
+      },
+      {
+        "id": "MM-031",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0B3G5XZN5",
+          "B08S6RKT4L",
+          "B07NRTCDS5",
+          "B0BFBNXS94",
+          "B09NTHQRW3"
+        ],
+        "grades": [
+          1,
+          0,
+          0,
+          0,
+          3
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.2,
+        "p3": 0.0,
+        "p5": 0.2,
+        "ndcg3": 0.1310456303875653,
+        "ndcg5": 0.48591322032631384
+      },
+      {
+        "id": "MM-032",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0993BB11X",
+          "B08MC57J31",
+          "B09MZCQYHZ",
+          "B08HVL8QN3",
+          "B08HVJCW95"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          3,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.6,
+        "ndcg3": 0.7653606369886218,
+        "ndcg5": 0.9674679834891693
+      },
+      {
+        "id": "MM-033",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B084PJSSQ1",
+          "B0819ZZK5K",
+          "B01L8ZNWN2",
+          "B08JD36C6H",
+          "B07SLMR1K6"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.4966392596877323,
+        "ndcg5": 0.4966392596877323
+      },
+      {
+        "id": "MM-034",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B008QS9J6Y",
+          "B08FTFXNNB",
+          "B09P22HXH6",
+          "B08L879JSN",
+          "B08BQ947H3"
+        ],
+        "grades": [
+          3,
+          0,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.9197207891481876,
+        "ndcg5": 0.9197207891481876
+      },
+      {
+        "id": "MM-035",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B07GQD4K6L",
+          "B07KY3FNQP",
+          "B071Z8M4KX",
+          "B08MTLLSL8",
+          "B07GPXXNNG"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          3
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.6131471927654584,
+        "ndcg5": 0.8503449055347546
+      },
+      {
+        "id": "MM-036",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0083T231O",
+          "B07S9M8YTY",
+          "B01IOZUHRS",
+          "B0B5RP43VN",
+          "B016XVRKZM"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-037",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0B4HKH19N",
+          "B08Y1TFSP6",
+          "B09SB6SJB4",
+          "B0789LZTCJ",
+          "B09PNR6F8Q"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-038",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B00HVXS7WC",
+          "B0BDZWMGZ1",
+          "B09X5C9VLK",
+          "B085LPT5F4",
+          "B08MXJYB2V"
+        ],
+        "grades": [
+          1,
+          0,
+          3,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.3776273968978487,
+        "ndcg5": 0.3776273968978487
+      },
+      {
+        "id": "MM-039",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "comparison",
+        "retrieved_pids": [
+          "B0073QGKAS",
+          "B06XPYRWV5",
+          "B0B2DD8BQ8",
+          "B071VNHMX2",
+          "B00935MGHS"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          3,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.6,
+        "ndcg3": 0.7653606369886218,
+        "ndcg5": 0.9674679834891693
+      },
+      {
+        "id": "MM-040",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "brand_plus_feature",
+        "retrieved_pids": [
+          "B09YV3K34W",
+          "B09YV4MW2T",
+          "B0B3RSDSZ3",
+          "B0B3RS9DNF",
+          "B0B3RRWSF6"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.2,
+        "p3": 0.0,
+        "p5": 0.2,
+        "ndcg3": 0.0,
+        "ndcg5": 0.38685280723454163
+      },
+      {
+        "id": "MM-041",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B09Y358DZQ",
+          "B00HVXS7WC",
+          "B09ZDVL7L8",
+          "B07TXCY3YK",
+          "B09X5C9VLK"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          3
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.2960819109658653,
+        "ndcg5": 0.477623703503218
+      },
+      {
+        "id": "MM-042",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B08HVJCW95",
+          "B0993BB11X",
+          "B08MC57J31",
+          "B07X963JNS",
+          "B09MZCQYHZ"
+        ],
+        "grades": [
+          0,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.5307212739772436,
+        "ndcg5": 0.5307212739772436
+      },
+      {
+        "id": "MM-043",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B08CF3B7N1",
+          "B09KLVMZ3B",
+          "B08P9RYPLR",
+          "B0B8SSZ76F",
+          "B07DC4RZPY"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-044",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B09ZPJT8B2",
+          "B09X1M3DHX",
+          "B09ZPM4C2C",
+          "B09NNJ9WYM",
+          "B0B8CXTTG3"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-045",
+        "evidence_type": "TEXT",
+        "difficulty": "medium",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B01MY839VW",
+          "B009P2L7CO",
+          "B08235JZFB",
+          "B07LDN9Q2P",
+          "B0B84KSH3X"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-046",
+        "evidence_type": "TEXT",
+        "difficulty": "medium",
+        "intent_type": "exact_lookup",
+        "retrieved_pids": [
+          "B0083T231O",
+          "B084N1BM9L",
+          "B084MZXJNK",
+          "B084MZXJN6",
+          "B084N133Y7"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-047",
+        "evidence_type": "TEXT",
+        "difficulty": "medium",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B08CFJBZRK",
+          "B09MFR93KS",
+          "B0756K5DYZ",
+          "B09Y358DZQ",
+          "B08G8H8DPL"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-048",
+        "evidence_type": "TEXT",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08HV83HL3",
+          "B07RD611Z8",
+          "B098QXR9X2",
+          "B08JW1GVS7",
+          "B08MC57J31"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-049",
+        "evidence_type": "TEXT",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08TGG316Z",
+          "B07VSG5SXZ",
+          "B0BBMGLQDW",
+          "B09HCH3JZG",
+          "B014I8SX4Y"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6309297535714575,
+        "ndcg5": 0.6309297535714575
+      },
+      {
+        "id": "MM-050",
+        "evidence_type": "TEXT",
+        "difficulty": "adversarial",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B0B1F6GQPS",
+          "B0B2931FCV",
+          "B0B31FR4Y2",
+          "B09MDCZJXS",
+          "B09NR6G588"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      }
+    ]
+  },
+  "Cross-Encoder": {
+    "system_name": "Cross-Encoder",
+    "overall": {
+      "hr1": 0.38,
+      "hr5": 0.6,
+      "ideal1": 0.38,
+      "ideal5": 0.6,
+      "mrr": 0.465,
+      "p3": 0.29333333333333333,
+      "p5": 0.20800000000000002,
+      "ndcg3": 0.4267211508696412,
+      "ndcg5": 0.4650271551050283,
+      "count": 50
+    },
+    "by_evidence": {
+      "IMAGE": {
+        "hr1": 0.26666666666666666,
+        "hr5": 0.4666666666666667,
+        "ideal1": 0.26666666666666666,
+        "ideal5": 0.4666666666666667,
+        "mrr": 0.3333333333333333,
+        "p3": 0.24444444444444444,
+        "p5": 0.18666666666666665,
+        "ndcg3": 0.30593141026107606,
+        "ndcg5": 0.35070620621157356,
+        "count": 15
+      },
+      "TEXT+IMAGE": {
+        "hr1": 0.48,
+        "hr5": 0.68,
+        "ideal1": 0.48,
+        "ideal5": 0.68,
+        "mrr": 0.5633333333333334,
+        "p3": 0.3466666666666666,
+        "p5": 0.24,
+        "ndcg3": 0.5192690301030919,
+        "ndcg5": 0.5609318671435457,
+        "count": 25
+      },
+      "TEXT": {
+        "hr1": 0.3,
+        "hr5": 0.6,
+        "ideal1": 0.3,
+        "ideal5": 0.6,
+        "mrr": 0.4166666666666667,
+        "p3": 0.2333333333333333,
+        "p5": 0.16,
+        "ndcg3": 0.37653606369886217,
+        "ndcg5": 0.3967467983489169,
+        "count": 10
+      }
+    },
+    "by_difficulty": {
+      "easy": {
+        "hr1": 0.3333333333333333,
+        "hr5": 0.4666666666666667,
+        "ideal1": 0.3333333333333333,
+        "ideal5": 0.4666666666666667,
+        "mrr": 0.4,
+        "p3": 0.28888888888888886,
+        "p5": 0.18666666666666665,
+        "ndcg3": 0.3597526927040053,
+        "ndcg5": 0.3732265158040418,
+        "count": 15
+      },
+      "medium": {
+        "hr1": 0.4666666666666667,
+        "hr5": 0.7333333333333333,
+        "ideal1": 0.4666666666666667,
+        "ideal5": 0.7333333333333333,
+        "mrr": 0.5611111111111111,
+        "p3": 0.3555555555555555,
+        "p5": 0.22666666666666666,
+        "ndcg3": 0.56250871228024,
+        "ndcg5": 0.5759825353802766,
+        "count": 15
+      },
+      "hard": {
+        "hr1": 0.4166666666666667,
+        "hr5": 0.75,
+        "ideal1": 0.4166666666666667,
+        "ideal5": 0.75,
+        "mrr": 0.548611111111111,
+        "p3": 0.3333333333333333,
+        "p5": 0.2833333333333334,
+        "ndcg3": 0.46520130663084935,
+        "ndcg5": 0.555235386688755,
+        "count": 12
+      },
+      "adversarial": {
+        "hr1": 0.25,
+        "hr5": 0.375,
+        "ideal1": 0.25,
+        "ideal5": 0.375,
+        "mrr": 0.28125,
+        "p3": 0.125,
+        "p5": 0.1,
+        "ndcg3": 0.23996509864352344,
+        "ndcg5": 0.29379966840269756,
+        "count": 8
+      }
+    },
+    "records": [
+      {
+        "id": "MM-001",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B07YR26BJ3",
+          "B08HLC7Z3G",
+          "B07QDSN9V6",
+          "B096YCN3SD",
+          "B07WGPBXY9"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-002",
+        "evidence_type": "IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0949SBKMP",
+          "B0B5GF6DQD",
+          "B0BGSV43WY",
+          "B09ZQK9X8G",
+          "B09RKFBCV7"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-003",
+        "evidence_type": "IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B07X2L5Z8C",
+          "B09X76VL5L",
+          "B09Y5MP7C4",
+          "B098R25TGC",
+          "B09ND94ZRG"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-004",
+        "evidence_type": "IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B09MDCZJXS",
+          "B09X76VL5L",
+          "B0B31BYXQQ",
+          "B086WMSCN3",
+          "B08JQN8DGZ"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-005",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0856HY85J",
+          "B07L8KNP5F",
+          "B07PR1CL3S",
+          "B01FSYQ2A4",
+          "B08D77XZX5"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-006",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B5F3YZY4",
+          "B07XJYYH7L",
+          "B07LGT55SJ",
+          "B08NW8GHCJ",
+          "B07JW1Y6XV"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-007",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B075ZTJ9XR",
+          "B07VSG5SXZ",
+          "B07RY2X9MP",
+          "B01M5967SY",
+          "B07RX14W1Q"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6309297535714575,
+        "ndcg5": 0.6309297535714575
+      },
+      {
+        "id": "MM-008",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B073BRXPZX",
+          "B08WLY8V9S",
+          "B0B2PQL5N3",
+          "B08497Z1MQ",
+          "B004IO5BMQ"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-009",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B08RX8G496",
+          "B08XMSKKMM",
+          "B09F6D21BY",
+          "B08RWCZ6SY",
+          "B07V5YF4ND"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-010",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B08ZN4B121",
+          "B094YFFSMY",
+          "B07QCWY5XV",
+          "B0B9BXKBC7",
+          "B08B6XWQ1C"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-011",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B06XPYRWV5",
+          "B0073QGKAS",
+          "B071VNHMX2",
+          "B0B5RP43VN",
+          "B07YQ5SN4H"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-012",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B5RP43VN",
+          "B09XRBJ94N",
+          "B07JZSG42Y",
+          "B07S851WX5",
+          "B01486F4G6"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.25,
+        "p3": 0.0,
+        "p5": 0.2,
+        "ndcg3": 0.0,
+        "ndcg5": 0.2021073465005476
+      },
+      {
+        "id": "MM-013",
+        "evidence_type": "IMAGE",
+        "difficulty": "hard",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B084PJSSQ1",
+          "B005FYNT3G",
+          "B0819ZZK5K",
+          "B01L8ZNWN2",
+          "B07SLMR1K6"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          3,
+          2
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.25,
+        "p3": 0.0,
+        "p5": 0.4,
+        "ndcg3": 0.0,
+        "ndcg5": 0.469514592756915
+      },
+      {
+        "id": "MM-014",
+        "evidence_type": "IMAGE",
+        "difficulty": "hard",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B08CGW4GYR",
+          "B0BFBNXS94",
+          "B0747VDH9L",
+          "B0B3G5XZN5",
+          "B0B9RZ4G4W"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-015",
+        "evidence_type": "IMAGE",
+        "difficulty": "hard",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B3G5XZN5",
+          "B09NTHQRW3",
+          "B0BFBNXS94",
+          "B07NRTCDS5",
+          "B0BL3R4RGS"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.9580414003446834,
+        "ndcg5": 0.9580414003446834
+      },
+      {
+        "id": "MM-016",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B0B2X35B1K",
+          "B0972BQ2RS",
+          "B09NC2TY11",
+          "B09P18XVW6",
+          "B09ZQK9X8G"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-017",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B0856HY85J",
+          "B0856HNMR7",
+          "B07PR1CL3S",
+          "B08FY4FG5X",
+          "B00Y4ORQ46"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6309297535714575,
+        "ndcg5": 0.6309297535714575
+      },
+      {
+        "id": "MM-018",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B07YR26BJ3",
+          "B08HLC7Z3G",
+          "B07SYYVP69",
+          "B082KVTRW8",
+          "B07VZYMQNZ"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-019",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B0B5GJRTHB",
+          "B0B31BYXQQ",
+          "B08FB2LNSZ",
+          "B08CFCK6CW",
+          "B0B2931FCV"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-020",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B08PSQRW2T",
+          "B08Y1TFSP6",
+          "B08QSDKFGQ",
+          "B0BFWGBX61",
+          "B08NW8GHCJ"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-021",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B09NNJ9WYM",
+          "B0B16KD737",
+          "B0B466C3G4",
+          "B0B6F98KJJ",
+          "B09PLD9TCD"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-022",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B01M72LILF",
+          "B08LW31NQ6",
+          "B01MQ2A86A",
+          "B099SD8PRP",
+          "B0BHYJ8CVF"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-023",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0BBN4DZBD",
+          "B0BBN56J5H",
+          "B0BBN3WF7V",
+          "B09FKDH6FS",
+          "B09GFPN6TP"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-024",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B078JF6X9B",
+          "B078JDNZJ8",
+          "B097MKZHNV",
+          "B09DL9978Y",
+          "B077BTLQ67"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.7653606369886218,
+        "ndcg5": 0.7653606369886218
+      },
+      {
+        "id": "MM-025",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B008QTK47Q",
+          "B07989VV5K",
+          "B01C8P29T4",
+          "B08H6CZSHT",
+          "B07D2NMTTV"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-026",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0073QGKAS",
+          "B06XPYRWV5",
+          "B071VNHMX2",
+          "B00935MGHS",
+          "B07P1BR7L8"
+        ],
+        "grades": [
+          3,
+          3,
+          1,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-027",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B004IO5BMQ",
+          "B09GB5B4BK",
+          "B099SD8PRP",
+          "B07J2NGB69",
+          "B073BRXPZX"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-028",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B097RJ867P",
+          "B08N6P8G5K",
+          "B0B53DS4TF",
+          "B0B8XNPQPN",
+          "B09CTWFV5W"
+        ],
+        "grades": [
+          3,
+          0,
+          3,
+          3,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.6,
+        "ndcg3": 0.7039180890341348,
+        "ndcg5": 0.9060254355346823
+      },
+      {
+        "id": "MM-029",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08N6P8G5K",
+          "B097RJ867P",
+          "B0B53DS4TF",
+          "B09CTWFV5W",
+          "B0B8XNPQPN"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.25,
+        "p3": 0.0,
+        "p5": 0.2,
+        "ndcg3": 0.0,
+        "ndcg5": 0.43067655807339306
+      },
+      {
+        "id": "MM-030",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "brand_plus_feature",
+        "retrieved_pids": [
+          "B008QTK47Q",
+          "B08H6CZSHT",
+          "B008LN8KDM",
+          "B08H6B3G96",
+          "B08TM71L54"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-031",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B07NRTCDS5",
+          "B0B3G5XZN5",
+          "B09NTHQRW3",
+          "B0BL3R4RGS",
+          "B0BFBNXS94"
+        ],
+        "grades": [
+          0,
+          1,
+          3,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.5413402936435214,
+        "ndcg5": 0.5413402936435214
+      },
+      {
+        "id": "MM-032",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08MC57J31",
+          "B07RD611Z8",
+          "B08JW1GVS7",
+          "B09MZCQYHZ",
+          "B0993BB11X"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          3
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.4692787260227565,
+        "ndcg5": 0.6508205185601091
+      },
+      {
+        "id": "MM-033",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B084PJSSQ1",
+          "B0819ZZK5K",
+          "B01LONQBDG",
+          "B01GGKZ4NU",
+          "B09163Q5CD"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.4966392596877323,
+        "ndcg5": 0.4966392596877323
+      },
+      {
+        "id": "MM-034",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B008QS9J6Y",
+          "B09P22HXH6",
+          "B07XLML2YS",
+          "B08FTFXNNB",
+          "B09V17S2BG"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-035",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B07GQD4K6L",
+          "B071Z8M4KX",
+          "B07GPXXNNG",
+          "B07QZ3CZ48",
+          "B08H9Z3XQW"
+        ],
+        "grades": [
+          3,
+          0,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.9197207891481876,
+        "ndcg5": 0.9197207891481876
+      },
+      {
+        "id": "MM-036",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0083T231O",
+          "B0116MIKKC",
+          "B00MFPCY5C",
+          "B08W56G1K9",
+          "B0BBW521YC"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-037",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B07PFJ5VQD",
+          "B09C6H53KH",
+          "B09CMP1SC8",
+          "B0B5F3YZY4",
+          "B09SB6SJB4"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-038",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B00HVXS7WC",
+          "B08KDBLMQP",
+          "B08MXJYB2V",
+          "B085LPT5F4",
+          "B09X5C9VLK"
+        ],
+        "grades": [
+          1,
+          3,
+          0,
+          0,
+          3
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.45453820448088517,
+        "ndcg5": 0.6817834333809377
+      },
+      {
+        "id": "MM-039",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "comparison",
+        "retrieved_pids": [
+          "B0073QGKAS",
+          "B06XPYRWV5",
+          "B071VNHMX2",
+          "B09XRBJ94N",
+          "B0B5RP43VN"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-040",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "brand_plus_feature",
+        "retrieved_pids": [
+          "B0949SBKMP",
+          "B0B6BLTGTT",
+          "B0B5GF6DQD",
+          "B09ZQK9X8G",
+          "B0B3MWYCHQ"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-041",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B09X5C9VLK",
+          "B09GYBZPHF",
+          "B08MXJYB2V",
+          "B085LPT5F4",
+          "B09ZDVL7L8"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.4692787260227565,
+        "ndcg5": 0.4692787260227565
+      },
+      {
+        "id": "MM-042",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B08HVJCW95",
+          "B08MC57J31",
+          "B08HV83HL3",
+          "B0993BB11X",
+          "B09MZCQYHZ"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          3,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.2960819109658653,
+        "ndcg5": 0.49818925746641285
+      },
+      {
+        "id": "MM-043",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B08CF3B7N1",
+          "B0B8SSC5D9",
+          "B0B8SRZ5SV",
+          "B0B8SSZ76F",
+          "B07DC4RZPY"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-044",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B09DSXK8JX",
+          "B09ZPJT8B2",
+          "B08CS3BT4L",
+          "B09ZPM4C2C",
+          "B09F9YQQ7B"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-045",
+        "evidence_type": "TEXT",
+        "difficulty": "medium",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B07LDPLSZC",
+          "B01N6IJG0F",
+          "B07LDN9Q2P",
+          "B008YW3CYM",
+          "B08CNLYKW5"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-046",
+        "evidence_type": "TEXT",
+        "difficulty": "medium",
+        "intent_type": "exact_lookup",
+        "retrieved_pids": [
+          "B0083T231O",
+          "B084MZXJNK",
+          "B084N18QZY",
+          "B084N1BM9L",
+          "B084MZYBTV"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-047",
+        "evidence_type": "TEXT",
+        "difficulty": "medium",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B0756K5DYZ",
+          "B08G8H8DPL",
+          "B07DGD4Z4C",
+          "B01GZSQJPA",
+          "B09MFR93KS"
+        ],
+        "grades": [
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.5,
+        "ndcg5": 0.5
+      },
+      {
+        "id": "MM-048",
+        "evidence_type": "TEXT",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08HV83HL3",
+          "B07RD611Z8",
+          "B08MC57J31",
+          "B08HVJCW95",
+          "B098QXR9X2"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-049",
+        "evidence_type": "TEXT",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0BBMGLQDW",
+          "B08TGG316Z",
+          "B07VSG5SXZ",
+          "B09HCH3JZG",
+          "B00GG59HU2"
+        ],
+        "grades": [
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.3333333333333333,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.5,
+        "ndcg5": 0.5
+      },
+      {
+        "id": "MM-050",
+        "evidence_type": "TEXT",
+        "difficulty": "adversarial",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B09NR6G588",
+          "B0B217Z5VK",
+          "B0B1F6GQPS",
+          "B09Y5MP7C4",
+          "B08D75R3Z1"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      }
+    ]
+  },
+  "Multimodal": {
+    "system_name": "Multimodal",
+    "overall": {
+      "hr1": 0.76,
+      "hr5": 0.82,
+      "ideal1": 0.76,
+      "ideal5": 0.82,
+      "mrr": 0.79,
+      "p3": 0.4666666666666666,
+      "p5": 0.28400000000000003,
+      "ndcg3": 0.7715123987833482,
+      "ndcg5": 0.7751432346340953,
+      "count": 50
+    },
+    "by_evidence": {
+      "IMAGE": {
+        "hr1": 0.8,
+        "hr5": 0.8,
+        "ideal1": 0.8,
+        "ideal5": 0.8,
+        "mrr": 0.8,
+        "p3": 0.4888888888888889,
+        "p5": 0.29333333333333333,
+        "ndcg3": 0.8,
+        "ndcg5": 0.8,
+        "count": 15
+      },
+      "TEXT+IMAGE": {
+        "hr1": 0.96,
+        "hr5": 0.96,
+        "ideal1": 0.96,
+        "ideal5": 0.96,
+        "mrr": 0.96,
+        "p3": 0.5466666666666666,
+        "p5": 0.32799999999999996,
+        "ndcg3": 0.9247154800261138,
+        "ndcg5": 0.9247154800261138,
+        "count": 25
+      },
+      "TEXT": {
+        "hr1": 0.2,
+        "hr5": 0.5,
+        "ideal1": 0.2,
+        "ideal5": 0.5,
+        "mrr": 0.35,
+        "p3": 0.2333333333333333,
+        "p5": 0.16,
+        "ndcg3": 0.34577329385145666,
+        "ndcg5": 0.3639274731051919,
+        "count": 10
+      }
+    },
+    "by_difficulty": {
+      "easy": {
+        "hr1": 0.6,
+        "hr5": 0.7333333333333333,
+        "ideal1": 0.6,
+        "ideal5": 0.7333333333333333,
+        "mrr": 0.6666666666666666,
+        "p3": 0.4,
+        "p5": 0.25333333333333335,
+        "ndcg3": 0.6221028661886998,
+        "ndcg5": 0.6342056523578566,
+        "count": 15
+      },
+      "medium": {
+        "hr1": 0.8,
+        "hr5": 0.8,
+        "ideal1": 0.8,
+        "ideal5": 0.8,
+        "mrr": 0.8,
+        "p3": 0.4888888888888889,
+        "p5": 0.29333333333333333,
+        "ndcg3": 0.8,
+        "ndcg5": 0.8,
+        "count": 15
+      },
+      "hard": {
+        "hr1": 0.9166666666666666,
+        "hr5": 1.0,
+        "ideal1": 0.9166666666666666,
+        "ideal5": 1.0,
+        "mrr": 0.9583333333333334,
+        "p3": 0.6388888888888888,
+        "p5": 0.38333333333333336,
+        "ndcg3": 0.937006412194743,
+        "ndcg5": 0.937006412194743,
+        "count": 12
+      },
+      "adversarial": {
+        "hr1": 0.75,
+        "hr5": 0.75,
+        "ideal1": 0.75,
+        "ideal5": 0.75,
+        "mrr": 0.75,
+        "p3": 0.29166666666666663,
+        "p5": 0.17500000000000002,
+        "ndcg3": 0.75,
+        "ndcg5": 0.75,
+        "count": 8
+      }
+    },
+    "records": [
+      {
+        "id": "MM-001",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B08HLC7Z3G",
+          "B07YR26BJ3",
+          "B07F366Z51",
+          "B07WNK1FFN",
+          "B082KVTRW8"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-002",
+        "evidence_type": "IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B3RRWSF6",
+          "B0BGSV43WY",
+          "B0B3NDPCS9",
+          "B09NC2TY11",
+          "B0B3N7LR6K"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-003",
+        "evidence_type": "IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B09N3ZNHTY",
+          "B09PL79D2X",
+          "B0148NPH9I",
+          "B09ND94ZRG",
+          "B0B2931FCV"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-004",
+        "evidence_type": "IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B09PL79D2X",
+          "B0B217Z5VK",
+          "B075DB1F13",
+          "B0B3RHX6B6",
+          "B09ND94ZRG"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-005",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0856HNMR7",
+          "B09NR6G588",
+          "B09ND94ZRG",
+          "B0B31FR4Y2",
+          "B07JQKQ91F"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-006",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B081FG1QYX",
+          "B0B5F3YZY4",
+          "B07JW1Y6XV",
+          "B08QSDKFGQ",
+          "B08QSC1XY8"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-007",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B07VSG5SXZ",
+          "B0718ZN31Q",
+          "B07JPJJZ2H",
+          "B09HCH3JZG",
+          "B07F1P8KNV"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-008",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B083RD1J99",
+          "B0B2PQL5N3",
+          "B08YD264ZS",
+          "B087FXHB6J",
+          "B079Y6JZC8"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-009",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0BHZCNC4P",
+          "B09MMD1FDN",
+          "B09RQRZW2X",
+          "B098TV3L96",
+          "B0BCKWZ884"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-010",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B094YFFSMY",
+          "B07QCWY5XV",
+          "B08ZN4B121",
+          "B0B9BXKBC7",
+          "B074CWD7MS"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-011",
+        "evidence_type": "IMAGE",
+        "difficulty": "easy",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0073QGKAS",
+          "B06XPYRWV5",
+          "B071VNHMX2",
+          "B07YQ5SN4H",
+          "B07KKJPTWB"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-012",
+        "evidence_type": "IMAGE",
+        "difficulty": "medium",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B2DD8BQ8",
+          "B07GWTWFS2",
+          "B07S851WX5",
+          "B08LVVTGZK",
+          "B0B5RP43VN"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-013",
+        "evidence_type": "IMAGE",
+        "difficulty": "hard",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B01L8ZNWN2",
+          "B07SLMR1K6",
+          "B084PJSSQ1",
+          "B08JD36C6H",
+          "B08ZJDWTJ1"
+        ],
+        "grades": [
+          3,
+          2,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-014",
+        "evidence_type": "IMAGE",
+        "difficulty": "hard",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B07QHHCB27",
+          "B00A7PLVU6",
+          "B0B9RZ4G4W",
+          "B0747VDH9L",
+          "B07FL3WRX5"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-015",
+        "evidence_type": "IMAGE",
+        "difficulty": "hard",
+        "intent_type": "visual_appearance",
+        "retrieved_pids": [
+          "B0B3G5XZN5",
+          "B09NTHQRW3",
+          "B00W56GLOQ",
+          "B0BFBNXS94",
+          "B0BL3R4RGS"
+        ],
+        "grades": [
+          3,
+          3,
+          1,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-016",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B0B3RRWSF6",
+          "B09P18XVW6",
+          "B09RKFBCV7",
+          "B09NC2TY11",
+          "B0B6BLTGTT"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.9173194127129571,
+        "ndcg5": 0.9173194127129571
+      },
+      {
+        "id": "MM-017",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B0856HNMR7",
+          "B078W65FJ7",
+          "B08FB2LNSZ",
+          "B0B1F6GQPS",
+          "B079S811J3"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-018",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B07YR26BJ3",
+          "B08HLC7Z3G",
+          "B082KVTRW8",
+          "B09Y5FZK9N",
+          "B07SYYVP69"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-019",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B09N3ZNHTY",
+          "B08FB2LNSZ",
+          "B01LONQBDG",
+          "B09NKZXMWJ",
+          "B08HDH26JX"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-020",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B08QSDKFGQ",
+          "B09Q8WQ5QJ",
+          "B08HDH26JX",
+          "B0B86CDHL1",
+          "B08CT62BM1"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-021",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "easy",
+        "intent_type": "price_constrained",
+        "retrieved_pids": [
+          "B0B6F7LX4C",
+          "B095JQVC7N",
+          "B095JPKPH3",
+          "B09PLD9TCD",
+          "B09NNGHG22"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.5874203951744313,
+        "ndcg5": 0.5874203951744313
+      },
+      {
+        "id": "MM-022",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0B296NTFV",
+          "B01J0XWYKQ",
+          "B0BHYJ8CVF",
+          "B07J2NGB69",
+          "B00CEQEGPI"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-023",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0BBN56J5H",
+          "B0BBN4DZBD",
+          "B0BBN3WF7V",
+          "B07WJWRNVK",
+          "B0B61DSF17"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-024",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B078JBK4GX",
+          "B078JF6X9B",
+          "B078JDNZJ8",
+          "B0B3X2BY3M",
+          "B07TC9F7PN"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-025",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B008QTK47Q",
+          "B08243SKCK",
+          "B09P182Z2H",
+          "B01M69WCZ6",
+          "B09FPP3R1D"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-026",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0073QGKAS",
+          "B06XPYRWV5",
+          "B071VNHMX2",
+          "B00LUGTJGO",
+          "B0B6BLTGTT"
+        ],
+        "grades": [
+          3,
+          3,
+          1,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-027",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0B296NTFV",
+          "B07J2NGB69",
+          "B08YDFX7Y1",
+          "B083RCTXLL",
+          "B00CEQEGPI"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6131471927654584,
+        "ndcg5": 0.6131471927654584
+      },
+      {
+        "id": "MM-028",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0B53DS4TF",
+          "B097RJ867P",
+          "B0B8XNPQPN",
+          "B08N6P8G5K",
+          "B09KGV7WSV"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-029",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B09CTWFV5W",
+          "B08N6P8G5K",
+          "B08LT9BMPP",
+          "B084N133Y7",
+          "B09KGV7WSV"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-030",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "brand_plus_feature",
+        "retrieved_pids": [
+          "B008QTK47Q",
+          "B07DZ986Q2",
+          "B07DXRGWDJ",
+          "B009UORDX4",
+          "B08TM71L54"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-031",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B09NTHQRW3",
+          "B0B3G5XZN5",
+          "B08S6RKT4L",
+          "B07NRTCDS5",
+          "B0BFBNXS94"
+        ],
+        "grades": [
+          3,
+          1,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-032",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0993BB11X",
+          "B08MC57J31",
+          "B08HVL8QN3",
+          "B09MZCQYHZ",
+          "B08HF4W2CT"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-033",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0819ZZK5K",
+          "B01EZ0X3L8",
+          "B084PJSSQ1",
+          "B08JD36C6H",
+          "B01N6LU1VF"
+        ],
+        "grades": [
+          3,
+          2,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-034",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B008QS9J6Y",
+          "B09P22HXH6",
+          "B08FTFXNNB",
+          "B08L879JSN",
+          "B08BQ947H3"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-035",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B07GQD4K6L",
+          "B07GPXXNNG",
+          "B07KY3FNQP",
+          "B071Z8M4KX",
+          "B08MTLLSL8"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-036",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B0083T231O",
+          "B01IOZUHRS",
+          "B0B5RP43VN",
+          "B016XVRKZM",
+          "B08W56G1K9"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-037",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08HDJ86NZ",
+          "B0B4HKH19N",
+          "B0789LZTCJ",
+          "B09PNR6F8Q",
+          "B08HDH26JX"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-038",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B09X5C9VLK",
+          "B08KDBLMQP",
+          "B00HVXS7WC",
+          "B0BDZWMGZ1",
+          "B085LPT5F4"
+        ],
+        "grades": [
+          3,
+          3,
+          1,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-039",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "medium",
+        "intent_type": "comparison",
+        "retrieved_pids": [
+          "B0073QGKAS",
+          "B06XPYRWV5",
+          "B071VNHMX2",
+          "B07RX42D3D",
+          "B0B5RP43VN"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 1.0,
+        "p5": 0.6,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-040",
+        "evidence_type": "TEXT+IMAGE",
+        "difficulty": "adversarial",
+        "intent_type": "brand_plus_feature",
+        "retrieved_pids": [
+          "B0B3RRWSF6",
+          "B09P18XVW6",
+          "B09MQSCJQ1",
+          "B096VF5YYF",
+          "B0B6BLTGTT"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-041",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B09Y358DZQ",
+          "B00HVXS7WC",
+          "B09ZDVL7L8",
+          "B07TXCY3YK",
+          "B09X5C9VLK"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          3
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.4,
+        "ndcg3": 0.2960819109658653,
+        "ndcg5": 0.477623703503218
+      },
+      {
+        "id": "MM-042",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B08HVJCW95",
+          "B0993BB11X",
+          "B08MC57J31",
+          "B07X963JNS",
+          "B09MZCQYHZ"
+        ],
+        "grades": [
+          0,
+          3,
+          3,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 0.5307212739772436,
+        "ndcg5": 0.5307212739772436
+      },
+      {
+        "id": "MM-043",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B08CF3B7N1",
+          "B09KLVMZ3B",
+          "B08P9RYPLR",
+          "B0B8SSZ76F",
+          "B07DC4RZPY"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-044",
+        "evidence_type": "TEXT",
+        "difficulty": "easy",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B09ZPJT8B2",
+          "B09X1M3DHX",
+          "B09ZPM4C2C",
+          "B09NNJ9WYM",
+          "B0B8CXTTG3"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-045",
+        "evidence_type": "TEXT",
+        "difficulty": "medium",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B01MY839VW",
+          "B009P2L7CO",
+          "B08235JZFB",
+          "B07LDN9Q2P",
+          "B0B84KSH3X"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-046",
+        "evidence_type": "TEXT",
+        "difficulty": "medium",
+        "intent_type": "exact_lookup",
+        "retrieved_pids": [
+          "B0083T231O",
+          "B084N1BM9L",
+          "B084MZXJNK",
+          "B084MZXJN6",
+          "B084N133Y7"
+        ],
+        "grades": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-047",
+        "evidence_type": "TEXT",
+        "difficulty": "medium",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B08CFJBZRK",
+          "B09MFR93KS",
+          "B0756K5DYZ",
+          "B09Y358DZQ",
+          "B08G8H8DPL"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      },
+      {
+        "id": "MM-048",
+        "evidence_type": "TEXT",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08HV83HL3",
+          "B07RD611Z8",
+          "B098QXR9X2",
+          "B08JW1GVS7",
+          "B08MC57J31"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 1.0,
+        "hr5": 1.0,
+        "ideal1": 1.0,
+        "ideal5": 1.0,
+        "mrr": 1.0,
+        "p3": 0.6666666666666666,
+        "p5": 0.4,
+        "ndcg3": 1.0,
+        "ndcg5": 1.0
+      },
+      {
+        "id": "MM-049",
+        "evidence_type": "TEXT",
+        "difficulty": "hard",
+        "intent_type": "multi_constraint",
+        "retrieved_pids": [
+          "B08TGG316Z",
+          "B07VSG5SXZ",
+          "B0BBMGLQDW",
+          "B09HCH3JZG",
+          "B014I8SX4Y"
+        ],
+        "grades": [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 1.0,
+        "ideal1": 0.0,
+        "ideal5": 1.0,
+        "mrr": 0.5,
+        "p3": 0.3333333333333333,
+        "p5": 0.2,
+        "ndcg3": 0.6309297535714575,
+        "ndcg5": 0.6309297535714575
+      },
+      {
+        "id": "MM-050",
+        "evidence_type": "TEXT",
+        "difficulty": "adversarial",
+        "intent_type": "feature_matching",
+        "retrieved_pids": [
+          "B0B1F6GQPS",
+          "B0B2931FCV",
+          "B0B31FR4Y2",
+          "B09MDCZJXS",
+          "B09NR6G588"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hr1": 0.0,
+        "hr5": 0.0,
+        "ideal1": 0.0,
+        "ideal5": 0.0,
+        "mrr": 0.0,
+        "p3": 0.0,
+        "p5": 0.0,
+        "ndcg3": 0.0,
+        "ndcg5": 0.0
+      }
+    ]
+  }
+}
