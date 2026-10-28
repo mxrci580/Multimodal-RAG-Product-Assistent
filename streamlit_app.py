@@ -1,5 +1,8 @@
+import os
 import streamlit as st
 from app.multimodal_agent import MultimodalAgent
+from app.gemini_utils import format_gemini_error
+
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -417,6 +420,35 @@ with st.sidebar:
     for tag in ["Gemini Vision", "Gemini API", "ChromaDB", "RAG", "Streamlit", "Docker"]:
         st.markdown(f'<span class="stack-pill">{tag}</span>', unsafe_allow_html=True)
 
+    st.divider()
+    st.markdown("**API Configuration**")
+    configured_key = None
+    try:
+        if hasattr(st, "secrets"):
+            configured_key = st.secrets.get("GEMINI_API_KEY") or st.secrets.get("GOOGLE_API_KEY")
+    except Exception:
+        pass
+    configured_key = configured_key or os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+
+    if configured_key:
+        st.success("✓ Gemini API key configured", icon="🔑")
+        custom_key = st.text_input(
+            "Override API Key (optional)",
+            type="password",
+            placeholder="AIzaSy...",
+            help="Leave blank to use the pre-configured key from Streamlit Secrets or environment.",
+        )
+        api_key = custom_key.strip() if custom_key and custom_key.strip() else configured_key
+    else:
+        api_key = st.text_input(
+            "Gemini API Key",
+            type="password",
+            placeholder="AIzaSy...",
+            help="Enter your Google Gemini API key from Google AI Studio (aistudio.google.com)",
+        )
+        if not api_key:
+            st.info("ℹ️ Enter your Gemini API key above or add it to Streamlit Secrets to run searches.")
+
 
 # ── Hero ─────────────────────────────────────────────────────────────────────
 st.markdown("""
@@ -470,10 +502,30 @@ with col_right:
 
     if uploaded_file and run:
 
+        if not api_key:
+            st.error("⚠️ Gemini API Key is required. Please enter your key in the sidebar under 'API Configuration' or configure it in Streamlit Secrets.", icon="🚨")
+            st.stop()
+
         # ── Run agent ──
-        with st.spinner("Analyzing image with Gemini Vision…"):
-            agent    = MultimodalAgent()
-            response = agent.run(image_path)
+        with st.spinner("Analyzing image and finding best matching products…"):
+            try:
+                agent    = MultimodalAgent(api_key=api_key)
+                response = agent.run(image_path)
+            except Exception as e:
+                err_info = format_gemini_error(e)
+                if err_info["category"] == "high_demand":
+                    st.warning(f"**{err_info['title']}**: {err_info['message']}", icon="⏳")
+                elif err_info["category"] == "rate_limit":
+                    st.error(f"**{err_info['title']}**: {err_info['message']}", icon="🔑")
+                elif err_info["category"] == "auth":
+                    st.error(f"**{err_info['title']}**: {err_info['message']}", icon="🚨")
+                else:
+                    st.error(f"**{err_info['title']}**: {err_info['message']}", icon="⚠️")
+
+                with st.expander("Technical details (for debugging)"):
+                    st.code(err_info["raw"], language="text")
+                st.stop()
+
 
         answer   = response.get("answer", "")
         products = response.get("products", [])
@@ -497,11 +549,13 @@ with col_right:
 
             cols = st.columns(2, gap="medium")
             for idx, product in enumerate(products):
-                name   = product.get("product_name", "Unknown Product")
-                price  = product.get("price", "—")
-                rating = product.get("rating", "")
+                name   = product.get("product_name") or product.get("name") or product.get("title", "Unknown Product")
+                raw_price = product.get("price", "—")
+                price  = f"₹{raw_price}" if isinstance(raw_price, (int, float)) else str(raw_price)
+                rating = product.get("rating") or product.get("numeric_rating", "")
                 img_url = clean_image_url(product.get("image_url", ""))
                 stars_str, rating_val = star_display(rating)
+
 
                 with cols[idx % 2]:
                     # Image area

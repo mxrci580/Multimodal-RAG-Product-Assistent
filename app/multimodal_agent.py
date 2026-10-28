@@ -5,11 +5,11 @@ from app.generator import ProductGenerator
 
 class MultimodalAgent:
 
-    def __init__(self):
+    def __init__(self, api_key=None):
 
-        self.vision = VisionAnalyzer()
-        self.retriever = ProductRetriever()
-        self.generator = ProductGenerator()
+        self.vision = VisionAnalyzer(api_key=api_key)
+        self.retriever = ProductRetriever(api_key=api_key)
+        self.generator = ProductGenerator(api_key=api_key)
 
     def run(self, image_path):
 

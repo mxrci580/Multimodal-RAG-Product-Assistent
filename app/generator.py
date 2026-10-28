@@ -1,12 +1,18 @@
 from google import genai
-from app.config import GOOGLE_API_KEY
+from app.config import GOOGLE_API_KEY, LLM_MODEL, FALLBACK_LLM_MODELS
+from app.gemini_utils import generate_content_with_retry
+
 
 class ProductGenerator:
 
-    def __init__(self):
-
+    def __init__(self, api_key=None):
+        key = api_key or GOOGLE_API_KEY
+        if not key:
+            raise ValueError(
+                "Gemini API Key is missing. Please configure GOOGLE_API_KEY or GEMINI_API_KEY."
+            )
         self.client = genai.Client(
-            api_key=GOOGLE_API_KEY
+            api_key=key
         )
 
     def generate_answer(
@@ -43,9 +49,13 @@ Provide:
 3. Alternative options if available
 """
 
-        response = self.client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt
+        response = generate_content_with_retry(
+            client=self.client,
+            model=LLM_MODEL,
+            contents=prompt,
+            fallback_models=FALLBACK_LLM_MODELS,
+            max_retries=3,
+            initial_delay=2.0
         )
 
         return response.text
